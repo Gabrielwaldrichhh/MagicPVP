@@ -1,0 +1,28 @@
+# Ignorar mundos (podem ficar muito pesados)
+world/
+world_nether/
+world_the_end/
+terrenos/
+eventos/
+gladiador/
+spawnpvp/
+spawnvip/
+
+# Logs e relatórios de erro
+logs/
+crash-reports/
+*.log
+
+# Arquivos temporários/cache
+cache/
+*.tmp
+*.bak
+
+# Arquivos executáveis e jars grandes
+*.jar
+*.exe
+*.bat
+
+# Configurações locais
+*.yml~
+*.properties~

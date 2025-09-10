@@ -1,0 +1,103 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+npc:
+  '0':
+    traits:
+      spawned: true
+      owner: iTzUrsinho4i20
+      location:
+        world: world
+        x: '-1785.3784874916714'
+        y: '9.0'
+        z: '442.50463008501777'
+        yaw: '223.53343200683594'
+        pitch: '4.800912857055664'
+    name: §9iTzUrsinho4i20
+    traitnames: spawned,owner,location,type
+    navigator:
+      speed: '1.0'
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

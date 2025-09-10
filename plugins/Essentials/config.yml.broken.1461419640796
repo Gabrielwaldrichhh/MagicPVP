@@ -1,0 +1,333 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: '4'
+nickname-prefix: '~'
+change-displayname: true
+teleport-cooldown: 4
+teleport-delay: 4
+teleport-invulnerability: 4
+heal-cooldown: 60
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.pvp
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+- plotme.use.claim
+- plotme.use.auto
+- plotme.use.home
+- plotme.use.info
+- plotme.use.biome
+- plotme.use.protect
+- plotme.use.add
+- plotme.use.remove
+- plotme.limit.1
+- chestshop.shop.create
+- chestshop.shop.buy
+- chestshop.shop.sell
+kits:
+  pvp:
+    delay: 1800
+    items:
+    - 306:0 1 protection_environmental:1
+    - 307:0 1 protection_environmental:1
+    - 308:0 1 protection_environmental:1
+    - 309:0 1 protection_environmental:1
+    - 267:0 1 damage_all:1
+    - 373:41 1
+    - 373:37 1
+    - 373:1 1
+    - 322:0 16
+    - 261:0 1
+    - 373:2 1
+    - 262:0 64
+    - 384:0 16
+    - 364:0 16
+  vip:
+    delay: 86400
+    items:
+    - 310:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 311:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 312:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 313:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 276:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 279:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 278:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 277:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 293:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 261:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 262:0 64 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 116:0 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 396:0 32 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 322:1 5 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 264:0 16
+    - 373:70 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 373:41 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 373:67 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+    - 373:66 1 lore:§0[§b§lVIP§0]_§6SpringPvP
+  vipx:
+    delay: 86400
+    items:
+    - 310:0 1 protection_environmental:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 311:0 1 protection_environmental:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 312:0 1 protection_environmental:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 313:0 1 protection_environmental:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 278:0 1 dig_speed:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 279:0 1 dig_speed:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 277:0 1 dig_speed:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 293:0 1 durability:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 276:0 1 damage_all:2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 261:0 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 262:0 64 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 116:0 2 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 322:1 10 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 396:0 48 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 264:0 16
+    - 373:34 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 373:41 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 373:67 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 373:34 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 373:41 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 373:67 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 373:70 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+    - 373:70 1 lore:§0[§6§lVIPX§0]_§bSpringPvP
+  ferramentas:
+    delay: 1800
+    items:
+    - 257:0 1
+    - 258:0 1
+    - 256:0 1
+    - 292:0 1
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: false
+list:
+  Admins: owner admin
+debug: false
+remove-god-on-disconnect: false
+auto-afk: 300
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: true
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: true
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 3
+  vip: 5
+  staff: 10
+tpa-accept-cancellation: 120
+starting-balance: 0
+currency-symbol: $
+max-money: 10000000000000
+min-money: -10000
+economy-log-enabled: false
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: {DISPLAYNAME} {MESSAGE}
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+newbies:
+  announce-format: '&dBem Vindo {DISPLAYNAME}&d ao server!'
+  spawnpoint: newbies
+  kit: tools
+respawn-listener-priority: high
+respawn-at-home: false

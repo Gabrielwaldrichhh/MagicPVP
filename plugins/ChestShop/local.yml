@@ -1,0 +1,44 @@
+
+prefix: "§a[Shop] §r"
+iteminfo: "§aItem Information: §r"
+
+ACCESS_DENIED: "Você não tem permissão para fazer isso!"
+
+NOT_ENOUGH_MONEY: "Você não tem dinheiro suficiente !"
+NOT_ENOUGH_MONEY_SHOP: "Proprietário da loja não tem dinheiro suficiente !"
+
+CLIENT_DEPOSIT_FAILED: "Depósito de dinheiro para sua conta falhou!"
+SHOP_DEPOSIT_FAILED: "Depósito de dinheiro ao dono da loja falhou!"
+
+NO_BUYING_HERE: "Você não pode comprar aqui!"
+NO_SELLING_HERE: "Você não pode vender aqui!"
+
+NOT_ENOUGH_SPACE_IN_INVENTORY: "Você não tem espaço suficiente em estoque !"
+NOT_ENOUGH_SPACE_IN_CHEST: "Não há espaço suficiente no Bau!"
+NOT_ENOUGH_ITEMS_TO_SELL: "Você não tem itens suficientes para vender !"
+
+NOT_ENOUGH_STOCK: "Esta loja está fora de estoque."
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: "Seu %material loja está fora de estoque!"
+YOU_BOUGHT_FROM_SHOP: "Você comprou %item a partir da %owner para %price."
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: "%buyer comprei %item para %price de você."
+
+YOU_SOLD_TO_SHOP: "Você vendeu %item para %buyer para %price."
+SOMEBODY_SOLD_TO_YOUR_SHOP: "%seller vendido %item para %price você."
+
+YOU_CANNOT_CREATE_SHOP: "Você não pode criar esse tipo de loja!"
+NO_CHEST_DETECTED: "Não foi possível encontrar um baú !"
+INVALID_SHOP_DETECTED: "A loja não pode ser utilizada !"
+CANNOT_ACCESS_THE_CHEST: "Você não tem permissão para acessar esta caixa!"
+
+PROTECTED_SHOP: "Protegidos com sucesso a loja com LWC !"
+SHOP_CREATED: "Loja criado com sucesso!"
+SHOP_FEE_PAID: "Você foi cobrado %amount"
+SHOP_REFUNDED: "Você foi reembolsado %amount."
+
+RESTRICTED_SIGN_CREATED: "Sign criado com sucesso!"
+
+NO_PERMISSION: "Você não tem permissões para fazer isso!"
+INCORRECT_ITEM_ID: "Você especificou id item inválido !"
+NOT_ENOUGH_PROTECTIONS: "Não foi possível criar uma proteção!"
+
+CANNOT_CREATE_SHOP_HERE: "Você não pode criar loja aqui !"

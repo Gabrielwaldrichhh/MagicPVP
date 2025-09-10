@@ -1,0 +1,10 @@
+Global:
+  DefaultAmountOfSpawnerEggsYouNeed: 0
+  AmountOfSpawnerEggsYouNeed:
+    creeper: 10
+    skeleton: 1
+  perMobPermissions: false
+Messages:
+  ChangeSpawner: '&2Mobspawn Trocado com Exito %entity. Reconnect do Servidor!'
+  NotEnoughSpawnerEggs: '&cYou dont have enough %entity Eggs.'
+  FailedSpawnerEggs: '&cFailed changing the spawner type!'

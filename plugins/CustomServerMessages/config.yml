@@ -1,0 +1,48 @@
+CustomServerMessages:
+  Event:
+    join:
+      enable: true
+      message: '&b[&a+&b] &6&player &c Entrou no Server!'
+    quit:
+      enable: true
+      message: '&b[&a-&b] &6&player &cSaiu do Server!'
+    whitelist:
+      enable: true
+      message: '&6Desculpe servidor em Manutencao'
+    serverfull:
+      enable: true
+      message: '&cDesculpe Servidor Cheio, tente mais tarde!'
+  Command:
+    say:
+      enable: true
+      message: '&d[Server]&d[&player] -> &f &message'
+      consoleemessage: '&6[&eConsole&6]&f:&f &message'
+    plugins:
+      enable: true
+      message: '&4Plugins: &f0'
+    version:
+      enable: true
+      message: 'Version: &6MyServer 2.0!'
+    seed:
+      enable: true
+      message: '&fVocê &4não tem Permissões&r para ver a semente!'
+    '?':
+      enable: true
+      message: '&4Plugins: &f0'
+  Death:
+    enable: true
+    fall: '&player &4tentou voar mais nao conseguiu'
+    burn: '&player &4virou churrasco'
+    infire: '&player &4Morreu &2Qeimando'
+    lava: '&player &2Tentou nadar na &4Lava'
+    fireball: '&player &4Foi Morto por uma Bola de Fogo perdida'
+    killByEntity: '&player &2tentou escapar de &killer mais nao consegiu'
+    magic: '&player &4Morreu Por Magia'
+    outOfWorld: '&player &2Foi Para o &9Alem'
+    suffocated: '&player &4Morreu Sufocado'
+    cactus: '&player &2Foi picado por Cactus'
+    drowned: '&player &4Morreu sem ar'
+    starve: '&player starved to death'
+    explosion: '&player &4Morreu na explosao'
+    shot: '&player atirou no &killer'
+    pummeled: '&player &4Morreu Pelas Maos de by &killer'

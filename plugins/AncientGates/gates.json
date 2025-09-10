@@ -1,0 +1,306 @@
+{
+  "areavip": {
+    "froms": [
+      {
+        "world": "world",
+        "x": -471.0,
+        "y": 20.0,
+        "z": 1847.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "world",
+        "x": -429.5,
+        "y": 11.0,
+        "z": 382.5,
+        "yaw": -90.20508,
+        "pitch": -0.29999894
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "end": {
+    "froms": [
+      {
+        "world": "world",
+        "x": -448.0,
+        "y": 20.0,
+        "z": 1847.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "world_the_end",
+        "x": 1.5,
+        "y": 63.0,
+        "z": 0.5,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "loja": {
+    "froms": [
+      {
+        "world": "world",
+        "x": -1775.0,
+        "y": 8.0,
+        "z": 470.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "world",
+        "x": -1726.3268610028922,
+        "y": 12.0,
+        "z": 1000.4162649008787,
+        "yaw": 89.78463,
+        "pitch": -0.9000129
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "loja2": {
+    "froms": [
+      {
+        "world": "world",
+        "x": -1724.0,
+        "y": 12.0,
+        "z": 1000.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "world",
+        "x": -1774.5,
+        "y": 8.0,
+        "z": 431.5,
+        "yaw": -90.35553,
+        "pitch": -0.14999261
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "minapvp": {
+    "froms": [
+      {
+        "world": "spawnpvp",
+        "x": -542.0,
+        "y": 4.0,
+        "z": -2625.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "world",
+        "x": 540.4993533609668,
+        "y": 67.0,
+        "z": 1718.1170839862327,
+        "yaw": -90.21802,
+        "pitch": 4.23746
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "minapvp2": {
+    "froms": [
+      {
+        "world": "world",
+        "x": 536.0,
+        "y": 67.0,
+        "z": 1717.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "spawnpvp",
+        "x": -541.458532706107,
+        "y": 4.0,
+        "z": -2623.349539362833,
+        "yaw": 0.06985474,
+        "pitch": -6.1996017
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "minerar": {
+    "froms": [
+      {
+        "world": "spawnpvp",
+        "x": -542.0,
+        "y": 4.0,
+        "z": -2527.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "world",
+        "x": -1023.2881348790319,
+        "y": 19.0,
+        "z": 112.71920352667088,
+        "yaw": 270.4227,
+        "pitch": 0.6822013
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "minerar2": {
+    "froms": [
+      {
+        "world": "world",
+        "x": -1026.0,
+        "y": 19.0,
+        "z": 112.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "spawnpvp",
+        "x": -541.3496991109988,
+        "y": 4.0,
+        "z": -2528.293326684643,
+        "yaw": -179.85115,
+        "pitch": -1.1604179
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "parkourfinal": {
+    "froms": [
+      {
+        "world": "world",
+        "x": -1785.0,
+        "y": 36.0,
+        "z": 434.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "plot": {
+    "froms": [
+      {
+        "world": "world",
+        "x": -1775.0,
+        "y": 8.0,
+        "z": 392.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "terrenos",
+        "x": 111.54873643987679,
+        "y": 4.0,
+        "z": -37.51815660810244,
+        "yaw": -86.5871,
+        "pitch": 88.9868
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "plot2": {
+    "tos": [
+      {
+        "world": "world",
+        "x": -1774.5,
+        "y": 8.0,
+        "z": 431.5,
+        "yaw": -90.35553,
+        "pitch": -0.14999261
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "portais": {
+    "froms": [
+      {
+        "world": "spawnpvp",
+        "x": -493.0,
+        "y": 4.0,
+        "z": -2576.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "world",
+        "x": -459.06803553560684,
+        "y": 20.0,
+        "z": 1826.53675211475,
+        "yaw": -359.75488,
+        "pitch": 0.59999853
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  }
+}

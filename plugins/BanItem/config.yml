@@ -1,0 +1,50 @@
+Confiscate: false
+UpdateChecker: false
+Delay: 10
+Filter:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 87
+- 12
+- 112
+- 13
+- 17
+- 18
+- 159
+- 162
+- 172
+- 323
+- 174
+- 24
+- 38
+- 6
+- 31
+- 79
+Ban Reason:
+- This item %d is banned in world %s because
+Blacklist:
+- '381:0:Item Foi Banido! '
+- '368:0:Item Foi Banido! '
+- '327:0:Item Foi Banido! '
+- '10:0:Item Foi Banido! '
+- '11:0:Item Foi Banido! '
+- '259:0:Item Foi Banido! '
+- '154:0:Item Foi Banido! '
+- '145:0:Item Foi Banido! '
+- '145:1:Item Foi Banido! '
+- '145:2:Item Foi Banido! '
+- '29:0:Item Foi Banido! '
+- '33:0:Item Foi Banido! '
+- '46:0:Item Foi Banido! '
+- '120:0:Item Foi Banido! '
+- '373:78:Item Foi Banido! '
+- '373:46:Item Foi Banido! '
+Blacklist Placement: []
+Blacklist Pickup: []
+Blacklist Interaction: []
+Blacklist Click: []
+Blacklist Break: []
+Blacklist World: []

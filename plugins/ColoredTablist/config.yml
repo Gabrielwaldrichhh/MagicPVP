@@ -1,0 +1,50 @@
+ConfigVersion: 1.5.3
+UsePermissions: false
+UseNicknames: false
+Groups:
+  Subdono:
+    Colors:
+    - '4'
+    Prefix: '&9[ST]'
+  Admin:
+    Colors:
+    - '4'
+    Prefix: '&9[ST]'
+  Membro:
+    Colors:
+    - 'f'
+    Prefix: ''
+  Vip:
+    Colors:
+    - '6'
+    Prefix: ''
+  Vipx:
+    Colors:
+    - '6'
+    Prefix: ''
+  Moderador:
+    Colors:
+    - '4'
+    Prefix: '&9[ST]'
+  Dono:
+    Colors:
+    - '4'
+    Prefix: '&9[ST]'
+multi1:
+- '2'
+- o
+multi2:
+- e
+- l
+multi3:
+- a
+- o
+multi4:
+- a
+- o
+multi5:
+- a
+- o
+multi6:
+- a
+- o

@@ -1,0 +1,9 @@
+Tempodechecagem: 300
+PrefixoMagnata: ' &2&l[&2Magnata&2&l]&r '
+AtivarBroadcast: true
+MensagemBroadcast: '&2&l[MAGNATA] &a$player &ae o Novo Magnata. &2Parabens'
+AtivarMsgJoin: true
+MensagemJoin: '&2&l[MAGNATA] &aMagnata &b$player &aentrou no servidor'
+AtivarMsgQuit: true
+MensagemQuit: '&2&l[MAGNATA] &aMagnata &b$player &asaiu do servidor'
+MagnataAtual: 2yellow03

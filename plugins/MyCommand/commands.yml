@@ -1,0 +1,111 @@
+# MyCommand  Commands Config File
+# commandsnumber (default 20) it's number of command you want make
+# Don't forget the '/' on runcmd line , example command: /myhelp
+# type accept = text , runcommand , broadcast-text , runcommand-text , runcommand-broadcast-text , perm-broadcast-text , addpermission , addtimer , runconsole , runcommand-perm-broadcast-text , runcommand-random , runasoperator
+# Additional type accept if you use Spoutplugin = spout-text , spout-notification.\n" +
+# runcommand type example -> If command: /l and runcmd: /list,when you type /l mycommand execute /list
+# runcmd support custom argument in game.($arg1,$arg2,$arg3,$arg4,$arg5,$multiargs) Example - runcmd : /time $arg1
+# For Delayed command add $delay$ before the command in runcmd Example : - $delay$/list
+# Set delay time with delaytimer: 5 (5 = seconds)
+# Use the dot . for decimal cost Example = cost : 5.5
+# You can use a custom permission node by placing "permission-node:" field in a command.
+# Custom error-message for invalid args ,put "error-message:" line in a command.
+# http://dev.bukkit.org/server-mods/mycommand/pages/configuration-and-example
+options:
+  commandsnumber: 20
+'1':
+  command: /? [TAB]
+  type: TEXT
+  text:
+  - '&4Voce nao tem permisao para usar esse comando'
+  permission-required: true
+'2':
+  command: /plugins
+  type: TEXT
+  text:
+  - '&4Voce nao tem permisao para usar esse comando'
+  permission-required: true
+'3':
+  command: /pl
+  type: TEXT
+  text:
+  - '&4Voce nao tem permisao para usar esse comando'
+  permission-required: true
+'4':
+  command: /?
+  type: TEXT
+  text:
+  - '&4Voce nao tem permisao para usar esse comando'
+  permission-required: true
+'5':
+  command: /ver
+  type: TEXT
+  text:
+  - '&4Voce nao tem permisao para usar esse comando'
+  permission-required: true
+'6':
+  command: /portais
+  type: RUNCOMMAND
+  runcmd:
+  - /warp portais
+  permission-required: true
+'7':
+  command: /fps
+  type: RUNCOMMAND
+  runcmd:
+  - /warp fps
+  permission-required: true
+'8':
+  command: /terrenos
+  type: RUNCOMMAND
+  runcmd:
+  - /warp terrenos
+  permission-required: true
+'9':
+  command: /loja
+  type: RUNCOMMAND
+  runcmd:
+  - /warp loja
+  permission-required: true
+'10':
+  command: /end
+  type: RUNCOMMAND
+  runcmd:
+  - /warp end
+  permission-required: true
+'11':
+  command: /minerar
+  type: RUNCOMMAND
+  runcmd:
+  - /warp minerar
+  permission-required: true
+'12':
+  command: /ajuda
+  type: RUNCOMMAND
+  runcmd:
+  - /helpop
+  permission-required: true
+'13':
+  command: /helpop
+  type: TEXT
+  text:
+  - '&3<-------------------------------------------->'
+  - '&4&l[&c+&4&l]&0&l &aBem-Vindo ao Centro de Ajuda'
+  - '&4&l[&c+&4&l]&0&l &9/kit pvp &apara batalhar'
+  - '&4&l[&c+&4&l]&0&l &aNao Abuse de bugs'
+  - '&4&l[&c+&4&l]&0&l &aSite em breve'
+  - '&4&l[&c+&4&l]&0&l &aPara pegar seu terreno digite &f/plotme auto'
+  - '&3<-------------------------------------------->'
+  permission-required: true
+'14':
+  command: /desbugar
+  type: RUNCOMMAND
+  runcmd:
+  - /tp $player
+  permission-required: true
+'15':
+  command: /mc
+  type: RUNCOMMAND
+  runcmd:
+  - /fly
+  permission-required: false

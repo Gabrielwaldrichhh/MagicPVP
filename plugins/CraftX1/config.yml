@@ -1,0 +1,45 @@
+Location1: 'world:-2070.9646618844235:13.0:1748.0180307736623:-89.73288:5.549999:'
+Location2: 'world:-2058.004789374707:13.0:1748.011399910297:90.26707:5.700007:'
+Camarote: 'world:-2064.5:21.0:1748.5:-267.78275:90.0:'
+Exit: 'world:-1774.5:8.0:431.5:-90.35553:-0.14999261:'
+DisableCommands: true
+CommandsEnable:
+- /g
+- /l
+- /megafone
+X1CUSTO: 15000
+X1PREMIO: 30000
+X1EMPATE: 15000
+TimeInvite: 20
+TimeDuel: 1000
+TimeEND: 15
+DCKILL: true
+Messages:
+  Error: '&6Use /x1 desafiar [jogador] - Para desafiar \nUse /x1 aceitar [jogador]
+    - Para aceitar \nUse /x1 camarote - Para ir para o camarote \n&4Use /x1 admin
+    - Para ver a lista de comandos admin'
+  Error2: '&cConsole nao pode usar esse comando'
+  Error3: '&cEsse jogador nao pediu X1 para voce'
+  Error4: '&cJa possui um pedido de X1 ou uma luta pendente aguarde encerrar para
+    usar esse comando'
+  Success: '&d[X1] O jogador $1 convidou $2 para um X1 e ele tem $3 segundos para
+    aceitar - Para aceitar use /x1 aceitar [jogador]'
+  Success2: '&d[X1] $1 aceitou o pedido de X1 de $2 e para assistir a luta digite
+    /x1 camarote - LUTA ENCERRA EM: $4 SEGUNDOS'
+  ErrorMoney: '&cUm dos 2 jogadores nao tem $1'
+  Offline: '&cO jogador esta offline'
+  Camarote: '&6Voce foi teleportado para o camarote'
+  ErrorPermission: '&cVoce nao tem permisao para usar esse comando'
+  SetLocationSuccess: '&6Local setado com sucesso'
+  CommandsAdmin: '&6Use /x1 admin setloc1 - Para setar o primeiro local \nUse /x1
+    admin setloc2 - Para setar o segundo lugar \nUse /x1 admin setcamarote - Para
+    setar o camarote \nUse /x1 admin setexit - Para setar a saida'
+  CommandsError: '&cVoce nao pode usar esse comando em um X1'
+  TimeInvite: '&d[X1] O jogador $1 arregou X1 contra $2'
+  TimeDuel: '&d[X1] O X1 de $1 contra $2 foi encerrado pelo TEMPO e foi dado $3 para
+    cada'
+  DuelStop: '&d[X1] LUTA ENCERRADA'
+  Win: '&d[X1] $1 venceu X1 contra $2 e recebeu $3'
+  WinDC: '&d[X1] $1 deu DC no X1 e o vencedor foi $2 ganhando $3'
+  ErrorPlayer: '&cVoce nao pode mandar um pedido de X1 para voce mesmo'
+  TimeEND: '&d[X1] O vencedor tem $1 segundos para pegar os itens do chao'

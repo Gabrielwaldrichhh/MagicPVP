@@ -1,0 +1,41 @@
+######################################################################################
+# > EventoGamers (v2.2.1D) - Autor: AtomGamers / CraftBukkit [1.5.2]+              < #
+# > Website: "http://www.atomgamers.com/index.php?/"                               < #
+# > BukkitDev Autor: "http://dev.bukkit.org/profiles/AtomGamers/"                  < #
+# > Description: Automatize os eventos do seu servidor com facilidade!             < #
+#                                                                                    #
+# > Cada evento devera ter seu arquivo .yml proprio criado na pasta Eventos dentro < #
+#   da pasta do Plugin, e nela devera conter todas as configuraçoes obrigatorias   < #
+#   como as mostras no evento padrao ("example.yml")                               < #
+#                                                                                    #
+# > /evento iniciar (Nome) - Inicializar um Evento.                                < #
+# > /evento cancelar - Cancelar o Evento ocorrendo                                 < #
+# > /evento sair - Sair do Evento que voce esta participando.                      < #
+# > /evento - Entrar no Evento que esta ocorrendo.                                 < #
+#                                                                                    #
+# > No final de cada evento você deverá criar uma placa contendo os seguintes:     < #
+#                                                                                  < #
+# Linha 01: [Evento]                                                               < #
+# Linha 02: nome_do_evento                                                         < #
+#                                                                                    #
+# Permissão do Plugin: "eventogamers.admin"                                        < #
+######################################################################################
+
+#Configure o prefixo utilizando cores para as mensagens de sucesso
+PrefixSuccess: "&3[Evento] &a"
+
+#Configure o prefixo utilizando cores para as mensagens de erro
+PrefixError: "&3[Evento] &c"
+
+#Configure o prefixo utilizando cores para as mensagens de avisos/anuncios pessoais
+PrefixWarning: "&3[Evento] &6"
+
+#Configure os horarios dos eventos automaticos que ocorreram diariamente
+#HORA:MINUTO EVENTO
+#Exemplo: "04:00 example", pode notar-se que em '/plugins/EventoGamers/Eventos/' tem o example.yml.
+#checar_eventos = Segundos para checar se um evento tem que ser inicializado automáticamente no momento atual
+checar_eventos: 10
+Automatico:
+  - "20:00 corrida"
+  - "20:30 corrida2.0"
+  - "21:00 parkour"

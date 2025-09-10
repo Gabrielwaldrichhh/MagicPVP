@@ -1,0 +1,393 @@
+groups:
+  default:
+    permissions:
+    - modifyworld.*
+  Subdono:
+    permissions:
+    - '*'
+    - essentials.repair
+    - essentials.repair.enchanted
+    - essentials.reapair.armor
+    - essentials.reapair.all
+    prefix: '&0[&9Sub-Diretor&0]&r '
+    suffix: ' > '
+  dono:
+    permissions:
+    - '*'
+    - essentials.repair
+    - essentials.repair.enchanted
+    - essentials.reapair.armor
+    - essentials.reapair.all
+    - mycommand.cmd.1
+    - mycommand.cmd.2
+    - mycommand.cmd.3
+    - mycommand.cmd.4
+    - mycommand.cmd.5
+    prefix: '&0[&9Diretor&0]&r '
+    suffix: ' > '
+  Moderador:
+    prefix: '&0[&9Moderador&0]&r '
+    suffix: ' > '
+    permissions:
+    - essentials.joinfullserver
+    - essentials.fly
+    - spotprotection.use
+    - spotprotection.1
+    - essentials.chat.afk.auto
+    - essentials.chat.afk
+    - essentials.chat.shout
+    - essentials.chat.format
+    - essentials.chat.color
+    - essentials.msg.color
+    - essentials.hat
+    - essentials.balancetop
+    - essentials.help
+    - essentials.warp.list
+    - essentials.warps
+    - essentials.warp
+    - essentials.spawn
+    - essentials.enderhcest
+    - alphachest.workbench
+    - alphachest.chest
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tpa
+    - essentials.tp
+    - essentials.repair
+    - essentials.repair.enchanted
+    - essentials.reapair.armor
+    - essentials.reapair.all
+    - iconomy.money
+    - iconomy.holgings
+    - iconomy.holgings.others
+    - iconomy.payment
+    - essentials.kit
+    - essentials.kits.msg
+    - essentials.kits.vip
+    - essentials.kits.pvp
+    - essentials.kits.evento
+    - essentials.kits.ferramentas
+    - chestshop.shop.create
+    - chestshop.shop.buy
+    - chestshop.shop.sell
+    - serversigns.use
+    - serversigns.use.*
+    - ancientgates.use.*
+    - legendchat.channel.local.chat
+    - legendchat.channel.global.chat
+    - essentials.gamemode
+    - simpleclans.mod.*
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - simpleclans.mod.verify
+    - mcmmo.skills.*
+    - pvpsoup.use
+    - eventogamers.evento.parkour
+    - eventogamers.evento.corrida
+    - eventogamers.evento.spleef
+    - mycommand.cmd.6
+    - mycommand.cmd.7
+    - mycommand.cmd.8
+    - mycommand.cmd.9
+    - mycommand.cmd.10
+    - mycommand.cmd.11
+    - mycommand.cmd.12
+    - mycommand.cmd.13
+    - mycommand.cmd.14
+    - mycommand.cmd.15
+    - iConomy.top
+    - maxbans.ban
+    - maxbans.unban
+    - maxbans.tempban
+    - maxbans.tempipban
+    - maxbans.ipban
+    - maxbans.mute
+    - maxbans.unmute
+    - maxbans.tempmute
+    - maxbans.checkban
+    - maxbans.checkip
+    - maxbans.kick
+    - maxbans.history
+  Admin:
+    prefix: '&0[&9Admin&0]&r '
+    suffix: ' > '
+    permissions:
+    - '*'
+    - essentials.*
+  YouTuber:
+    prefix: '&0[&cYou&0Tuber&0]&r '
+    permissions:
+    - essentials.fly
+    - spotprotection.use
+    - spotprotection.1
+    - essentials.multiple.default
+    - essentials.kits.survival
+    - essentials.msg
+    - essentials.balancetop
+    - iConomy.payment
+    - iConomy.holdings.others
+    - iconomy.money
+    - essentials.repair.enchanted
+    - essentials.repair
+    - essentials.tpdeny
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.enderchest
+    - essentials.help
+    - essentials.kits.pvp
+    - essentials.kits.list
+    - essentials.kit
+    - essentials.kits.ferramentas
+    - essentials.spawn
+    - essentials.warp.list
+    - essentials.warps
+    - essentials.warp
+    - vipzero.user
+    - legendchat.channel.local.chat
+    - legendchat.channel.global.chat
+    - legendchat.tell
+    - serversigns.use
+    - serversigns.use.*
+    - ancientgates.use.*
+    - automessage.receive.default
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - simpleclans.mod.verify
+    - mcmmo.skills.*
+    - pvpsoup.use
+    - eventogamers.evento.parkour
+    - eventogamers.evento.corrida
+    - eventogamers.evento.spleef
+    - mycommand.cmd.6
+    - mycommand.cmd.7
+    - mycommand.cmd.8
+    - mycommand.cmd.9
+    - mycommand.cmd.10
+    - mycommand.cmd.11
+    - mycommand.cmd.12
+    - mycommand.cmd.13
+    - mycommand.cmd.14
+    - mycommand.cmd.15
+    - iConomy.top
+    - eventogamers.evento.corrida2
+  Membro:
+    prefix: ''
+    suffix: ' > '
+    permissions:
+    - spotprotection.use
+    - spotprotection.1
+    - essentials.multiple.default
+    - essentials.kits.survival
+    - essentials.msg
+    - essentials.balancetop
+    - iConomy.payment
+    - iConomy.holdings.others
+    - iconomy.money
+    - essentials.repair.enchanted
+    - essentials.repair
+    - essentials.tpdeny
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.enderchest
+    - essentials.help
+    - essentials.kits.pvp
+    - essentials.kits.list
+    - essentials.kit
+    - essentials.kits.ferramentas
+    - essentials.spawn
+    - essentials.warp.list
+    - essentials.warps
+    - essentials.warp
+    - vipzero.user
+    - legendchat.channel.local.chat
+    - legendchat.channel.global.chat
+    - legendchat.tell
+    - serversigns.use
+    - serversigns.use.*
+    - ancientgates.use.*
+    - automessage.receive.default
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - simpleclans.mod.verify
+    - mcmmo.skills.*
+    - pvpsoup.use
+    - eventogamers.evento.parkour
+    - eventogamers.evento.corrida
+    - eventogamers.evento.spleef
+    - mycommand.cmd.6
+    - mycommand.cmd.7
+    - mycommand.cmd.8
+    - mycommand.cmd.9
+    - mycommand.cmd.10
+    - mycommand.cmd.11
+    - mycommand.cmd.12
+    - mycommand.cmd.13
+    - mycommand.cmd.14
+    - mycommand.cmd.15
+    - iConomy.top
+    - eventogamers.evento.corrida2
+    default: true
+  vip:
+    prefix: '&0[&bVIP&0]&r '
+    suffix: ' > '
+    permissions:
+    - essentials.fly
+    - spotprotection.use
+    - spotprotection.2
+    - essentials.multiple.vip
+    - screset.use
+    - essentials.chat.afk.auto
+    - essentials.chat.afk
+    - essentials.chat.shout
+    - essentials.chat.format
+    - essentials.chat.color
+    - essentials.msg.color
+    - essentials.hat
+    - essentials.balancetop
+    - essentials.help
+    - essentials.warp.list
+    - essentials.warps
+    - essentials.warp
+    - essentials.spawn
+    - essentials.enderhcest
+    - alphachest.workbench
+    - alphachest.chest
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tpa
+    - essentials.repair
+    - essentials.repair.enchanted
+    - essentials.reapair.armor
+    - essentials.reapair.all
+    - iconomy.money
+    - iconomy.holgings
+    - iconomy.holgings.others
+    - iconomy.payment
+    - essentials.kit
+    - essentials.kits.vip
+    - essentials.kits.pvp
+    - essentials.kits.minerador
+    - essentials.kits.ferramentas
+    - essentials.kits.evento
+    - chestshop.shop.create
+    - chestshop.shop.buy
+    - chestshop.shop.sell
+    - serversigns.use
+    - serversigns.use.*
+    - ancientgates.use.*
+    - legendchat.channel.local.chat
+    - legendchat.channel.global.chat
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - simpleclans.mod.verify
+    - mcmmo.skills.*
+    - pvpsoup.use
+    - eventogamers.evento.parkour
+    - eventogamers.evento.corrida
+    - eventogamers.evento.spleef
+    - mycommand.cmd.6
+    - mycommand.cmd.7
+    - mycommand.cmd.8
+    - mycommand.cmd.9
+    - mycommand.cmd.10
+    - mycommand.cmd.11
+    - mycommand.cmd.12
+    - mycommand.cmd.13
+    - mycommand.cmd.14
+    - mycommand.cmd.15
+    - iConomy.top
+    - essentials.joinfullserver
+    - eventogamers.evento.corrida2
+  vipx:
+    prefix: '&0[&bVIP&b&lX&0]&r '
+    suffix: ' > '
+    permissions:
+    - essentials.fly
+    - spotprotection.use
+    - spotprotection.4
+    - essentials.multiple.staff
+    - screset.use
+    - essentials.chat.afk.auto
+    - essentials.chat.afk
+    - essentials.chat.shout
+    - essentials.chat.format
+    - essentials.chat.color
+    - essentials.msg.color
+    - essentials.hat
+    - essentials.balancetop
+    - essentials.help
+    - essentials.warp.list
+    - essentials.warps
+    - essentials.warp
+    - essentials.spawn
+    - essentials.enderhcest
+    - alphachest.workbench
+    - alphachest.chest
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tpa
+    - essentials.repair
+    - essentials.repair.enchanted
+    - essentials.reapair.armor
+    - essentials.reapair.all
+    - iconomy.money
+    - iconomy.holgings
+    - iconomy.holgings.others
+    - iconomy.payment
+    - essentials.kit
+    - essentials.kits.msg
+    - essentials.kits.vip
+    - essentials.kits.vipx
+    - essentials.kits.pvp
+    - essentials.kits.evento
+    - essentials.kits.ferramentas
+    - chestshop.shop.create
+    - chestshop.shop.buy
+    - chestshop.shop.sell
+    - serversigns.use
+    - serversigns.use.*
+    - ancientgates.use.*
+    - legendchat.channel.local.chat
+    - legendchat.channel.global.chat
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - simpleclans.mod.verify
+    - mcmmo.skills.*
+    - pvpsoup.use
+    - eventogamers.evento.parkour
+    - eventogamers.evento.corrida
+    - eventogamers.evento.spleef
+    - mycommand.cmd.6
+    - mycommand.cmd.7
+    - mycommand.cmd.8
+    - mycommand.cmd.9
+    - mycommand.cmd.10
+    - mycommand.cmd.11
+    - mycommand.cmd.12
+    - mycommand.cmd.13
+    - mycommand.cmd.14
+    - mycommand.cmd.15
+    - iConomy.top
+    - essentials.joinfullserver
+    - eventogamers.evento.corrida2
+users:
+  patriota:
+    group:
+    - dono
+  iTzUrsinho4i20:
+    group:
+    - dono
+  2yellow03:
+    group:
+    - vipx
+  Dibra:
+    group:
+    - membro
+  Dibrazin:
+    group:
+    - membro

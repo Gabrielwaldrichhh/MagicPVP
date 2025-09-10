@@ -1,0 +1,437 @@
+#
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: '4'
+nickname-prefix: '~'
+change-displayname: true
+teleport-cooldown: 4
+teleport-delay: 4
+teleport-invulnerability: 4
+heal-cooldown: 60
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.pvp
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+- plotme.use.claim
+- plotme.use.auto
+- plotme.use.home
+- plotme.use.info
+- plotme.use.biome
+- plotme.use.protect
+- plotme.use.add
+- plotme.use.remove
+- plotme.limit.1
+kits:
+  pvp:
+    delay: 60
+    items:
+    - 267:0 1 damage_all:9 damage_undead:10 durability:10 fire_aspect:9 name:§o§a§lKIT§1-§c§lPVP
+    - 322:0 16 name:§o§a§lKIT§1-§c§lPVP
+    - 306:0 1 protection_environmental:11 name:§o§a§lKIT§1-§c§lPVP
+    - 307:0 1 protection_environmental:11 name:§o§a§lKIT§1-§c§lPVP
+    - 308:0 1 protection_environmental:11 name:§o§a§lKIT§1-§c§lPVP
+    - 309:0 1 protection_environmental:11 name:§o§a§lKIT§1-§c§lPVP
+    - 373:65 1
+  vipnormal:
+    delay: 50400
+    items:
+    - 276:0 1 damage_all:72 fire_aspect:72 durability:72 name:§o§a§l{§b§lVIP-NORMAL§a§l}
+    - 322:1 64 name:§o§a§l{§b§lVIP-NORMAL§a§l}
+    - 322:1 64 name:§o§a§l{§b§lVIP-NORMAL§a§l}
+    - 310:0 1 protection_environmental:80 durability:72 name:§o§a§l{§b§lVIP-NORMAL§a§l}
+    - 311:0 1 protection_environmental:80 durability:72 name:§o§a§l{§b§lVIP-NORMAL§a§l}
+    - 312:0 1 protection_environmental:80 durability:72 name:§o§a§l{§b§lVIP-NORMAL§a§l}
+    - 313:0 1 protection_environmental:80 durability:72 name:§o§a§l{§b§lVIP-NORMAL§a§l}
+    - 364:0 64 name:§o§a§l{§b§lVIP-NORMAL§a§l}
+  vipkey:
+    delay: 7200
+    items:
+    - 276:0 1 damage_all:31 fire_aspect:10 durability:31 name:§o§1§l[§2§lVIP§5-§0§lKEY§1§l]
+    - 322:1 10 name:§o§1§l[§2§lVIP§5-§0§lKEY§1§l]
+    - 310:0 1 protection_environmental:31 durability:31 name:§o§1§l[§2§lVIP§5-§0§lKEY§1§l]
+    - 311:0 1 protection_environmental:31 durability:31 name:§o§1§l[§2§lVIP§5-§0§lKEY§1§l]
+    - 312:0 1 protection_environmental:31 durability:31 name:§o§1§l[§2§lVIP§5-§0§lKEY§1§l]
+    - 313:0 1 protection_environmental:31 durability:31 name:§o§1§l[§2§lVIP§5-§0§lKEY§1§l]
+  vipinfinity:
+    delay: 86400
+    items:
+    - 276:0 1 damage_all:99 fire_aspect:99 durability:100 name:§o§0§l[§1§lVIP§6§l-§4§lINFINITY§0§l]
+    - 322:1 64 name:§o§0§l[§1§lVIP§6§l-§4§lINFINITY§0§l]
+    - 322:1 64 name:§o§0§l[§1§lVIP§6§l-§4§lINFINITY§0§l]
+    - 322:1 64 name:§o§0§l[§1§lVIP§6§l-§4§lINFINITY§0§l]
+    - 310:0 1 protection_environmental:99 durability:88 name:§o§0§l[§1§lVIP§6§l-§4§lINFINITY§0§l]
+    - 311:0 1 protection_environmental:99 durability:88 name:§o§0§l[§1§lVIP§6§l-§4§lINFINITY§0§l]
+    - 312:0 1 protection_environmental:99 durability:88 name:§o§0§l[§1§lVIP§6§l-§4§lINFINITY§0§l]
+    - 313:0 1 protection_environmental:99 durability:88 name:§o§0§l[§1§lVIP§6§l-§4§lINFINITY§0§l]
+  Ferramentas:
+    delay: 180
+    items:
+    - 258:0 1 dig_speed:5 durability:954 name:§o§1§lFerramenta
+    - 256:0 1 dig_speed:5 durability:575 name:§o§6§lFerramenta
+    - 364:0 32 name:§o§4§lHarburger
+  novato:
+    delay: 6000
+    items:
+    - 310:0 1 protection_environmental:5 durability:5
+    - 311:0 1 protection_environmental:5 durability:5
+    - 312:0 1 protection_environmental:5 durability:5
+    - 313:0 1 protection_environmental:5 durability:5
+    - 276:0 1 damage_all:5 fire_aspect:5 durability:5
+    - 322:1 2
+  iniciante:
+    delay: 6000
+    items:
+    - 310:0 1 protection_environmental:7 durability:7
+    - 311:0 1 protection_environmental:7 durability:7
+    - 312:0 1 protection_environmental:7 durability:7
+    - 313:0 1 protection_environmental:7 durability:7
+    - 276:0 1 damage_all:7 fire_aspect:5 durability:5
+    - 322:1 5
+  veterano:
+    delay: 1800
+    items:
+    - 310:0 1 protection_environmental:9 durability:9
+    - 311:0 1 protection_environmental:9 durability:9
+    - 312:0 1 protection_environmental:9 durability:9
+    - 313:0 1 protection_environmental:9 durability:9
+    - 276:0 1 damage_all:9 fire_aspect:5 durability:5
+    - 322:1 10
+  aspirante:
+    delay: 1800
+    items:
+    - 310:0 1 protection_environmental:11 durability:11
+    - 311:0 1 protection_environmental:11 durability:11
+    - 312:0 1 protection_environmental:11 durability:11
+    - 313:0 1 protection_environmental:11 durability:11
+    - 276:0 1 damage_all:11 fire_aspect:11 durability:11
+    - 322:1 20
+  remix:
+    delay: 1800
+    items:
+    - 310:0 1 protection_environmental:13 durability:13
+    - 311:0 1 protection_environmental:13 durability:13
+    - 312:0 1 protection_environmental:13 durability:13
+    - 313:0 1 protection_environmental:13 durability:13
+    - 276:0 1 damage_all:13 fire_aspect:11 durability:11
+    - 322:1 40
+  poseidon:
+    delay: 1800
+    items:
+    - 310:0 1 protection_environmental:16 durability:16
+    - 311:0 1 protection_environmental:16 durability:16
+    - 312:0 1 protection_environmental:16 durability:16
+    - 313:0 1 protection_environmental:16 durability:16
+    - 276:0 1 damage_all:16 fire_aspect:11 durability:11
+    - 322:1 16
+    - 322:1 64
+  matador:
+    delay: 3600
+    items:
+    - 310:0 1 protection_environmental:19 durability:19
+    - 311:0 1 protection_environmental:19 durability:19
+    - 312:0 1 protection_environmental:19 durability:19
+    - 313:0 1 protection_environmental:19 durability:19
+    - 276:0 1 damage_all:19 fire_aspect:19 durability:19
+    - 322:1 64
+    - 322:1 64
+  aniquilador:
+    delay: 3600
+    items:
+    - 310:0 1 protection_environmental:21 durability:21
+    - 311:0 1 protection_environmental:21 durability:21
+    - 312:0 1 protection_environmental:21 durability:21
+    - 313:0 1 protection_environmental:21 durability:21
+    - 276:0 1 damage_all:21 fire_aspect:19 durability:19
+    - 322:1 64
+    - 322:1 64
+  traficante:
+    delay: 3600
+    items:
+    - 310:0 1 protection_environmental:23 durability:23
+    - 311:0 1 protection_environmental:23 durability:23
+    - 312:0 1 protection_environmental:23 durability:23
+    - 313:0 1 protection_environmental:23 durability:23
+    - 276:0 1 damage_all:23 fire_aspect:23 durability:23
+    - 322:1 64
+    - 322:1 64
+  traficantelvl2:
+    delay: 7200
+    items:
+    - 310:0 1 protection_environmental:25 durability:25
+    - 311:0 1 protection_environmental:25 durability:25
+    - 312:0 1 protection_environmental:25 durability:25
+    - 313:0 1 protection_environmental:25 durability:25
+    - 276:0 1 damage_all:25 fire_aspect:23 durability:23
+    - 322:1 64
+    - 322:1 64
+  traficantelvl3:
+    delay: 7200
+    items:
+    - 310:0 1 protection_environmental:27 durability:27
+    - 311:0 1 protection_environmental:27 durability:27
+    - 312:0 1 protection_environmental:27 durability:27
+    - 313:0 1 protection_environmental:27 durability:27
+    - 276:0 1 damage_all:27 fire_aspect:27 durability:27
+    - 322:1 64
+    - 322:1 64
+  traficantelvl4:
+    delay: 7200
+    items:
+    - 310:0 1 protection_environmental:30 durability:30
+    - 311:0 1 protection_environmental:30 durability:30
+    - 312:0 1 protection_environmental:30 durability:30
+    - 313:0 1 protection_environmental:30 durability:30
+    - 276:0 1 damage_all:30 fire_aspect:30 durability:30
+    - 322:1 64
+    - 322:1 64
+    - 322:1 64
+  herobrine:
+    delay: 10800
+    items:
+    - 310:0 2 protection_environmental:50 durability:50 name:§0§l[§9§lHerobrine§0§l]
+    - 311:0 2 protection_environmental:50 durability:50 name:§0§l[§9§lHerobrine§0§l]
+    - 312:0 2 protection_environmental:50 durability:50 name:§0§l[§9§lHerobrine§0§l]
+    - 313:0 2 protection_environmental:50 durability:50 name:§0§l[§9§lHerobrine§0§l]
+    - 276:0 2 damage_all:50 fire_aspect:50 durability:50 name:§0§l[§9§lHerobrine§0§l]
+    - 279:0 1 damage_all:50 dig_speed:50 durability:50 fire_aspect:50 name:§0§l[§9§lHerobrine§0§l]
+    - 278:0 1 dig_speed:50 durability:50 loot_bonus_blocks:8 name:§0§l[§9§lHerobrine§0§l]
+    - 322:1 64 name:§0§l[§9§lHerobrine§0§l]
+    - 322:1 64 name:§0§l[§9§lHerobrine§0§l]
+  evento:
+    delay:3600
+    items:
+    - 339:0 16 durability:1000 name:§d§lFI§4§lM§c§lDE§b§lANO
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: false
+list:
+  Admins: owner admin
+debug: false
+remove-god-on-disconnect: false
+auto-afk: 300
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: false
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+death-messages: true
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: true
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 3
+  vip: 5
+  staff: 10
+tpa-accept-cancellation: 120
+starting-balance: 0
+currency-symbol: $
+max-money: 10000000000000
+min-money: -10000
+economy-log-enabled: false
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: <{DISPLAYNAME}> {MESSAGE}
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+newbies:
+  announce-format: '&dBem Vindo {DISPLAYNAME}&d ao server!'
+  spawnpoint: newbies
+  kit: tools
+respawn-listener-priority: high
+respawn-at-home: false

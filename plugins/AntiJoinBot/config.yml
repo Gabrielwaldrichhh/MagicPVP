@@ -1,0 +1,13 @@
+AntiJoinBot:
+  use:
+    MySQL: true
+  kick:
+    message: Proxy is Detected. (maybe a error Please reconnect your Router)
+  join:
+    enabled: true
+    interval: 2.5
+Blacklist:
+  use:
+    shroomery: true
+    botscout: true
+    stopforumspam: true

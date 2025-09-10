@@ -1,0 +1,119 @@
+MySQL:
+  use: false
+  Host: localhost
+  Port: 3306
+  Username: test
+  Password: '123'
+  Database: minecraft
+language: br
+server_name: SpringPvP
+check_for_updates: true
+case_sensitive_for_flatfile: false
+key_length: 10
+one_vip_change: false
+usekey_global: true
+rvip_unlisted: true
+use_vault_for_permissions: false
+check_time: 10
+pagseguro:
+  use: false
+  email: suporte@lojamodelo.com.br
+  token: 95112EE828D94278BD394E91C4388F20
+  mode: 1
+  mysql_log: false
+paypal:
+  use: false
+  username: username
+  password: password
+  signature: signature
+  mode: 1
+  mysql_log: false
+logging:
+  usekey: true
+vip_groups:
+- membro
+- vip
+- vipx
+default_group: membro
+vip_items:
+- Membro,0,cmd,pex user @player group set membro
+- vip,0,$,400000
+- vip,0,xp,100
+- vip,0,310,1,protection-4-unbreaking-5-desc-@player
+- vip,0,311,1,protection-4-unbreaking-5-desc-@player
+- vip,0,312,1,protection-4-unbreaking-5-desc-@player
+- vip,0,313,1,protection-4-unbreaking-5-desc-@player
+- vip,0,310,1,protection-4-unbreaking-5-desc-@player
+- vip,0,311,1,protection-4-unbreaking-5-desc-@player
+- vip,0,312,1,protection-4-unbreaking-5-desc-@player
+- vip,0,313,1,protection-4-unbreaking-5-desc-@player
+- vip,0,276,1,sharpness-5-unbreaking-7-fireaspect-2-desc-@player
+- vip,0,279,1,sharpness-5-unbreaking-7-fireaspect-2-efficiency-7-desc-@player
+- vip,0,278,1,fortune-3-efficiency-7-unbreaking-3-desc-@player
+- vip,0,277,1,efficiency-7-fortune-3-unbreaking-3-desc-@player
+- vip,0,261,1,power-5-punch-3-infinity-1-flame-2-desc-@player
+- vip,0,262,64,desc-@player
+- vip,0,262,64,desc-@player
+- vip,0,264,64,desc-@player
+- vip,0,264,64,desc-@player
+- vip,0,264,64,desc-@player
+- vip,0,264,64,desc-@player
+- vip,0,266,64,desc-@player
+- vip,0,266,64,desc-@player
+- vip,0,266,64,desc-@player
+- vip,0,266,64,desc-@player
+- vip,0,388,64,desc-@player
+- vip,0,388,64,desc-@player
+- vip,0,388,64,desc-@player
+- vip,0,388,64,desc-@player
+- vip,0,265,64,desc-@player
+- vip,0,265,64,desc-@player
+- vip,0,265,64,desc-@player
+- vip,0,265,64,desc-@player
+- vip,0,322:1,64,desc-@player
+- vip,0,322:1,64,desc-@player
+- vip,0,322:1,64,desc-@player
+- vip,0,322:1,64,desc-@player
+- vip,0,cmd,pex user @player group set vip
+- vipx,0,$,900000
+- vipx,0,xp,200
+- vipx,0,cmd,pex user @player group set vipx
+- vipx,0,310,2,protection-5-unbreaking-5-desc-@player
+- vipx,0,311,2,protection-5-unbreaking-5-desc-@player
+- vipx,0,312,2,protection-5-unbreaking-5-desc-@player
+- vipx,0,313,2,protection-5-unbreaking-5-desc-@player
+- vipx,0,310,2,protection-5-unbreaking-5-desc-@player
+- vipx,0,311,2,protection-5-unbreaking-5-desc-@player
+- vipx,0,312,2,protection-5-unbreaking-5-desc-@player
+- vipx,0,313,2,protection-5-unbreaking-5-desc-@player
+- vipx,0,276,2,sharpness-7-unbreaking-7-fireaspect-2-desc-@player
+- vipx,0,279,2,sharpness-7-unbreaking-7-fireaspect-2-efficiency-7-desc-@player
+- vipx,0,278,2,fortune-5-efficiency-7-unbreaking-5-desc-@player
+- vipx,0,277,2,efficiency-7-fortune-5-unbreaking-5-desc-@player
+- vipx,0,261,1,power-7-punch-4-infinity-1-flame-3-desc-@player
+- vipx,0,262,64,desc-@player
+- vipx,0,262,64,desc-@player
+- vipx,0,264,64,desc-@player
+- vipx,0,264,64,desc-@player
+- vipx,0,264,64,desc-@player
+- vipx,0,264,64,desc-@player
+- vipx,0,266,64,desc-@player
+- vipx,0,266,64,desc-@player
+- vipx,0,266,64,desc-@player
+- vipx,0,266,64,desc-@player
+- vipx,0,388,64,desc-@player
+- vipx,0,388,64,desc-@player
+- vipx,0,388,64,desc-@player
+- vipx,0,388,64,desc-@player
+- vipx,0,265,64,desc-@player
+- vipx,0,265,64,desc-@player
+- vipx,0,265,64,desc-@player
+- vipx,0,265,64,desc-@player
+- vipx,0,322:1,64,desc-@player
+- vipx,0,322:1,64,desc-@player
+- vipx,0,322:1,64,desc-@player
+- vipx,0,322:1,64,desc-@player
+- vipx,0,potion:fireresistance:false:480:0,20,regen-480:0-speed-480:0-strength-480:0-nightvision-480:0-fireresistance-480:0-name-&dPocao do Capiroto-desc-@player
+keys: {}
+vips:
+ 

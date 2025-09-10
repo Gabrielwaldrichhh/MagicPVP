@@ -1,0 +1,25 @@
+timestamps:
+  login: 1472600249863
+  lastteleport: 1472603432709
+  kits:
+    ferramentas: 1472342244678
+    pvp: 1472603436717
+    vip: 1472342249878
+    vipx: 1472342261227
+  logout: 1472394024631
+ipAddress: 25.125.36.79
+lastlocation:
+  world: world
+  x: -1793.0
+  y: -183.6114143662612
+  z: 243.0
+  yaw: 0.0
+  pitch: -0.06672892
+logoutlocation:
+  world: spawnpvp
+  x: -548.0518347778043
+  y: 21.372279892519977
+  z: -2589.3771377817798
+  yaw: 179.95676
+  pitch: 17.11155
+afk: true

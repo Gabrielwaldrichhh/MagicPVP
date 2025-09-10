@@ -1,0 +1,67 @@
+################Economia##################
+
+# Coloque abaixo o preco da unidade de bloco da protecao
+# Ex. /comprar 10 casa = 10*PrecoDoBloco = R$100,00
+# Ex. /comprar 100 casa = 100*PrecoDoBloco = R$1000,00  
+
+PrecoBlocoCompra: 1000
+
+# Coloque abaixo o preco da unidade de tamanho da expansao
+# Ex. /expandir casa 1 = 1*PrecoDoExpancao = R$50,00
+# Ex. /comprar casa 10 = 10*PrecoDoExpancao = R$500,00  
+
+PrecoBlocoExpansao: 50
+
+# Coloque abaixo o preco do /pvpcasa se ele tirar pvp da casa, ou colocar, 
+#tera de pagar pelo preco abaixo.
+
+PrecoDoPVP: 25000
+
+#Coloque abaixo a abreviacao do nome de sua moeda
+#Isso ira aparecer nos textos em que demostra dinheiro pego pelo plugin Vault
+
+NomeDaMoeda: R$
+
+#Coloque aqui o nome do servidor que ira aparecer em cima da placa de venda de sua area
+
+NomeDoServer: SpringPvP   
+
+##############Protection####################
+
+# Coloque false caso voce queira deixar o bloco na maior altura possivel
+# Coloque true se voce quer deixar o bloco alinhada
+
+Alinhar: false
+
+# Coloque ai o ID do bloco que fara o contorno de seu terreno
+
+BlockId: 85
+
+# Coloque ai o Maximo de areas que um player podera ter
+
+MaxDeAreas: 1
+
+# Coloque aqui o tamanho limite da area que cada player pode criar
+
+TamanhoMax: 50
+
+# Coloque true se voce quer que bloqueie sethome de players
+# nao membros ou lideres em areas protegidas
+
+AntHome: false
+
+#Coloque abaixo o maximo e minimo de altura que ira proteger
+#no momento em que voce usar o /comprar.
+#Ex: 0-256 ira proteger da Bedrock ate a altura 256
+
+AlturaMaxEMin: 0-256
+
+#Coloque abaixo true caso voce queira que seja removido as folhas e 
+#os troncos da area em que o player comprar
+
+RemoverArvores: false
+
+#Escolha a linguagem do plugin. Use o padrão i18n. Por enquanto só tem:
+#en_US e pt_BR
+
+Linguagem: pt_BR

@@ -1,0 +1,53 @@
+disconnection:
+    you-were-kicked: "&fChutado por &a{banner}&f - Motivo: \n&a'{reason}'&f"
+    you-are-banned: "&fVoce esta banido!\n Motivo: &a'{reason}'&f\nBy &a{banner}&f.\n{appeal-message}"
+    you-are-ipbanned: "&fVoce esta banido IP!\n Motivo: &a'{reason}'&f\nBy &a{banner}&f.\n{appeal-message}"
+    you-are-temp-banned: "&fVoce esta banido temporariamente!\n Motivo: &a'{reason}'&f\nBy &a{banner}&f.\nExpira em: {time}.\n{appeal-message}"
+    you-are-temp-ipbanned: "&fVoce esta banido IP temporariamente!\n Motivo: &a'{reason}'&f\nBy &a{banner}&f.\nExpira em: {time}.\n{appeal-message}"
+    
+    you-are-rangebanned: "&fO seu endereço de IP (&c{range}&f) e RangeBanned.\nMotivo: &a{reason}&f\nBy: &a{banner}&f.\n{appeal-message}"
+    you-are-temp-rangebanned: "&fO seu endereço de IP (&c{range}&f) e RangeBanned.\nA proibicao expira em &a{time}&f.\nMotivo: &a{reason}&f\nBy: &a{banner}&f.\n{appeal-message}"
+    
+    you-are-proxied: "Chutado por Maxbans:\n O seu IP ({ip}) e listado como um proxy."
+    
+    lockdown-active: "&fServidor está em modo de bloqueio. Tente novamente em breve. Motivo: \n{reason}"
+    invalid-letters: "&fChutado por MaxBans.\nO seu nome contem caracteres invalidos:\n&c'{letters}'&f"
+    invalid-name: "&fChutado por MaxBans.\nO seu nome e invalido!"
+    
+    
+announcement:
+    player-was-kicked: "&a{name}&f foi expulso por &a{banner}&f para &a'{reason}'&f."
+    player-was-banned: "&a{banner}&f banido &a{name}&f para &a'{reason}'&f."
+    player-was-ip-banned: "&a{banner}&f IP banido &a{name}&f ('&a{ip}&f') para &a'{reason}'&f."
+    player-was-muted: "&a{banner}&f mutado &a{name}&f para &a{reason}"
+    player-was-tempbanned: "&a{banner}&f tempban &a{name}&f para {time} para &a'{reason}'&f"
+    player-was-tempipbanned: "&a{banner}&f IP temporário proibidos&a{name}&f ('&a{ip}&f') para {time} para &a'{reason}'&f"
+    player-was-temp-muted: "&a{banner}&f Temp silenciado &a{name}&para &a{reason} para &a{time}."
+    player-was-unbanned: "&a{banner}&f unban &a{name}&f"
+    player-was-unmuted: "&a{banner}&f unmute &a{name}&f"
+    player-was-warned: "&a{banner}&f avisou &a{name}&f para &a'{reason}'&f"
+    ip-was-unbanned: "&f&a{ip}&f foi unban by &a{banner}&f."
+    player-warnings-cleared: "&a{banner}&f apuradas &a{name}&f's warnings."
+    unwarn-success: "&a{banner}&f perdoado um dos &a{name}&f's warnings."
+    
+error:
+    no-player-given: "&cSem nome dado."
+    no-permission: "&cVocê não tem permissão para fazer isso."
+    no-ip-known: "&cEsse jogador não tem história IP!"
+    no-ipban-found: "&cNão foi possível encontrar uma proibição de &a{ip}&f."
+    no-ban-found: "&cNão foi possível encontrar uma proibição de &a{name}&f."
+    no-mute-found: "&a{name}&c não está mudo."
+    no-dupeip-duplicates: "&fNão há duplicatas !"
+    no-history: "&fNo history."
+    no-warnings: "&a{name}&c não tem avisos para o seu nome."
+    
+    unknown-player: "&cNenhum jogador encontrado: &a{name}&f"
+    player-already-banned: "&cEsse jogador já é proibida."
+    ip-already-banned: "&cIsso IP já é proibida."
+    
+    
+    tempban-shorter-than-last: "&cEsse jogador tem uma tempban que vai durar mais tempo do que aquele que você forneceu!"
+    tempipban-shorter-than-last: "&cIsso IP tem uma tempban que vai durar mais tempo do que aquele que você forneceu!"
+    tempmute-shorter-than-last: "&cEsse jogador já tem um mudo que dura mais tempo do que aquele que tentou dar."
+
+    
