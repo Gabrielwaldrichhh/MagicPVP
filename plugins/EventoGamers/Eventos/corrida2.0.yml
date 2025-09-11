@@ -1,0 +1,87 @@
+#Nome do Evento
+nome: "corrida2.0"
+
+#Premio do Evento
+premio: 50000.0
+
+#Minimo de Jogadores para o evento ser inicializado
+minplayers: 1
+
+#Bloquear o tapete magico? (/mc)? true/false
+bloquear_tapete_magico: true
+
+#Forçar que os jogadores estejam com "/pvp on"? true/false
+force_pvp_on: true
+
+#Local da entrada do evento (mundo x y z)
+entrada: "eventos -612 4 866"
+
+#Local da saida do evento (mundo x y z)
+saida: "world -1774 8 431"
+
+#Local do lobby do evento (mundo x y z)
+lobby: "world -1774 8 431"
+
+#Permissao necessaria para participar do Evento
+permission: "eventogamers.evento.corrida2"
+
+#Lista de comandos que estao bloqueados no evento
+blocked_cmds:
+  - /sethome
+  - /home set
+  - /tpaccept
+  - /bring
+  - /call
+  - /tpa
+  - /ebring
+  - /etpaccept
+  - /etpa
+  - /home set
+  - /ehome
+  - /clan
+  - /fly
+  - /home
+  - /gamemode
+  - /gm
+
+#Configuraçao das mensagens
+#Voce podera usar "&" para utilizamento de cores.
+#"chamadas"= quantidade de chamadas antes de iniciar.
+#"intervalo"= Intervalo em segundos para proxima chamada.
+#"motivos"= Os motivos que aparecerao caso o evento seja cancelado, configure de acordo com o exemplo.
+#"anuncio"= Mensagens de anuncio, avisando sobre o evento aberto.
+#"iniciado"= Mensagens de quando o evento é iniciado.
+#"cancelado"= Mensagens de quando o evento for cancelado. (@motivo substitui o motivo automaticamente)
+#"concluido"= Mensagens de quando o evento for concluido. (@vencedor substitui o nome do player automaticamente)
+mensagens:
+  chamadas: 5
+  intervalo: 15
+  motivos:
+    players: "Nao ha players suficientes!"
+    admin: "O Admin cancelou o Evento!"
+    vencedores: "Nao houve vencedores no Evento!"
+  anuncio:
+    - " "
+    - "&3[Evento] &fO Evento Corrida2.0 esta aberto - Participe:"
+    - "&3[Evento] &fPara entrar utilize o Comando: &6/evento"
+    - "&3[Evento] &cO &cPvP &0[&cON&0] &cRisco de Morte &0[&cON&0]"
+    - "&3[Evento] &fIniciando evento em &6@chamadas &fChamadas!"
+    - " "
+  iniciado:
+    - " "
+    - "&3[Evento] &fO Evento Corrida2.0 esta fechado - Iniciando:"
+    - "&3[Evento] &fBoa sorte a todos os Participantes!"
+    - "&3[Evento] &fTeleportados ate o Local do Evento!"
+    - " "
+  cancelado:
+    - " "
+    - "&4[Evento] &cO Evento Corrida2.0 foi cancelado:"
+    - "&4[Evento] &c@motivo"
+    - "&4[Evento] &cOutra hora ocorrera novamente o Evento!"
+    - " "
+  concluido:
+    - " "
+    - "&3[Evento] &fO Evento Corrida2.0 foi finalizado agora:"
+    - "&3[Evento] &fParabens ao Vencedor do Evento: @vencedor"
+    - "&3[Evento] &fTeleportados ate o Local de Saida!"
+    - " "

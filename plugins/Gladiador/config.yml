@@ -1,0 +1,29 @@
+AutoStart:
+  Dia: sabado
+  Hora: 1900
+ClanTag: '[%tag%&r] '
+Format:
+  Ativar: false
+  default: '%clan%'
+  admin: '%clan%&4'
+Premios:
+  Mito:
+    Ativar: true
+    Cmd: setmito @player
+  Tag: '&b[&cGladiador&b]&r '
+  Dinheiro: 200000
+Timers:
+  Preparar:
+    Avisos: 20
+    TempoEntre: 10
+  Iniciando:
+    Avisos: 5
+    TempoEntre: 10
+  Finalizando: 30
+Arena:
+  Entrada: gladiador;-542.5;4.0;1574.5;-89.699844;89.85
+  Saida: world;-1774.5;8.0;431.5;-90.35553;-0.14999261
+  Camarote: gladiador;-542.5;25.0;1574.5;-87.29984;89.85
+Update: 60
+Vencedores: [patriota,tehzavq]
+Bans: {}
