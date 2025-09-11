@@ -1,0 +1,53 @@
+| **Plugin**           | **Função**                                                   |
+| -------------------- | ------------------------------------------------------------ |
+| AlphaChest           | Criação de baús virtuais acessíveis por comando.             |
+| AncientGates         | Criação de portais customizados entre mundos.                |
+| AntiAd               | Bloqueia anúncios de outros servidores no chat.              |
+| AntiJoinBot          | Evita ataques de bots entrando em massa no servidor.         |
+| AuthMe               | Sistema de login/registro (protege contas sem premium).      |
+| AutoMessage          | Envia mensagens automáticas no chat em intervalos.           |
+| AutoSaveWorld        | Faz backup e salva o mundo automaticamente.                  |
+| BanItem              | Bloqueia o uso de itens específicos.                         |
+| ChestShop            | Criação de lojas com placas e baús para vender/comprar.      |
+| Citizens             | Adiciona NPCs customizáveis.                                 |
+| ClearLag             | Reduz lag limpando entidades e otimizando o servidor.        |
+| ColoredTablist       | Permite customizar o TAB com cores e formatação.             |
+| CombatLog            | Evita que jogadores desloguem durante o PvP.                 |
+| CommandNPC           | Associa comandos a NPCs criados.                             |
+| CommandSounds        | Associa sons à execução de comandos.                         |
+| CraftX1              | Plugin de arenas 1v1 automáticas.                            |
+| CustomServerMessages | Personaliza mensagens do servidor.                           |
+| Essentials           | Pacote de comandos básicos (warp, spawn, kits, home, etc).   |
+| EventoGamers         | Plugin para eventos customizados.                            |
+| HealthBar            | Mostra barras de vida acima dos mobs/jogadores.              |
+| iConomy              | Sistema de economia com dinheiro virtual.                    |
+| Info-Board           | Mostra informações em um scoreboard lateral.                 |
+| Killer               | Estatísticas e sistemas relacionados a kills.                |
+| Legendchat           | Sistema avançado de chat com canais e formatação.            |
+| LotteryZero          | Loteria/sorteio com tickets.                                 |
+| Magnata              | Mostra jogador mais rico do servidor (economia).             |
+| MaxBans              | Sistema de punições (ban/kick/mute/warn).                    |
+| mcMMO                | Habilidades RPG (skills, mining, swords, herbalism etc).     |
+| MineResetLite        | Reset automático de minas (modo Prison).                     |
+| MitoDoPvP            | Sistema de rankeamento PvP ("mito do servidor").             |
+| MobCoins             | Sistema de moedas ao matar mobs.                             |
+| MobSpawnerEggChanger | Permite trocar tipo de spawner com ovos.                     |
+| MotdManager          | Gerencia a mensagem de entrada (MOTD).                       |
+| Multiverse-Core      | Criação e gerenciamento de múltiplos mundos.                 |
+| MyCommand            | Cria comandos customizados pelo config.                      |
+| NoCheatPlus          | Sistema anti-hack/cheat.                                     |
+| OpenInv              | Permite abrir inventários de outros jogadores.               |
+| PermissionsEx        | Gerencia grupos e permissões do servidor.                    |
+| PlayerHeads          | Dropa cabeças de jogadores ao morrerem.                      |
+| PluginMetrics        | Coleta estatísticas de uso do plugin.                        |
+| PvPSoup              | PvP com sopas que regeneram vida.                            |
+| ReduceLag            | Similar ao ClearLag, reduz lag.                              |
+| SCReset              | Reseta regiões/mundos (geralmente para eventos/minas).       |
+| SimpleClans          | Sistema de clãs e facções pequenas.                          |
+| SimpleUc             | Sistema de mensagens de login/logout customizadas.           |
+| SpotProtection       | Protege áreas específicas.                                   |
+| TimTheEnchanter      | Permite encantar itens além dos limites normais.             |
+| Updater              | Checa atualizações automáticas de plugins.                   |
+| VipZero              | Gerencia sistema de VIPs.                                    |
+| WorldEdit            | Ferramenta de edição de mapas (copiar, colar, brushes, etc). |
+| WorldGuard           | Protege áreas e adiciona flags (PvP off, etc).               |
