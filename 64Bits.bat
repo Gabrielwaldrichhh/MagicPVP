@@ -1,1 +1,1 @@
-java -Xms512M -Xmx1024M -jar craftbukkit.jar
+java -Xmx2G -Xms1G -jar craftbukkit.jar
