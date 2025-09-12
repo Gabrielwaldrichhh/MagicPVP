@@ -6001,3 +6001,7 @@
 2025-09-12 14:23:28 [INFO] [Multiverse-Core] World 'mina' was unloaded from memory.
 2025-09-12 14:23:28 [INFO] [Multiverse-Core] World 'mina' was removed from config.yml
 2025-09-12 14:23:30 [INFO] [Multiverse-Core] Multiverse does not know about minaa and it's not loaded by Bukkit.
+2025-09-12 15:22:15 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-09-12 15:22:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -3083979623404973764
+2025-09-12 15:22:16 [INFO] [Multiverse-Core] Loading World & Settings - 'terrenos' - Env: NORMAL - Type: FLAT & seed: -4918226679233821864
+2025-09-12 15:22:16 [INFO] [Multiverse-Core] 2 - World(s) loaded.
