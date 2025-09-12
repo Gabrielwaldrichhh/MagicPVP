@@ -23,20 +23,19 @@ message-lists:
     prefix: '&8&l[&c&l!&8&l] -> '
     suffix: ''
     messages:
-    - '&6Nao use a senha do Hype em qualquer servidor'
-    - '&6Todos os sabados &217:00 &6Evento Gladiador'
+    - '&6Nao use a senha do MagicPVP em nenhum outro servidor'
+    - '&6Todos os domingo &219:00 &6Evento Gladiador'
     - '&6Quer Comprar Vip? Acesse '
-    - '&6Quer tag &4You&fTuber? Poste um video e mande no Email do Servidor! (hypepvp@gmail.com!'
+    - '&6Quer tag &4You&fTuber? Poste um video e mande no Discord do Servidor! !'
     - '&6Vips Tem muitas vantagens verifique no site!'
   vip:
     enabled: true
     random: false
-    interval: 120
+    interval: 500
     expiry: -1
     prefix: '&8&l[&c&l!&8&l] -> '
     suffix: '&8&l[&d&lVIP&8&l]'
     messages:
-    - '&6Nao use a senha do Hype em qualquer servidor'
-    - '&6Todos os sabados &217:00 &6Evento Gladiador'
+    - '&6Nao use a senha do MagicPVP nenhum outro servidor'
+    - '&6Todos os domingo &219:00 &6Evento Gladiador'
     - '&6Use o comando /fly para voar'
-    - '&6Quer tag &4You&fTuber? Poste um video e mande no Email do Servidor! hypepvp@gmail.com!'

@@ -17,4 +17,4 @@ logoutlocation:
   z: 543.0599514262007
   yaw: -17.320786
   pitch: -2.548627
-afk: false
+afk: true
