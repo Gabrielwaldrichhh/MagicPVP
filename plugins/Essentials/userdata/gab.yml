@@ -1,19 +1,20 @@
 timestamps:
-  login: 1757687814281
-  logout: 1757687796281
-  lastteleport: 1757689194086
+  login: 1757701215020
+  logout: 1757701187319
+  lastteleport: 1757711942673
 ipAddress: 177.8.242.104
 lastlocation:
   world: world
-  x: -1784.816578132185
-  y: 36.0
-  z: 434.43646480123994
-  yaw: 85.611824
-  pitch: 36.527714
+  x: -2030.6923878984924
+  y: 51.86512829970259
+  z: 529.2606547021685
+  yaw: 273.78125
+  pitch: 3.3810067
 logoutlocation:
-  world: spawnpvp
-  x: -541.5
-  y: 4.0
-  z: -2575.5
-  yaw: 3.3132505
-  pitch: -1.9915508
+  world: mina
+  x: 1189.004016196732
+  y: 21.0
+  z: -150.1577965485883
+  yaw: 196.1784
+  pitch: 13.60115
+afk: false

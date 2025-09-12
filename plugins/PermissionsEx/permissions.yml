@@ -379,3 +379,6 @@ users:
   Gab:
     group:
     - dono
+  Yoham:
+    group:
+    - membro

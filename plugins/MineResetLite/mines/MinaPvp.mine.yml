@@ -14,6 +14,6 @@ mine:
     '73:0': 0.98
     '56:0': 0.02
   name: MinaPvp
-  resetClock: 1
+  resetClock: 3
   minZ: 1697
   isSilent: false

@@ -14,6 +14,6 @@ mine:
     '57:0': 0.94
     '56:0': 0.06
   name: MinaVip
-  resetClock: 2
+  resetClock: 4
   minZ: 361
   isSilent: false
