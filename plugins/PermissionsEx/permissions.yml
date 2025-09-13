@@ -382,3 +382,6 @@ users:
   Yoham:
     group:
     - dono
+  Dibra:
+    group:
+    - membro
