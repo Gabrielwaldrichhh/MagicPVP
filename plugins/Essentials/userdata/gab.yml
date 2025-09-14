@@ -1,17 +1,17 @@
 timestamps:
-  login: 1757716253753
+  login: 1757870557340
   logout: 1757715806046
-  lastteleport: 1757716823375
+  lastteleport: 1757882964334
   kits:
     vipx: 1757716420156
 ipAddress: 177.8.242.104
 lastlocation:
   world: world
-  x: -1801.1154620868017
-  y: 35.5
-  z: 560.6428386887893
-  yaw: 146.2623
-  pitch: 18.795328
+  x: -1776.360694291876
+  y: 35.67910350030175
+  z: 561.3298242246882
+  yaw: -98.38199
+  pitch: 34.248344
 logoutlocation:
   world: world
   x: -1765.1814853956487
@@ -20,3 +20,11 @@ logoutlocation:
   yaw: 10.560134
   pitch: 19.41191
 afk: false
+homes:
+  x1:
+    world: world
+    x: -1923.5434731822938
+    y: 66.0
+    z: 457.13588337706915
+    yaw: -90.5715
+    pitch: -0.011456399

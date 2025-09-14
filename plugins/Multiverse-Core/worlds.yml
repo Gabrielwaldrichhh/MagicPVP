@@ -69,3 +69,38 @@ worlds:
       world: terrenos
     autoload: true
     bedrespawn: true
+  arenax1:
+    seed: 3840066353498274074
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -186.5
+      y: 64.0
+      z: 177.5
+      pitch: 0.0
+      yaw: 0.0
+      world: arenax1
+    autoload: true
+    bedrespawn: true

@@ -14,7 +14,7 @@ regions:
         type: global
         priority: 0
         flags:
-            blocked-cmds: [/mc, /fly, /spot]
+            blocked-cmds: [/fly, /mc, /spot]
         owners: {}
         members: {}
     areavip:
@@ -23,15 +23,15 @@ regions:
         max: {x: -363.0, y: 255.0, z: 447.0}
         priority: 0
         flags:
-            creeper-explosion: deny
-            pvp: deny
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /fix, /warp, /baltop,
-                /login, /money]
             entry: deny
-            invincible: allow
+            creeper-explosion: deny
             build: deny
-            mob-spawning: deny
+            invincible: allow
             blocked-cmds: [/]
+            pvp: deny
+            mob-spawning: deny
+            allowed-cmds: [/spawn, /fix, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
         owners: {}
         members:
             groups: [vip, vipx]
@@ -42,11 +42,11 @@ regions:
         priority: 1
         flags:
             creeper-explosion: deny
-            pvp: allow
-            allowed-cmds: [/l, /kit, /register, /g, /baltop, /login, /money]
             invincible: deny
-            mob-spawning: deny
             blocked-cmds: [/]
+            pvp: allow
+            mob-spawning: deny
+            allowed-cmds: [/kit, /login, /money, /g, /l, /register, /baltop]
         owners: {}
         members: {}
     arenafps:
@@ -56,11 +56,11 @@ regions:
         priority: 0
         flags:
             creeper-explosion: deny
-            pvp: allow
-            allowed-cmds: [/l, /kit, /register, /g, /baltop, /login, /money]
             invincible: deny
-            mob-spawning: deny
             blocked-cmds: [/]
+            pvp: allow
+            mob-spawning: deny
+            allowed-cmds: [/kit, /login, /money, /g, /l, /register, /baltop]
         owners: {}
         members: {}
     arenax1:
@@ -70,11 +70,11 @@ regions:
         priority: 0
         flags:
             creeper-explosion: deny
-            pvp: allow
-            allowed-cmds: [/register, /login]
             invincible: deny
-            mob-spawning: deny
             blocked-cmds: [/]
+            pvp: allow
+            mob-spawning: deny
+            allowed-cmds: [/login, /register]
         owners: {}
         members: {}
     camarotex1:
@@ -84,12 +84,12 @@ regions:
         priority: 0
         flags:
             creeper-explosion: deny
-            pvp: deny
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /warp, /baltop, /login,
-                /money]
             invincible: allow
-            mob-spawning: deny
             blocked-cmds: [/]
+            pvp: deny
+            mob-spawning: deny
+            allowed-cmds: [/spawn, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
         owners: {}
         members: {}
     loja:
@@ -97,7 +97,23 @@ regions:
         min: {x: -1772.0, y: 0.0, z: 978.0}
         max: {x: -1722.0, y: 255.0, z: 1022.0}
         priority: 0
-        flags: {creeper-explosion: deny, pvp: deny, invincible: allow, mob-spawning: deny}
+        flags: {creeper-explosion: deny, invincible: allow, pvp: deny, mob-spawning: deny}
+        owners: {}
+        members: {}
+    mina:
+        type: cuboid
+        min: {x: -2085.0, y: 40.0, z: 489.0}
+        max: {x: -1982.0, y: 86.0, z: 562.0}
+        priority: 0
+        flags: {build: deny, invincible: allow, pvp: deny, mob-spawning: deny}
+        owners: {}
+        members: {}
+    minadentro:
+        type: cuboid
+        min: {x: -2024.0, y: 49.0, z: 499.0}
+        max: {x: -1985.0, y: 75.0, z: 559.0}
+        priority: 1
+        flags: {build: allow, pvp: deny, mob-spawning: deny}
         owners: {}
         members: {}
     minapvp:
@@ -107,12 +123,12 @@ regions:
         priority: 0
         flags:
             creeper-explosion: deny
-            pvp: deny
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /warp, /baltop, /money,
-                /login]
             invincible: allow
-            mob-spawning: deny
             blocked-cmds: [/]
+            pvp: deny
+            mob-spawning: deny
+            allowed-cmds: [/spawn, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
         owners: {}
         members: {}
     minapvpd:
@@ -122,13 +138,13 @@ regions:
         priority: 1
         flags:
             creeper-explosion: deny
-            pvp: allow
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /warp, /baltop, /money,
-                /login]
-            invincible: deny
             build: allow
-            mob-spawning: deny
+            invincible: deny
             blocked-cmds: [/]
+            pvp: allow
+            mob-spawning: deny
+            allowed-cmds: [/spawn, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
         owners: {}
         members: {}
     minapvpdd:
@@ -138,12 +154,12 @@ regions:
         priority: 1
         flags:
             creeper-explosion: deny
-            pvp: allow
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /warp, /baltop, /money,
-                /login]
             invincible: deny
-            mob-spawning: deny
             blocked-cmds: [/]
+            pvp: allow
+            mob-spawning: deny
+            allowed-cmds: [/spawn, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
         owners: {}
         members: {}
     minavip:
@@ -152,15 +168,15 @@ regions:
         max: {x: -381.0, y: 26.0, z: 403.0}
         priority: 1
         flags:
-            creeper-explosion: deny
-            pvp: deny
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /fix, /warp, /baltop,
-                /login, /money]
             entry: deny
-            invincible: allow
+            creeper-explosion: deny
             build: allow
-            mob-spawning: deny
+            invincible: allow
             blocked-cmds: [/]
+            pvp: deny
+            mob-spawning: deny
+            allowed-cmds: [/spawn, /fix, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
         owners: {}
         members:
             groups: [vip, vipx]
@@ -169,7 +185,7 @@ regions:
         min: {x: -1048.0, y: 0.0, z: 64.0}
         max: {x: -936.0, y: 255.0, z: 161.0}
         priority: 0
-        flags: {creeper-explosion: deny, pvp: deny, invincible: allow, mob-spawning: deny}
+        flags: {creeper-explosion: deny, invincible: allow, pvp: deny, mob-spawning: deny}
         owners: {}
         members: {}
     minerar2:
@@ -177,7 +193,7 @@ regions:
         min: {x: -1008.0, y: 19.0, z: 92.0}
         max: {x: -963.0, y: 36.0, z: 133.0}
         priority: 1
-        flags: {creeper-explosion: deny, pvp: deny, invincible: allow, build: allow,
+        flags: {creeper-explosion: deny, build: allow, invincible: allow, pvp: deny,
             mob-spawning: deny}
         owners: {}
         members: {}
@@ -187,15 +203,15 @@ regions:
         max: {x: -420.0, y: 24.0, z: 361.0}
         priority: 1
         flags:
-            creeper-explosion: deny
-            pvp: deny
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /fix, /warp, /baltop,
-                /login, /money]
             entry: deny
-            invincible: allow
+            creeper-explosion: deny
             build: deny
-            mob-spawning: allow
+            invincible: allow
             blocked-cmds: [/]
+            pvp: deny
+            mob-spawning: allow
+            allowed-cmds: [/spawn, /fix, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
         owners: {}
         members:
             groups: [vip, vipx]
@@ -204,7 +220,7 @@ regions:
         min: {x: -510.0, y: 0.0, z: 1786.0}
         max: {x: -415.0, y: 255.0, z: 1884.0}
         priority: 0
-        flags: {creeper-explosion: deny, pvp: deny, invincible: allow, mob-spawning: deny}
+        flags: {creeper-explosion: deny, invincible: allow, pvp: deny, mob-spawning: deny}
         owners: {}
         members: {}
     portalvip:
@@ -213,31 +229,24 @@ regions:
         max: {x: -463.0, y: 24.0, z: 1850.0}
         priority: 1
         flags:
-            creeper-explosion: deny
-            pvp: deny
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /fix, /warp, /baltop,
-                /login, /money]
             entry: deny
-            invincible: allow
+            creeper-explosion: deny
             build: deny
-            mob-spawning: deny
+            invincible: allow
             blocked-cmds: [/]
+            pvp: deny
+            mob-spawning: deny
+            allowed-cmds: [/spawn, /fix, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
         owners: {}
         members:
             groups: [vip, vipx]
     spawn:
         type: cuboid
-        min: {x: -1847.0, y: 0.0, z: 361.0}
-        max: {x: -1706.0, y: 255.0, z: 500.0}
+        min: {x: -1856.0, y: 24.0, z: 482.0}
+        max: {x: -1710.0, y: 54.0, z: 631.0}
         priority: 0
-        flags:
-            creeper-explosion: deny
-            pvp: deny
-            allowed-cmds: [/spawn, /l, /repair, /kit, /register, /g, /fix, /warp,
-                /baltop, /login, /money]
-            invincible: allow
-            mob-spawning: deny
-            blocked-cmds: [/]
+        flags: {build: deny, invincible: allow, pvp: deny, mob-spawning: deny}
         owners: {}
         members: {}
     spawnfps:
@@ -247,11 +256,27 @@ regions:
         priority: 1
         flags:
             creeper-explosion: deny
-            pvp: deny
-            allowed-cmds: [/spawn, /l, /kit, /register, /g, /fix, /warp, /baltop,
-                /login, /money]
             invincible: allow
-            mob-spawning: deny
             blocked-cmds: [/]
+            pvp: deny
+            mob-spawning: deny
+            allowed-cmds: [/spawn, /fix, /kit, /login, /money, /g, /warp, /l, /register,
+                /baltop]
+        owners: {}
+        members: {}
+    x1dentro:
+        type: cuboid
+        min: {x: -1932.0, y: 54.0, z: 436.0}
+        max: {x: -1886.0, y: 63.0, z: 475.0}
+        priority: 0
+        flags: {build: deny, pvp: allow, mob-spawning: deny}
+        owners: {}
+        members: {}
+    x1fora:
+        type: cuboid
+        min: {x: -1932.0, y: 64.0, z: 433.0}
+        max: {x: -1886.0, y: 78.0, z: 475.0}
+        priority: 0
+        flags: {build: deny, invincible: allow, pvp: deny, mob-spawning: deny}
         owners: {}
         members: {}

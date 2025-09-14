@@ -14,6 +14,6 @@ mine:
     '21:0': 0.9
     '56:0': 0.1
   name: mina
-  resetClock: 6
+  resetClock: 1
   minZ: 499
   isSilent: false

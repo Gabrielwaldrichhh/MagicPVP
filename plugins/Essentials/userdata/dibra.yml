@@ -1,20 +1,20 @@
 timestamps:
-  login: 1757716339653
-  lastteleport: 1757716762353
-  logout: 1757717581819
+  login: 1757871942934
+  lastteleport: 1757871948885
+  logout: 1757870551681
 ipAddress: 177.8.242.104
 lastlocation:
   world: world
-  x: -1775.3616582011673
+  x: -1784.457835413944
   y: 35.0
-  z: 553.3410131851795
-  yaw: -134.05054
-  pitch: 9.341428
+  z: 559.5350019876478
+  yaw: -270.227
+  pitch: 2.9691179
 afk: false
 logoutlocation:
   world: terrenos
-  x: 182.707254828473
+  x: 133.33037665962183
   y: 4.0
-  z: -38.95154942752227
-  yaw: -62.527546
-  pitch: 86.60827
+  z: -16.07496731074729
+  yaw: -218.06789
+  pitch: 13.649828
