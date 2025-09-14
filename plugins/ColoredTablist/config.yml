@@ -2,34 +2,30 @@ ConfigVersion: 1.5.3
 UsePermissions: false
 UseNicknames: false
 Groups:
-  Subdono:
-    Colors:
-    - '4'
-    Prefix: '&9[ST]'
   Admin:
     Colors:
     - '4'
-    Prefix: '&9[ST]'
+    Prefix: '&0[&ADM&0]&r '
   Membro:
     Colors:
     - 'f'
     Prefix: ''
   Vip:
     Colors:
-    - '6'
-    Prefix: ''
+    - 'b'
+    Prefix: '&0[&bVIP&0]&r'
   Vipx:
     Colors:
-    - '6'
-    Prefix: ''
-  Moderador:
-    Colors:
-    - '4'
-    Prefix: '&9[ST]'
+    - 'b'
+    Prefix: '&0[&bVIP&b&lX&0]&r'
   Dono:
     Colors:
-    - '4'
-    Prefix: '&9[ST]'
+    - '5'
+    Prefix: '&0[&DTR&0]&r'
+  YouTuber:
+    Colors:
+    - '5'
+    Prefix: '&0[&cY&6Tuber&0]&r'
 multi1:
 - '2'
 - o
