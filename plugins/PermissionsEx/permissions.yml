@@ -2,110 +2,11 @@ groups:
   default:
     permissions:
     - modifyworld.*
-    - '*'
-    - essentials.repair
-    - essentials.repair.enchanted
-    - essentials.repair.armor
-    - essentials.repair.all
-    prefix: '&0[&9Sub-Diretor&0]&r '
-    suffix: ' > '
   dono:
     permissions:
     - '*'
-    - essentials.repair
-    - essentials.repair.enchanted
-    - essentials.repair.armor
-    - essentials.repair.all
-    - mycommand.cmd.1
-    - mycommand.cmd.2
-    - mycommand.cmd.3
-    - mycommand.cmd.4
-    - mycommand.cmd.5
-    prefix: '&0[&9Diretor&0]&r '
+    prefix: '&0[&5Diretor&0]&r '
     suffix: ' > '
-    prefix: '&0[&9Moderador&0]&r '
-    suffix: ' > '
-    permissions:
-    - essentials.joinfullserver
-    - essentials.fly
-    - spotprotection.use
-    - spotprotection.1
-    - essentials.chat.afk.auto
-    - essentials.chat.afk
-    - essentials.chat.shout
-    - essentials.chat.format
-    - essentials.chat.color
-    - essentials.msg.color
-    - essentials.hat
-    - essentials.balancetop
-    - essentials.help
-    - essentials.warp.list
-    - essentials.warps
-    - essentials.warp
-    - essentials.spawn
-    - essentials.enderhcest
-    - alphachest.workbench
-    - alphachest.chest
-    - essentials.tpaccept
-    - essentials.tpdeny
-    - essentials.tpa
-    - essentials.tp
-    - essentials.repair
-    - essentials.repair.enchanted
-    - essentials.repair.armor
-    - essentials.repair.all
-    - iconomy.money
-    - iconomy.holgings
-    - iconomy.holgings.others
-    - iconomy.payment
-    - essentials.kit
-    - essentials.kits.msg
-    - essentials.kits.vip
-    - essentials.kits.pvp
-    - essentials.kits.evento
-    - essentials.kits.ferramentas
-    - chestshop.shop.create
-    - chestshop.shop.buy
-    - chestshop.shop.sell
-    - serversigns.use
-    - serversigns.use.*
-    - ancientgates.use.*
-    - legendchat.channel.local.chat
-    - legendchat.channel.global.chat
-    - essentials.gamemode
-    - simpleclans.mod.*
-    - simpleclans.anyone.*
-    - simpleclans.member.*
-    - simpleclans.leader.*
-    - simpleclans.mod.verify
-    - mcmmo.skills.*
-    - pvpsoup.use
-    - eventogamers.evento.parkour
-    - eventogamers.evento.corrida
-    - eventogamers.evento.spleef
-    - mycommand.cmd.6
-    - mycommand.cmd.7
-    - mycommand.cmd.8
-    - mycommand.cmd.9
-    - mycommand.cmd.10
-    - mycommand.cmd.11
-    - mycommand.cmd.12
-    - mycommand.cmd.13
-    - mycommand.cmd.14
-    - mycommand.cmd.15
-    - iConomy.top
-    - maxbans.ban
-    - maxbans.unban
-    - maxbans.tempban
-    - maxbans.tempipban
-    - maxbans.ipban
-    - maxbans.mute
-    - maxbans.unmute
-    - maxbans.tempmute
-    - maxbans.checkban
-    - maxbans.checkip
-    - maxbans.kick
-    - maxbans.history
   Admin:
     prefix: '&0[&9Admin&0]&r '
     suffix: ' > '
@@ -381,4 +282,4 @@ users:
     - dono
   Dibra:
     group:
-    - membro
+    - YouTuber

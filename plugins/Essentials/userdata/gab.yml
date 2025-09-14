@@ -1,9 +1,13 @@
 timestamps:
-  login: 1757886001523
+  login: 1757890011137
   logout: 1757715806046
   lastteleport: 1757884787693
   kits:
+    fome: 1757889673215
+    vipmagic: 1757889700015
+    pvp: 1757889656915
     vipx: 1757716420156
+    vip: 1757889712765
 ipAddress: 177.8.242.104
 lastlocation:
   world: terrenos
