@@ -383,3 +383,6 @@ users:
   Dibra:
     group:
     - membro
+  teste:
+    group:
+    - Membro
