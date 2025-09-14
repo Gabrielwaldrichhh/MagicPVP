@@ -14493,3 +14493,171 @@ Caused by: java.lang.NullPointerException
 2025-09-14 14:40:02 [INFO] [AuthMe] Gab logged in!
 2025-09-14 14:40:04 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
 2025-09-14 14:40:04 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 14:40:21 [INFO] AntiJoinBot is enabled
+2025-09-14 14:41:07 [INFO] Yoham[/189.113.244.46:39348] logged in with entity id 2 at ([terrenos] 120.17690724667462, 6.3693369594674705, -40.51993415442809)
+2025-09-14 14:41:07 [INFO] [CustomServerMessages] [+] Yoham  Entrou no Server!
+2025-09-14 14:41:10 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 14:41:10 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 14:41:13 [INFO] Yoham issued server command: /login 1234567
+2025-09-14 14:41:13 [INFO] [AuthMe] Yoham logged in!
+2025-09-14 14:41:33 [INFO] [WorldEdit] Using inbuilt NmsBlock for this version.
+2025-09-14 14:44:21 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:46:38 [INFO] Yoham issued server command: /pax
+2025-09-14 14:46:42 [INFO] Yoham issued server command: /paxuser
+2025-09-14 14:46:47 [INFO] Yoham issued server command: /pax user set
+2025-09-14 14:47:21 [INFO] [0;37;1m[[0;31;22mMRL[0;37;1m] [0;31;1mmina [0;35;1mhas been reset automatically![m
+2025-09-14 14:47:24 [INFO] teste[/189.113.244.46:39760] logged in with entity id 3 at ([world] -1770.5, 14.0, 428.5)
+2025-09-14 14:47:24 [INFO] [CustomServerMessages] [+] teste  Entrou no Server!
+2025-09-14 14:47:25 [INFO] Criando configuraÃ§ao vazia: C:\Users\Gab\Desktop\magicpvp\MagicPVP\plugins\Essentials\userdata\teste.yml
+2025-09-14 14:47:36 [INFO] teste issued server command: /register 1234567 1234567
+2025-09-14 14:47:36 [INFO] [AuthMe] teste registered 189.113.244.46
+2025-09-14 14:47:37 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:47:37 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:47:39 [INFO] teste issued mycmd command : /terrenos
+2025-09-14 14:47:39 [INFO] teste issued server command: /warp terrenos
+2025-09-14 14:47:54 [INFO] Yoham issued server command: /pax teste
+2025-09-14 14:48:10 [INFO] Yoham issued server command: /pex
+2025-09-14 14:48:17 [INFO] Yoham issued server command: /pex teste set
+2025-09-14 14:48:40 [INFO] Yoham issued server command: /pex teste set Admin
+2025-09-14 14:48:46 [INFO] Yoham issued server command: /pex userset Admin
+2025-09-14 14:48:51 [INFO] Yoham issued server command: /pex user set
+2025-09-14 14:49:09 [INFO] Yoham issued server command: /pex user set Admin
+2025-09-14 14:49:13 [INFO] Yoham issued server command: /pex user set Admin teste
+2025-09-14 14:49:21 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:49:21 [SEVERE] [Metrics] metrics.griefcraft.com
+2025-09-14 14:49:21 [INFO] [Metrics] metrics.griefcraft.com
+2025-09-14 14:49:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:49:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:49:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:49:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:49:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:49:23 [WARNING] [NoCheatPlus] Metrics error: ERR  (ConnectException): Connection refused: connect
+2025-09-14 14:51:47 [INFO] Yoham issued server command: /pex user teste group set membro
+2025-09-14 14:51:57 [INFO] Yoham issued server command: /pex user teste group set admin
+2025-09-14 14:52:04 [INFO] teste issued server command: /gamemode 0
+2025-09-14 14:52:05 [INFO] teste issued server command: /gamemode 1
+2025-09-14 14:52:12 [INFO] Yoham issued server command: /pex user teste group set membro
+2025-09-14 14:52:14 [INFO] teste issued server command: /gamemode 1
+2025-09-14 14:52:14 [INFO] §cteste §4foi negado a utilizar o comando.
+2025-09-14 14:52:28 [INFO] Yoham issued server command: /pex user teste group set dono
+2025-09-14 14:52:36 [INFO] teste lost connection: disconnect.quitting
+2025-09-14 14:52:36 [INFO] Connection reset
+2025-09-14 14:52:36 [INFO] [CustomServerMessages] [-] teste Saiu do Server!
+2025-09-14 14:52:37 [INFO] teste[/189.113.244.46:40957] logged in with entity id 4 at ([terrenos] 129.394207126663, 4.0, -40.296263689641094)
+2025-09-14 14:52:37 [INFO] [CustomServerMessages] [+] teste  Entrou no Server!
+2025-09-14 14:52:37 [INFO] Player get a Bypass. Player= teste
+2025-09-14 14:52:40 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 14:52:40 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 14:52:45 [INFO] teste issued server command: /login 1234567
+2025-09-14 14:52:45 [INFO] [AuthMe] teste logged in!
+2025-09-14 14:52:49 [INFO] Yoham issued server command: /pex user teste group set admin
+2025-09-14 14:52:50 [INFO] Connection reset
+2025-09-14 14:52:50 [INFO] teste lost connection: disconnect.quitting
+2025-09-14 14:52:50 [INFO] [CustomServerMessages] [-] teste Saiu do Server!
+2025-09-14 14:52:52 [INFO] teste[/189.113.244.46:40658] logged in with entity id 5 at ([terrenos] 129.394207126663, 4.0, -40.296263689641094)
+2025-09-14 14:52:52 [INFO] [CustomServerMessages] [+] teste  Entrou no Server!
+2025-09-14 14:52:55 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 14:52:55 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 14:53:16 [INFO] teste issued server command: /login 1234567
+2025-09-14 14:53:16 [INFO] [AuthMe] teste logged in!
+2025-09-14 14:53:18 [INFO] teste issued server command: /gamemode 0
+2025-09-14 14:53:22 [INFO] Yoham issued server command: /pex user teste group set membro
+2025-09-14 14:53:25 [INFO] Connection reset
+2025-09-14 14:53:25 [INFO] teste lost connection: disconnect.quitting
+2025-09-14 14:53:25 [INFO] [CustomServerMessages] [-] teste Saiu do Server!
+2025-09-14 14:53:29 [INFO] teste[/189.113.244.46:41043] logged in with entity id 6 at ([terrenos] 129.394207126663, 4.0, -40.296263689641094)
+2025-09-14 14:53:29 [INFO] [CustomServerMessages] [+] teste  Entrou no Server!
+2025-09-14 14:53:34 [INFO] teste issued server command: /login 1234567
+2025-09-14 14:53:34 [INFO] [AuthMe] teste logged in!
+2025-09-14 14:53:46 [INFO] Yoham issued server command: /pex user teste group set Youtuber
+2025-09-14 14:53:50 [INFO] teste issued server command: /fly
+2025-09-14 14:53:54 [INFO] teste issued server command: /fly
+2025-09-14 14:53:57 [INFO] Connection reset
+2025-09-14 14:53:57 [INFO] teste lost connection: disconnect.quitting
+2025-09-14 14:53:57 [INFO] [CustomServerMessages] [-] teste Saiu do Server!
+2025-09-14 14:54:02 [INFO] teste[/189.113.244.46:40023] logged in with entity id 7 at ([terrenos] 129.47896599655397, 4.0, -35.39327069788181)
+2025-09-14 14:54:02 [INFO] [CustomServerMessages] [+] teste  Entrou no Server!
+2025-09-14 14:54:10 [INFO] teste issued server command: /login 1234567
+2025-09-14 14:54:10 [INFO] [AuthMe] teste logged in!
+2025-09-14 14:54:21 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:55:57 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:55:58 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:56:39 [INFO] Yoham issued server command: /pex user teste group set membro
+2025-09-14 14:56:47 [INFO] Yoham issued server command: /pex user teste group set admin
+2025-09-14 14:57:01 [INFO] Yoham issued server command: /pex user teste group set vip
+2025-09-14 14:57:14 [INFO] Yoham issued server command: /pex user teste group set vipx
+2025-09-14 14:57:21 [INFO] [0;37;1m[[0;31;22mMRL[0;37;1m] [0;31;1mmina [0;35;1mhas been reset automatically![m
+2025-09-14 14:57:26 [INFO] teste issued server command: /fly
+2025-09-14 14:57:40 [INFO] Yoham issued server command: /pex user teste group set membro
+2025-09-14 14:57:42 [INFO] teste issued server command: /fly
+2025-09-14 14:57:42 [INFO] §cteste §4foi negado a utilizar o comando.
+2025-09-14 14:57:46 [INFO] Yoham issued server command: /pex user teste group set vipx
+2025-09-14 14:57:48 [INFO] teste issued server command: /fly
+2025-09-14 14:57:52 [INFO] Yoham issued server command: /pex user teste group set membro
+2025-09-14 14:58:03 [INFO] Connection reset
+2025-09-14 14:58:04 [INFO] teste lost connection: disconnect.endOfStream
+2025-09-14 14:58:04 [INFO] [CustomServerMessages] [-] teste Saiu do Server!
+2025-09-14 14:59:21 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:59:21 [INFO] [Metrics] metrics.griefcraft.com
+2025-09-14 14:59:21 [SEVERE] [Metrics] metrics.griefcraft.com
+2025-09-14 14:59:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:59:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:59:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:59:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:59:23 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:59:23 [WARNING] [NoCheatPlus] Metrics error: ERR  (ConnectException): Connection refused: connect
+2025-09-14 15:00:11 [INFO] [0;36;1mFriendly-fire global agora esta ativado[m
+2025-09-14 15:00:11 [INFO] 1
+2025-09-14 15:00:11 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:00:11 [INFO] [m
+2025-09-14 15:00:11 [INFO] [0;35;1m Evento Killer automatico começando![m
+2025-09-14 15:00:11 [INFO] [0;35;1m Para participar digite: [0;37;1m/killer[m
+2025-09-14 15:00:11 [INFO] [0;35;1m Premio: $150000.0 e tag [KILLER]![m
+2025-09-14 15:00:11 [INFO] [0;35;1m Tempo restante: 100 segundos[m
+2025-09-14 15:00:11 [INFO] [0;35;1m [PARTICIPANTES]  Jogadores: 0[m
+2025-09-14 15:00:11 [INFO] [m
+2025-09-14 15:00:11 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:00:31 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:00:31 [INFO] [m
+2025-09-14 15:00:31 [INFO] [0;35;1m Evento Killer automatico começando![m
+2025-09-14 15:00:31 [INFO] [0;35;1m Para participar digite: [0;37;1m/killer[m
+2025-09-14 15:00:31 [INFO] [0;35;1m Premio: $150000.0 e tag [KILLER]![m
+2025-09-14 15:00:31 [INFO] [0;35;1m Tempo restante: 80 segundos[m
+2025-09-14 15:00:31 [INFO] [0;35;1m [PARTICIPANTES]  Jogadores: 0[m
+2025-09-14 15:00:31 [INFO] [m
+2025-09-14 15:00:31 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:00:51 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:00:51 [INFO] [m
+2025-09-14 15:00:51 [INFO] [0;35;1m Evento Killer automatico começando![m
+2025-09-14 15:00:51 [INFO] [0;35;1m Para participar digite: [0;37;1m/killer[m
+2025-09-14 15:00:51 [INFO] [0;35;1m Premio: $150000.0 e tag [KILLER]![m
+2025-09-14 15:00:51 [INFO] [0;35;1m Tempo restante: 60 segundos[m
+2025-09-14 15:00:51 [INFO] [0;35;1m [PARTICIPANTES]  Jogadores: 0[m
+2025-09-14 15:00:51 [INFO] [m
+2025-09-14 15:00:51 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:01:11 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:01:11 [INFO] [m
+2025-09-14 15:01:11 [INFO] [0;35;1m Evento Killer automatico começando![m
+2025-09-14 15:01:11 [INFO] [0;35;1m Para participar digite: [0;37;1m/killer[m
+2025-09-14 15:01:11 [INFO] [0;35;1m Premio: $150000.0 e tag [KILLER]![m
+2025-09-14 15:01:11 [INFO] [0;35;1m Tempo restante: 40 segundos[m
+2025-09-14 15:01:11 [INFO] [0;35;1m [PARTICIPANTES]  Jogadores: 0[m
+2025-09-14 15:01:11 [INFO] [m
+2025-09-14 15:01:11 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:01:31 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:01:31 [INFO] [m
+2025-09-14 15:01:31 [INFO] [0;35;1m Evento Killer automatico começando![m
+2025-09-14 15:01:31 [INFO] [0;35;1m Para participar digite: [0;37;1m/killer[m
+2025-09-14 15:01:31 [INFO] [0;35;1m Premio: $150000.0 e tag [KILLER]![m
+2025-09-14 15:01:31 [INFO] [0;35;1m Tempo restante: 20 segundos[m
+2025-09-14 15:01:31 [INFO] [0;35;1m [PARTICIPANTES]  Jogadores: 0[m
+2025-09-14 15:01:31 [INFO] [m
+2025-09-14 15:01:31 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:01:51 [INFO] [0;36;1mFriendy-fire global agora esta sendo gerenciado por seu clan[m
+2025-09-14 15:01:51 [INFO] 2
+2025-09-14 15:01:51 [INFO] [0;35;22m==============================================[m
+2025-09-14 15:01:51 [INFO] [m
+2025-09-14 15:01:51 [INFO] [0;35;1m Evento Killer automatico [0;31;1mCANCELADO![m
+2025-09-14 15:01:51 [INFO] [0;35;1m Motivo: Quantidade de clans menor que 2[m
+2025-09-14 15:01:51 [INFO] [m
+2025-09-14 15:01:51 [INFO] [0;35;22m==============================================[m
