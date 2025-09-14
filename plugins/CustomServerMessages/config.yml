@@ -1,10 +1,10 @@
 CustomServerMessages:
   Event:
     join:
-      enable: true
+      enable: false
       message: '&b[&a+&b] &6&player &c Entrou no Server!'
     quit:
-      enable: true
+      enable: false
       message: '&b[&a-&b] &6&player &cSaiu do Server!'
     whitelist:
       enable: true
@@ -30,7 +30,7 @@ CustomServerMessages:
       enable: true
       message: '&4Plugins: &f0'
   Death:
-    enable: true
+    enable: false
     fall: '&player &4tentou voar mais nao conseguiu'
     burn: '&player &4virou churrasco'
     infire: '&player &4Morreu &2Qeimando'

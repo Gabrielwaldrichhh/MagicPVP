@@ -18,7 +18,7 @@ message-lists:
   default:
     enabled: true
     random: false
-    interval: 500
+    interval: 120
     expiry: -1
     prefix: '&8&l[&c&l!&8&l] -> '
     suffix: ''
@@ -28,10 +28,11 @@ message-lists:
     - '&6Quer Comprar Vip? Acesse '
     - '&6Quer tag &4You&fTuber? Poste um video e mande no Discord do Servidor! !'
     - '&6Vips Tem muitas vantagens verifique no site!'
+    - '&6Para comprar um terreno, digite /terrenos!'
   vip:
     enabled: true
     random: false
-    interval: 500
+    interval: 120
     expiry: -1
     prefix: '&8&l[&c&l!&8&l] -> '
     suffix: '&8&l[&d&lVIP&8&l]'
