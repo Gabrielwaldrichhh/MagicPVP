@@ -12725,3 +12725,1387 @@ Caused by: java.lang.NullPointerException
 2025-09-14 13:51:32 [INFO] Saving chunks for level 'terrenos'/Overworld
 2025-09-14 13:51:32 [INFO] Saving chunks for level 'arenax1'/Overworld
 2025-09-14 13:51:32 [INFO] Stopping server
+2025-09-14 13:52:36 [INFO] Starting minecraft server version 1.5.2
+2025-09-14 13:52:36 [INFO] Loading properties
+2025-09-14 13:52:36 [INFO] Default game type: SURVIVAL
+2025-09-14 13:52:36 [INFO] Generating keypair
+2025-09-14 13:52:37 [INFO] Starting Minecraft server on 192.168.1.56:25565
+2025-09-14 13:52:37 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2025-09-14 13:52:37 [INFO] [PermissionsEx] sql backend registered!
+2025-09-14 13:52:37 [SEVERE] Exception in thread "Thread-6" 
+2025-09-14 13:52:37 [INFO] [PermissionsEx] file backend registered!
+2025-09-14 13:52:37 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2025-09-14 13:52:37 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-09-14 13:52:37 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-09-14 13:52:37 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+2025-09-14 13:52:37 [SEVERE] 	... 5 more
+2025-09-14 13:52:37 [INFO] [MotdManager] Loading MotdManager v1.41-b20
+2025-09-14 13:52:37 [INFO] [ColoredSigns] Loading ColoredSigns v1.2
+2025-09-14 13:52:37 [INFO] [CraftX1] Loading CraftX1 v1.0.0
+2025-09-14 13:52:37 [INFO] [AlphaChest] Loading AlphaChest v1.16.0
+2025-09-14 13:52:37 [INFO] [AlwaysDay] Loading AlwaysDay v2.2.7
+2025-09-14 13:52:37 [INFO] [MaxBans] Loading MaxBans v2.1
+2025-09-14 13:52:37 [INFO] [BanItem] Loading BanItem v2.8
+2025-09-14 13:52:37 [INFO] [AntiJoinBot] Loading AntiJoinBot v1.8
+2025-09-14 13:52:37 [INFO] [ChatClear] Loading ChatClear v2.3.1
+2025-09-14 13:52:37 [INFO] [WorldEdit] Loading WorldEdit v5.5.6
+2025-09-14 13:52:37 [INFO] [TimTheEnchanter] Loading TimTheEnchanter v3.0
+2025-09-14 13:52:37 [INFO] [HealthBar] Loading HealthBar v1.6
+2025-09-14 13:52:37 [INFO] [OpenInv] Loading OpenInv v2.2.9
+2025-09-14 13:52:37 [INFO] [Essentials] Loading Essentials v2.11.1
+2025-09-14 13:52:37 [INFO] [SimpleUc] Loading SimpleUc v1.4.5
+2025-09-14 13:52:37 [INFO] [xRename] Loading xRename v1.0
+2025-09-14 13:52:37 [INFO] [ClearLag] Loading ClearLag v2.8.4
+2025-09-14 13:52:37 [INFO] [AutoMessage] Loading AutoMessage v2.3.2
+2025-09-14 13:52:37 [INFO] [ReduceLag] Loading ReduceLag v1.1
+2025-09-14 13:52:37 [INFO] [Killer] Loading Killer v2.0
+2025-09-14 13:52:37 [INFO] [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+2025-09-14 13:52:38 [INFO] [AutoSaveWorld] Loading AutoSaveWorld v4.14.2
+2025-09-14 13:52:38 [INFO] [NoCheatPlus] Loading NoCheatPlus v3.9.3-RC-b539
+2025-09-14 13:52:38 [INFO] [KitAdder] Loading KitAdder v2.0
+2025-09-14 13:52:38 [INFO] [CustomServerMessages] Loading CustomServerMessages v2.9.6
+2025-09-14 13:52:38 [INFO] [AntiAd] Loading AntiAd v2.2.5
+2025-09-14 13:52:38 [INFO] [iConomy] Loading iConomy v6.0.10b
+2025-09-14 13:52:38 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.5
+2025-09-14 13:52:38 [INFO] [PermissionsEx] Initializing file backend
+2025-09-14 13:52:38 [INFO] Permissions file successfully reloaded
+2025-09-14 13:52:38 [INFO] [SCReset] Loading SCReset v1.1.3
+2025-09-14 13:52:38 [INFO] [EventoGamers] Loading EventoGamers v2.2.1D
+2025-09-14 13:52:38 [INFO] [mcMMO] Loading mcMMO v1.4.05-b1870
+2025-09-14 13:52:38 [INFO] [MobSpawnerEggChanger] Loading MobSpawnerEggChanger v1.9
+2025-09-14 13:52:38 [INFO] [MineResetLite] Loading MineResetLite v0.3.5
+2025-09-14 13:52:38 [INFO] [Vault] Loading Vault v1.2.16-b184
+2025-09-14 13:52:38 [INFO] [AuthMe] Loading AuthMe v2.7.0
+2025-09-14 13:52:38 [INFO] [VipZero] Loading VipZero v1.2.2
+2025-09-14 13:52:38 [INFO] [WorldGuard] Loading WorldGuard v5.7.3
+2025-09-14 13:52:38 [INFO] [Legendchat] Loading Legendchat v1.1.2
+2025-09-14 13:52:38 [INFO] [Magnata] Loading Magnata v3.0
+2025-09-14 13:52:38 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.11.1
+2025-09-14 13:52:38 [INFO] [MyCommand] Loading MyCommand v3.9.1
+2025-09-14 13:52:38 [INFO] [CombatLog] Loading CombatLog v1.0.3
+2025-09-14 13:52:38 [INFO] [SpotProtection] Loading SpotProtection v3.1.1
+2025-09-14 13:52:38 [INFO] [SimpleClans] Loading SimpleClans v2.4.1
+2025-09-14 13:52:38 [INFO] [ColoredTablist] Loading ColoredTablist v1.5.3
+2025-09-14 13:52:38 [INFO] [Info-Board] Loading Info-Board v0.2.9
+2025-09-14 13:52:38 [INFO] [ChestShop] Loading ChestShop v3.5
+2025-09-14 13:52:38 [INFO] [Gladiador] Loading Gladiador v2.0
+2025-09-14 13:52:38 [INFO] [MitoDoPvP] Loading MitoDoPvP v2.0
+2025-09-14 13:52:38 [INFO] [AutoSaveWorld] Enabling AutoSaveWorld v4.14.2
+2025-09-14 13:52:38 [INFO] [mcMMO] Enabling mcMMO v1.4.05-b1870
+2025-09-14 13:52:38 [INFO] [mcMMO] Loading mcMMO config.yml File...
+2025-09-14 13:52:38 [INFO] [mcMMO] Loading mcMMO treasures.yml File...
+2025-09-14 13:52:38 [INFO] [mcMMO] Loading mcMMO advanced.yml File...
+2025-09-14 13:52:38 [INFO] [mcMMO] Loading mcMMO child.yml File...
+2025-09-14 13:52:38 [INFO] [mcMMO] Loading mcMMO repair.vanilla.yml File...
+2025-09-14 13:52:38 [INFO] [mcMMO] Version 1.4.05-b1870 is enabled!
+2025-09-14 13:52:38 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection http://api.bukget.org/api2/bukkit/plugin/mcmmo/release in main server thread
+2025-09-14 13:52:38 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection socket://api.bukget.org:80 in main server thread
+2025-09-14 13:52:38 [INFO] [Vault] Enabling Vault v1.2.16-b184
+2025-09-14 13:52:38 [INFO] [Vault][Economy] Essentials Economy found: Waiting
+2025-09-14 13:52:38 [SEVERE] iConomy6 - If you are using Flatfile storage be aware that iCo6 has a CRITICAL bug which can wipe ALL iconomy data.
+2025-09-14 13:52:38 [SEVERE] if you're using Votifier, or any other plugin which handles economy data in a threaded manner your server is at risk!
+2025-09-14 13:52:38 [SEVERE] it is highly suggested to use SQL with iCo6 or to use an alternative economy plugin!
+2025-09-14 13:52:38 [INFO] [Vault][Economy] iConomy 6 found: Waiting
+2025-09-14 13:52:38 [INFO] [Vault][Permission] PermissionsEx found: Waiting
+2025-09-14 13:52:38 [INFO] [Vault][Permission] SuperPermissions loaded as backup permission system.
+2025-09-14 13:52:38 [INFO] [Vault][Chat] PermissionsEx found: Waiting
+2025-09-14 13:52:38 [INFO] [Vault] Enabled Version 1.2.16-b184
+2025-09-14 13:52:38 [INFO] [Legendchat] Enabling Legendchat v1.1.2
+2025-09-14 13:52:38 [INFO] [Legendchat] Legendchat (V1.1.2) - Author: SubZero0
+2025-09-14 13:52:38 [INFO] [Legendchat] Hooked to Vault (Permissions).
+2025-09-14 13:52:38 [INFO] [Legendchat] Hooked to Vault (Economy).
+2025-09-14 13:52:38 [INFO] [Legendchat] Hooked to Vault (Chat).
+2025-09-14 13:52:38 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-09-14 13:52:38 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-09-14 13:52:38 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-09-14 13:52:38 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-09-14 13:52:38 [INFO] Preparing level "world"
+2025-09-14 13:52:38 [INFO] Preparing start region for level 0 (Seed: -3083979623404973764)
+2025-09-14 13:52:39 [INFO] [MotdManager] Enabling MotdManager v1.41-b20
+2025-09-14 13:52:39 [INFO] [MotdManager] version 1.41-b20 is enabled!
+2025-09-14 13:52:39 [INFO] [ColoredSigns] Enabling ColoredSigns v1.2
+2025-09-14 13:52:39 [INFO] [CraftX1] Enabling CraftX1 v1.0.0
+2025-09-14 13:52:39 [INFO] [CraftX1] CraftX1 - Criado por BatemanBR
+2025-09-14 13:52:39 [INFO] [CraftX1] Hooked to SimpleClans 1!
+2025-09-14 13:52:39 [INFO] [AlphaChest] Enabling AlphaChest v1.16.0
+2025-09-14 13:52:39 [INFO] [AlphaChest] loaded 1 chests
+2025-09-14 13:52:39 [INFO] [AlwaysDay] Enabling AlwaysDay v2.2.7
+2025-09-14 13:52:39 [INFO] [AlwaysDay] AlwaysDay v2.2.7 is now enabled.
+2025-09-14 13:52:39 [INFO] Please donate at the AlwaysDay page (http://dev.bukkit.org/server-mods/always-day/) if you are enjoying this plugin! Any contributions are greatly appreciated!
+2025-09-14 13:52:39 [INFO] [MaxBans] Enabling MaxBans v2.1
+2025-09-14 13:52:39 [INFO] [MaxBans] Using SQLite
+2025-09-14 13:52:39 [WARNING] [AlwaysDay] Could not connect to dev.bukkit.org, please try again later.
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading from DB...
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading bans
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading ipbans
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading mutes
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading player names...
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading IP History
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading warn history...
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading chat commands...
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading history...
+2025-09-14 13:52:39 [INFO] [MaxBans] Starting DNS blacklist
+2025-09-14 13:52:39 [INFO] [MaxBans] Loading proxys...
+2025-09-14 13:52:39 [INFO] [BanItem] Enabling BanItem v2.8
+2025-09-14 13:52:39 [INFO] [BanItem] BanItem is now Enabled!
+2025-09-14 13:52:39 [INFO] [BanItem] made by: [abcalvin]
+2025-09-14 13:52:39 [INFO] BanItem's config.yml detected
+2025-09-14 13:52:39 [INFO] [AntiJoinBot] Enabling AntiJoinBot v1.8
+2025-09-14 13:52:39 [INFO] +-+-+-+-+[AntiJoinBotProxy by CodeByCode @200dvd]+-+-+-+-+
+2025-09-14 13:52:39 [INFO] AntiJoinBotProxy Loading ....
+2025-09-14 13:52:39 [INFO] AntiJoinBotProxy Version: 1.8
+2025-09-14 13:52:39 [INFO] AntiJoinBotProxy Load Config
+2025-09-14 13:52:39 [INFO] AntiJoinBotProxy Start Listener
+2025-09-14 13:52:39 [INFO] AntiJoinBotProxy Listener OK
+2025-09-14 13:52:39 [INFO] AntiJoinBotProxy Start MYSQL
+2025-09-14 13:52:39 [INFO] [mySQL TEST] Test query sccessful: localhost is not Blocked N.
+2025-09-14 13:52:39 [INFO] AntiJoinBot is enabled in 60 seconds
+2025-09-14 13:52:39 [INFO] [ChatClear] Enabling ChatClear v2.3.1
+2025-09-14 13:52:39 [INFO] [ChatClear] Plugin activated!
+2025-09-14 13:52:39 [INFO] [ChatClear] Plugin by MDRunaway
+2025-09-14 13:52:39 [INFO] [WorldEdit] Enabling WorldEdit v5.5.6
+2025-09-14 13:52:39 [INFO] WEPIF: Using the Bukkit Permissions API.
+2025-09-14 13:52:40 [INFO] [TimTheEnchanter] Enabling TimTheEnchanter v3.0
+2025-09-14 13:52:40 [INFO] [TimTheEnchanter] There are some who call me... Tim?
+2025-09-14 13:52:40 [INFO] [HealthBar] Enabling HealthBar v1.6
+2025-09-14 13:52:40 [INFO] [OpenInv] Enabling OpenInv v2.2.9
+2025-09-14 13:52:40 [INFO] [Essentials] Enabling Essentials v2.11.1
+2025-09-14 13:52:40 [INFO] [Vault][Economy] Essentials Economy hooked.
+2025-09-14 13:52:40 [INFO] Essentials: Using config file enhanced permissions.
+2025-09-14 13:52:40 [INFO] Permissions listed in as player-commands will be given to all users.
+2025-09-14 13:52:40 [INFO] [Essentials] Payment method found (Vault - Economy: iConomy 6 version: 1.2.16-b184)
+2025-09-14 13:52:40 [INFO] [SimpleUc] Enabling SimpleUc v1.4.5
+2025-09-14 13:52:40 [INFO] [SimpleUc] Enabling Metrics...
+2025-09-14 13:52:40 [INFO] [SimpleUc] Metrics enabled.
+2025-09-14 13:52:40 [INFO] [SimpleUc] SimpleUc enabled.
+2025-09-14 13:52:40 [INFO] [xRename] Enabling xRename v1.0
+2025-09-14 13:52:40 [INFO] [xRename] PLUGIN ATIVADO COM SUCESSO.
+2025-09-14 13:52:40 [INFO] [ClearLag] Enabling ClearLag v2.8.4
+2025-09-14 13:52:40 [INFO] [ClearLag] Loading modules...
+2025-09-14 13:52:40 [WARNING] [ClearLag] Horse is NOT a valid Entity!
+2025-09-14 13:52:40 [WARNING] [ClearLag] Horse is NOT a valid Entity!
+2025-09-14 13:52:40 [WARNING] [ClearLag] ARMOR_STAND is NOT a valid Entity!
+2025-09-14 13:52:40 [INFO] [ClearLag] Modules have been loaded!
+2025-09-14 13:52:40 [INFO] [ClearLag] Clearlag is now enabled!
+2025-09-14 13:52:40 [INFO] [ClearLag] Checking for updates...
+2025-09-14 13:52:40 [INFO] [AutoMessage] Enabling AutoMessage v2.3.2
+2025-09-14 13:52:40 [INFO] [ReduceLag] Enabling ReduceLag v1.1
+2025-09-14 13:52:40 [INFO] [ReduceLag] Is now activated on world world
+2025-09-14 13:52:40 [INFO] [Killer] Enabling Killer v2.0
+2025-09-14 13:52:40 [INFO] [Killer] Ativando Killer (V2.0) - Autor: SubZero0
+2025-09-14 13:52:40 [INFO] [Killer] Hooked to Vault (Economia)!
+2025-09-14 13:52:40 [INFO] [Killer] Hooked to Legendchat.
+2025-09-14 13:52:40 [INFO] [Killer] <> Horas automaticas:
+2025-09-14 13:52:40 [INFO] [Killer] Hora1 = 10:00
+2025-09-14 13:52:40 [INFO] [Killer] Hora2 = 15:00
+2025-09-14 13:52:40 [INFO] [Killer] Hora3 = 20:00
+2025-09-14 13:52:40 [INFO] [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+2025-09-14 13:52:40 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-09-14 13:52:40 [INFO] [AllPay] - Version 10.0 - hooked into iConomy 6 for Multiverse-Core v2.4-b527
+2025-09-14 13:52:40 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -3083979623404973764
+2025-09-14 13:52:40 [INFO] [Multiverse-Core] Loading World & Settings - 'terrenos' - Env: NORMAL - Type: FLAT & seed: -4918226679233821864
+2025-09-14 13:52:40 [INFO] Preparing start region for level 1 (Seed: -4918226679233821864)
+2025-09-14 13:52:40 [INFO] [ClearLag] No updates found!
+2025-09-14 13:52:41 [INFO] [Multiverse-Core] Loading World & Settings - 'arenax1' - Env: NORMAL - Type: FLAT & seed: 3840066353498274074
+2025-09-14 13:52:41 [INFO] Preparing start region for level 2 (Seed: 3840066353498274074)
+2025-09-14 13:52:41 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2025-09-14 13:52:41 [INFO] [NoCheatPlus] Enabling NoCheatPlus v3.9.3-RC-b539
+2025-09-14 13:52:42 [INFO] [NoCheatPlus] McAccess set to: 1.5.2 / CB2763-DEV
+2025-09-14 13:52:42 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+2025-09-14 13:52:42 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+2025-09-14 13:52:42 [INFO] [NoCheatPlus] Version 3.9.3-RC-b539 is enabled.
+2025-09-14 13:52:45 [INFO] [KitAdder] Enabling KitAdder v2.0
+2025-09-14 13:52:45 [INFO] [KitAdder] KitAdder has been enabled!
+2025-09-14 13:52:45 [INFO] [CustomServerMessages] Enabling CustomServerMessages v2.9.6
+2025-09-14 13:52:45 [INFO] [CustomServerMessages] CustomServerMessages enabled.
+2025-09-14 13:52:45 [INFO] [AntiAd] Enabling AntiAd v2.2.5
+2025-09-14 13:52:45 [INFO] [AntiAd] AntiAd Version 2.2.5 is now Enabled.
+2025-09-14 13:52:45 [INFO] [iConomy] Enabling iConomy v6.0.10b
+2025-09-14 13:52:45 [INFO] [iConomy - Celty] Enabled (7 ms)
+2025-09-14 13:52:45 [INFO] [Vault][Economy] iConomy 6 hooked.
+2025-09-14 13:52:45 [INFO] [iConomy - Celty] Contas, se purificam com equilibrio padrao.
+2025-09-14 13:52:46 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.5
+2025-09-14 13:52:46 [INFO] [PermissionsEx] Superperms support enabled.
+2025-09-14 13:52:46 [INFO] [PermissionsEx] v1.19.5 enabled
+2025-09-14 13:52:46 [INFO] WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+2025-09-14 13:52:46 [INFO] [Vault][Permission] PermissionsEx hooked.
+2025-09-14 13:52:46 [INFO] [Vault][Chat] PermissionsEx_Chat hooked.
+2025-09-14 13:52:46 [INFO] Essentials: Using PermissionsEx based permissions.
+2025-09-14 13:52:46 [INFO] [SCReset] Enabling SCReset v1.1.3
+2025-09-14 13:52:46 [INFO] [SCReset] Enabling plugin SCReset - Author: SubZero0
+2025-09-14 13:52:46 [INFO] [SCReset] Plugin Vault found!
+2025-09-14 13:52:46 [INFO] [SCReset] Hooked to SimpleClans!
+2025-09-14 13:52:46 [INFO] [EventoGamers] Enabling EventoGamers v2.2.1D
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mEvento corrida encontrado/carregado![m
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mEvento corrida2.0 encontrado/carregado![m
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mEvento Parkour encontrado/carregado![m
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mEvento spleef encontrado/carregado![m
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mListeners foram registrados.[m
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mComandos foram Inicializados.[m
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mConfigurações e eventos padrões criados/carregados.[m
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mAuto-inicializador de eventos está em funcionamento.[m
+2025-09-14 13:52:46 [INFO] [0;36;22m[EventoGamers] [0;37;1mEventoGamers inicializado. (Autor=AtomGamers)[m
+2025-09-14 13:52:46 [INFO] [MobSpawnerEggChanger] Enabling MobSpawnerEggChanger v1.9
+2025-09-14 13:52:46 [INFO] [MineResetLite] Enabling MineResetLite v0.3.5
+2025-09-14 13:52:46 [INFO] [MineResetLite] Loading mine from file 'mina.mine.yml'...
+2025-09-14 13:52:46 [INFO] [MineResetLite] MineResetLite version 0.3.5 enabled!
+2025-09-14 13:52:46 [INFO] [MineResetLite] =-= MineResetLite wouldn't be possible without the support of Don't Drop the Soap, MCPrison.com =-=
+2025-09-14 13:52:46 [INFO] [AuthMe] Enabling AuthMe v2.7.0
+2025-09-14 13:52:46 [INFO] [AuthMe] Loading Configuration File...
+2025-09-14 13:52:46 [INFO] [AuthMe] Merge new Config Options if needed..
+2025-09-14 13:52:46 [INFO] [AuthMe] Set Language: en
+2025-09-14 13:52:46 [INFO] [AuthMe] Authme 2.7.0 enabled
+2025-09-14 13:52:47 [INFO] [VipZero] Enabling VipZero v1.2.2
+2025-09-14 13:52:47 [INFO] [VipZero] Enabling VipZero (V1.2.2) - Author: SubZero0
+2025-09-14 13:52:47 [INFO] [VipZero] Checking for updates...
+2025-09-14 13:52:47 [WARNING] [AutoSaveWorld] Plugin VipZero attempted to establish connection https://api.curseforge.com/servermods/files?projectIds=51620 in main server thread
+2025-09-14 13:52:47 [WARNING] [AutoSaveWorld] Plugin VipZero attempted to establish connection socket://api.curseforge.com:443 in main server thread
+2025-09-14 13:52:47 [INFO] [VipZero] New update avaible: V1.2.4!
+2025-09-14 13:52:47 [INFO] [VipZero] Download: http://dev.bukkit.org/server-mods/vipzero/
+2025-09-14 13:52:47 [INFO] [VipZero] Checking for old config file...
+2025-09-14 13:52:47 [INFO] [VipZero] No updates found.
+2025-09-14 13:52:47 [INFO] [VipZero] Checking for config file update...
+2025-09-14 13:52:47 [INFO] [VipZero] No updates found.
+2025-09-14 13:52:47 [INFO] [VipZero] Checking for language file update...
+2025-09-14 13:52:47 [INFO] [VipZero] No updates found.
+2025-09-14 13:52:47 [INFO] [VipZero] Using flatfile system.
+2025-09-14 13:52:47 [INFO] [VipZero] Hooked to PermissionsEx.
+2025-09-14 13:52:47 [INFO] [VipZero] Hooked to Vault (Economy).
+2025-09-14 13:52:47 [INFO] [WorldGuard] Enabling WorldGuard v5.7.3
+2025-09-14 13:52:47 [INFO] [WorldGuard] (world) TNT ignition is PERMITTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (world) Lighters are PERMITTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (world) Lava fire is blocked.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (world) Fire spread is UNRESTRICTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] Loaded configuration for world 'world'
+2025-09-14 13:52:47 [INFO] [WorldGuard] (terrenos) TNT ignition is PERMITTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (terrenos) Lighters are PERMITTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (terrenos) Lava fire is blocked.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (terrenos) Fire spread is UNRESTRICTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] Loaded configuration for world 'terrenos'
+2025-09-14 13:52:47 [INFO] [WorldGuard] (arenax1) TNT ignition is PERMITTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (arenax1) Lighters are PERMITTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (arenax1) Lava fire is blocked.
+2025-09-14 13:52:47 [INFO] [WorldGuard] (arenax1) Fire spread is UNRESTRICTED.
+2025-09-14 13:52:47 [INFO] [WorldGuard] Loaded configuration for world 'arenax1'
+2025-09-14 13:52:47 [INFO] [WorldGuard] 22 regions loaded for 'world'
+2025-09-14 13:52:47 [INFO] [WorldGuard] 2 regions loaded for 'terrenos'
+2025-09-14 13:52:47 [INFO] [WorldGuard] 0 regions loaded for 'arenax1'
+2025-09-14 13:52:47 [INFO] [Magnata] Enabling Magnata v3.0
+2025-09-14 13:52:47 [INFO] [0;32;22m[Magnata] [0;32;1mAtivando o plugin[m
+2025-09-14 13:52:47 [INFO] [0;32;22m[Magnata] [0;32;1mVerificando o magnata atual[m
+2025-09-14 13:52:47 [INFO] [0;32;22m[Magnata] [0;35;22mMagnata atual: [0;32;1mGab[m
+2025-09-14 13:52:47 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.11.1
+2025-09-14 13:52:47 [INFO] [MyCommand] Enabling MyCommand v3.9.1
+2025-09-14 13:52:47 [INFO] =-=-=-=-=-=-=-=-=-=-=-MyCommand-=-=-=-=-=-=-=-=-=-=-=-=
+2025-09-14 13:52:47 [INFO] = Vault  : Ok. Hooked MyCommand Vault
+2025-09-14 13:52:47 [INFO] = Spout  : Not detected. Disabling spout feature.
+2025-09-14 13:52:47 [INFO] = Config : Ready | Custom Commands : 20
+2025-09-14 13:52:47 [INFO] = Version: 3.9.1
+2025-09-14 13:52:47 [INFO] = Author : MRI a.k.a Ivanpro
+2025-09-14 13:52:47 [INFO] = Status : Active
+2025-09-14 13:52:47 [INFO] =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2025-09-14 13:52:47 [INFO] [CombatLog] Enabling CombatLog v1.0.3
+2025-09-14 13:52:47 [INFO] Loading config.yml
+2025-09-14 13:52:47 [INFO] Loading messages.properties.
+2025-09-14 13:52:47 [INFO] [0;31;1m[CombatLog] Factions plugin not found! Safezone untagging will not work![m
+2025-09-14 13:52:47 [INFO] CombatLog v1.0.3 Enabled
+2025-09-14 13:52:47 [INFO] UpdateCheck: Unable to connect to BukkitDev!
+2025-09-14 13:52:47 [INFO] [SpotProtection] Enabling SpotProtection v3.1.1
+2025-09-14 13:52:47 [INFO] [SpotProtection] SpotProtection por SpotBr, Lendariof e Yarkhs ativado.
+2025-09-14 13:52:47 [INFO] [SimpleClans] Enabling SimpleClans v2.4.1
+2025-09-14 13:52:47 [INFO] [SimpleClans] SQLite Connection successful[m
+2025-09-14 13:52:47 [INFO] [SimpleClans] Clan players: 16[m
+2025-09-14 13:52:47 [INFO] [SimpleClans] [AutoUpdate] v1.1 enabled!
+2025-09-14 13:52:49 [INFO] [ColoredTablist] Enabling ColoredTablist v1.5.3
+2025-09-14 13:52:49 [INFO] [ColoredTablist] Config loaded
+2025-09-14 13:52:49 [INFO] [Info-Board] Enabling Info-Board v0.2.9
+2025-09-14 13:52:49 [INFO] Metrics was started!
+2025-09-14 13:52:50 [INFO] Theres a new update for InfoBoard(vInfo-Board v1.0.0).
+2025-09-14 13:52:50 [INFO] [ChestShop] Enabling ChestShop v3.5
+2025-09-14 13:52:50 [INFO] [ChestShop] Vault loaded - using iConomy 6
+2025-09-14 13:52:52 [INFO] [Gladiador] Enabling Gladiador v2.0
+2025-09-14 13:52:52 [INFO] [Gladiador] Ativando Gladiador (V2.0) - Autor: SubZero0
+2025-09-14 13:52:52 [INFO] [Gladiador] Hooked to SimpleClans 1!
+2025-09-14 13:52:52 [INFO] [Gladiador] Hooked to Vault (Economia)!
+2025-09-14 13:52:52 [INFO] [Gladiador] Hooked to Legendchat.
+2025-09-14 13:52:52 [INFO] [Gladiador] Hooked to HealthBar.
+2025-09-14 13:52:52 [INFO] [Gladiador] <> Data automatica:
+2025-09-14 13:52:52 [INFO] [Gladiador] Dia = 7
+2025-09-14 13:52:52 [INFO] [Gladiador] Hora = 19:00
+2025-09-14 13:52:52 [INFO] [MitoDoPvP] Enabling MitoDoPvP v2.0
+2025-09-14 13:52:52 [INFO] [0;36;1m[MitoDoPvP] [0;32;1mAtivando o plugin[m
+2025-09-14 13:52:52 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-09-14 13:52:56 [INFO] Done (17.348s)! For help, type "help" or "?"
+2025-09-14 13:52:58 [INFO] [Metrics] Connection refused: connect
+2025-09-14 13:52:58 [WARNING] [NoCheatPlus] Metrics error: ERR  (ConnectException): Connection refused: connect
+2025-09-14 13:52:58 [SEVERE] [Metrics] metrics.griefcraft.com
+2025-09-14 13:52:58 [INFO] [Metrics] metrics.griefcraft.com
+2025-09-14 13:52:58 [INFO] /177.8.242.104:56532 lost connection
+2025-09-14 13:52:58 [INFO] /189.113.244.46:41342 lost connection
+2025-09-14 13:52:58 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-09-14 13:52:58 [INFO] Gab[/177.8.242.104:56544] logged in with entity id 13 at ([world] -1887.3346633630974, 65.18180516637166, 474.91093912508603)
+2025-09-14 13:52:58 [INFO] [0;32;22m[21m[MAGNATA] [0;32;1mMagnata [0;36;1mGab [0;32;1mentrou no servidor[m
+2025-09-14 13:52:58 [INFO] [CustomServerMessages] [+] Gab  Entrou no Server!
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] [m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] Internal error![m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] If this bug hasn't been reported please open a ticket at http://forums.bukkit.org/threads/autoupdate-update-your-plugins.84421/[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] Include the following into your bug report:[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate]           ======= SNIP HERE =======[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] Unexpected character (<) at position 0.[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at org.json.simple.parser.Yylex.yylex(Unknown Source)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at org.json.simple.parser.JSONParser.nextToken(Unknown Source)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at org.json.simple.parser.JSONParser.parse(Unknown Source)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at org.json.simple.parser.JSONParser.parse(Unknown Source)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at net.sacredlabyrinth.phaed.simpleclans.AutoUpdate.run(AutoUpdate.java:291)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] 	at java.lang.Thread.run(Unknown Source)[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate]           ======= DUMP =======[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] version        : 1.1[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] delay          : 216000[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] ymlPrefix      : [m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] ymlSuffix      : [m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] bukkitdevPrefix: [m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] bukkitdevSuffix: [m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] bukkitdevSlug  : simpleclans[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] COLOR_INFO     : BLUE[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] COLO_OK        : GREEN[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] COLOR_ERROR    : RED[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] bukget         : http://bukget.v10lator.de/simpleclans[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] bukgetFallback : http://bukget.org/api/plugin/simpleclans/latest[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] pid            : 73[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] av             : 2.4.1[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] config         : YamlConfiguration[path='', root='YamlConfiguration'][m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] lock           : false[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] needUpdate     : false[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] updatePending  : false[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] UpdateUrl      : null[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] updateVersion  : null[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] pluginURL      : null[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] type           : null[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate]           ======= SNIP HERE =======[m
+2025-09-14 13:52:58 [INFO] SimpleClans [AutoUpdate] [m
+2025-09-14 13:52:59 [INFO] Yoham[/189.113.244.46:40102] logged in with entity id 14 at ([world] -1884.8017230291866, 62.200000047683716, 474.83524571714634)
+2025-09-14 13:52:59 [INFO] [CustomServerMessages] [+] Yoham  Entrou no Server!
+2025-09-14 13:53:00 [INFO] [Metrics] Connection refused: connect
+2025-09-14 13:53:00 [INFO] [Metrics] Connection refused: connect
+2025-09-14 13:53:00 [INFO] [Metrics] Connection refused: connect
+2025-09-14 13:53:00 [INFO] [Metrics] Connection refused: connect
+2025-09-14 13:53:00 [INFO] Gab issued server command: /login #@MdarB@2022#@!
+2025-09-14 13:53:00 [INFO] [AuthMe] Gab logged in!
+2025-09-14 13:53:01 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 13:53:01 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 13:53:02 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 13:53:08 [INFO] Yoham issued server command: /login 1234567
+2025-09-14 13:53:08 [INFO] [AuthMe] Yoham logged in!
+2025-09-14 13:53:10 [INFO] [0;36;22m[EventoGamers] [0;37;1mProcurando por novos Updates do Plugin..[m
+2025-09-14 13:53:10 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 13:53:10 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 13:53:11 [INFO] [0;36;22m[EventoGamers] [0;37;1mNovo Update do EventoGamers disponível (Vnull):[m
+2025-09-14 13:53:11 [INFO] [0;36;22m[EventoGamers] [0;37;1mPara atualizar acesse http://www.atomgamers.com/index.php?/[m
+2025-09-14 13:53:11 [SEVERE] java.lang.NullPointerException
+2025-09-14 13:53:11 [SEVERE] 	at com.koletar.jj.mineresetlite.MineResetLite.checkUpdates(MineResetLite.java:158)
+2025-09-14 13:53:11 [SEVERE] 	at com.koletar.jj.mineresetlite.MineResetLite.access$300(MineResetLite.java:41)
+2025-09-14 13:53:11 [SEVERE] 	at com.koletar.jj.mineresetlite.MineResetLite$2.run(MineResetLite.java:141)
+2025-09-14 13:53:11 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)
+2025-09-14 13:53:11 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+2025-09-14 13:53:11 [SEVERE] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2025-09-14 13:53:11 [SEVERE] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2025-09-14 13:53:11 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-09-14 13:53:17 [INFO] [WorldEdit] Using inbuilt NmsBlock for this version.
+2025-09-14 13:53:44 [INFO] Yoham issued server command: /day
+2025-09-14 13:53:56 [INFO] [0;37;1m[[0;31;22mMRL[0;37;1m] [0;31;1mmina [0;35;1mhas been reset automatically![m
+2025-09-14 13:53:56 [INFO] AntiJoinBot is enabled
+2025-09-14 13:54:09 [INFO] Yoham issued server command: /night world
+2025-09-14 13:54:19 [INFO] Yoham issued server command: /day
+2025-09-14 13:54:23 [INFO] Yoham issued mycmd command : /terrenos
+2025-09-14 13:54:23 [INFO] Yoham issued server command: /warp terrenos
+2025-09-14 13:54:43 [INFO] Yoham issued server command: /world
+2025-09-14 13:54:47 [INFO] Yoham issued server command: /back
+2025-09-14 13:54:47 [INFO] Gab issued mycmd command : /terrenos
+2025-09-14 13:54:47 [INFO] Gab issued server command: /warp terrenos
+2025-09-14 13:54:55 [INFO] Yoham issued mycmd command : /terrenos
+2025-09-14 13:54:55 [INFO] Yoham issued server command: /warp terrenos
+2025-09-14 13:55:14 [INFO] Gab issued server command: //set 0
+2025-09-14 13:55:26 [INFO] Dibra[/177.8.242.104:56572] logged in with entity id 45 at ([world] -1917.6807448847285, 66.0, 456.54580193218527)
+2025-09-14 13:55:26 [INFO] [CustomServerMessages] [+] Dibra  Entrou no Server!
+2025-09-14 13:55:29 [INFO] Dibra issued server command: /login 1510
+2025-09-14 13:55:29 [INFO] [AuthMe] Dibra logged in!
+2025-09-14 13:55:33 [INFO] Dibra issued mycmd command : /terrenos
+2025-09-14 13:55:33 [INFO] Dibra issued server command: /warp terrenos
+2025-09-14 13:57:12 [INFO] Dibra issued server command: /afk
+2025-09-14 13:57:55 [INFO] Yoham issued server command: /rg define terrenos _global_
+2025-09-14 13:57:56 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 13:58:07 [INFO] Yoham issued server command: /rg define terrenos
+2025-09-14 13:59:11 [INFO] Yoham issued server command: /rg flag __global__ build deny
+2025-09-14 13:59:39 [INFO] Disconnecting /51.158.174.200:1001: Protocol error
+2025-09-14 13:59:39 [INFO] /51.158.174.200:1001 lost connection
+2025-09-14 14:00:00 [INFO] Dibra issued server command: /spot
+2025-09-14 14:00:02 [INFO] Dibra issued server command: /spot comprar
+2025-09-14 14:00:09 [INFO] Dibra issued server command: /spot comprar 10 Dibra
+2025-09-14 14:00:09 [INFO] debug
+2025-09-14 14:00:37 [INFO] Dibra issued mycmd command : /terrenos
+2025-09-14 14:00:37 [INFO] Dibra issued server command: /warp terrenos
+2025-09-14 14:00:58 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:00:58 [SEVERE] net.minecraft.server.v1_5_R3.ExceptionWorldConflict: Failed to check session lock, aborting
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldNBTStorage.checkSession(WorldNBTStorage.java:75)
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.World.F(World.java:2599)
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldServer.a(WorldServer.java:785)
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldServer.save(WorldServer.java:769)
+2025-09-14 14:00:58 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.CraftWorld.save(CraftWorld.java:649)
+2025-09-14 14:00:58 [SEVERE] 	at autosaveworld.threads.save.AutoSaveThread.saveWorldNormal(AutoSaveThread.java:190)
+2025-09-14 14:00:58 [SEVERE] 	at autosaveworld.threads.save.AutoSaveThread.saveWorld(AutoSaveThread.java:181)
+2025-09-14 14:00:58 [SEVERE] 	at autosaveworld.threads.save.AutoSaveThread.access$000(AutoSaveThread.java:33)
+2025-09-14 14:00:58 [SEVERE] 	at autosaveworld.threads.save.AutoSaveThread$2.run(AutoSaveThread.java:141)
+2025-09-14 14:00:58 [SEVERE] 	at autosaveworld.utils.SchedulerUtils$1.run(SchedulerUtils.java:48)
+2025-09-14 14:00:58 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)
+2025-09-14 14:00:58 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.r(MinecraftServer.java:513)
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.DedicatedServer.r(DedicatedServer.java:226)
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.q(MinecraftServer.java:477)
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:410)
+2025-09-14 14:00:58 [SEVERE] 	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+2025-09-14 14:00:58 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:01:01 [INFO] Yoham issued server command: /rg flag __global__ pvp deny
+2025-09-14 14:01:07 [INFO] Yoham issued server command: /gamemode 0
+2025-09-14 14:01:18 [INFO] Yoham issued server command: /gamemode 1
+2025-09-14 14:01:39 [INFO] Dibra issued server command: /spot
+2025-09-14 14:01:43 [SEVERE] Could not pass event BarHideEvent to Gladiador v2.0
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at com.gmail.filoghost.healthbar.PlayerBar.hideHealthBar(PlayerBar.java:72)
+	at com.gmail.filoghost.healthbar.DamageListener$3$1.run(DamageListener.java:393)
+	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.r(MinecraftServer.java:513)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.r(DedicatedServer.java:226)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.q(MinecraftServer.java:477)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:410)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: java.lang.NullPointerException
+	at me.subzero0.gladiador2.Main.formatTag(Main.java:669)
+	at me.subzero0.gladiador2.hooks.HealthBar.onBhide(HealthBar.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 12 more
+2025-09-14 14:01:45 [INFO] Dibra issued server command: /spot pvparea
+2025-09-14 14:01:53 [SEVERE] Could not pass event BarHideEvent to Gladiador v2.0
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at com.gmail.filoghost.healthbar.PlayerBar.hideHealthBar(PlayerBar.java:72)
+	at com.gmail.filoghost.healthbar.DamageListener$3$1.run(DamageListener.java:393)
+	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.r(MinecraftServer.java:513)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.r(DedicatedServer.java:226)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.q(MinecraftServer.java:477)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:410)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: java.lang.NullPointerException
+	at me.subzero0.gladiador2.Main.formatTag(Main.java:669)
+	at me.subzero0.gladiador2.hooks.HealthBar.onBhide(HealthBar.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 12 more
+2025-09-14 14:01:56 [INFO] Dibra issued server command: /spot teste pvparea
+2025-09-14 14:02:15 [INFO] Dibra issued server command: /spot Dibra pvparea
+2025-09-14 14:02:22 [INFO] Dibra issued server command: /spot pvparea dibra
+2025-09-14 14:02:24 [INFO] Dibra issued server command: /spot pvparea false
+2025-09-14 14:02:39 [INFO] Dibra issued server command: /gm 1
+2025-09-14 14:02:39 [INFO] §cDibra §4foi negado a utilizar o comando.
+2025-09-14 14:02:39 [INFO] Yoham issued server command: /spot
+2025-09-14 14:02:49 [INFO] Yoham issued server command: /spot comprar
+2025-09-14 14:02:54 [INFO] Yoham issued server command: /spot comprar 12x12
+2025-09-14 14:02:56 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:02:56 [SEVERE] [Metrics] metrics.griefcraft.com
+2025-09-14 14:02:56 [INFO] [Metrics] metrics.griefcraft.com
+2025-09-14 14:02:58 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:02:58 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:02:58 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:02:58 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:02:58 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:02:58 [WARNING] [NoCheatPlus] Metrics error: ERR  (ConnectException): Connection refused: connect
+2025-09-14 14:03:02 [INFO] Unknown command. Type "help" for help.[m
+2025-09-14 14:03:03 [INFO] Yoham issued server command: /spot comprar 12x12 teste
+2025-09-14 14:03:09 [INFO] Unknown command. Type "help" for help.[m
+2025-09-14 14:03:11 [INFO] CONSOLE: Stopping the server..[m
+2025-09-14 14:03:11 [INFO] Stopping server
+2025-09-14 14:03:11 [INFO] [MitoDoPvP] Disabling MitoDoPvP v2.0
+2025-09-14 14:03:11 [INFO] [0;36;1m[MitoDoPvP] [0;32;1mSalvando o mito atual[m
+2025-09-14 14:03:11 [INFO] [0;32;22m[MitoDoPvP] [0;32;1mDesativando o plugin[m
+2025-09-14 14:03:11 [INFO] [Gladiador] Disabling Gladiador v2.0
+2025-09-14 14:03:11 [INFO] [Gladiador] Desativando Gladiador - Autor: SubZero0
+2025-09-14 14:03:11 [INFO] [ChestShop] Disabling ChestShop v3.5
+2025-09-14 14:03:11 [INFO] [Info-Board] Disabling Info-Board v0.2.9
+2025-09-14 14:03:11 [INFO] [ColoredTablist] Disabling ColoredTablist v1.5.3
+2025-09-14 14:03:11 [INFO] [SimpleClans] Disabling SimpleClans v2.4.1
+2025-09-14 14:03:11 [INFO] [SpotProtection] Disabling SpotProtection v3.1.1
+2025-09-14 14:03:11 [INFO] [SpotProtection] SpotProtection Desativado!
+2025-09-14 14:03:11 [INFO] [CombatLog] Disabling CombatLog v1.0.3
+2025-09-14 14:03:11 [INFO] CombatLog v1.0.3 Disabled
+2025-09-14 14:03:11 [INFO] [MyCommand] Disabling MyCommand v3.9.1
+2025-09-14 14:03:11 [INFO] =-=-=-=-=-=-=-=-=-=-=-MyCommand-=-=-=-=-=-=-=-=-=-=-=-=
+2025-09-14 14:03:11 [INFO] = Version : 3.9.1
+2025-09-14 14:03:11 [INFO] = Author  : MRI a.k.a Ivanpro
+2025-09-14 14:03:11 [INFO] = Status  : Deactive
+2025-09-14 14:03:11 [INFO] =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2025-09-14 14:03:11 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.11.1
+2025-09-14 14:03:11 [INFO] [Magnata] Disabling Magnata v3.0
+2025-09-14 14:03:11 [INFO] [0;32;22m[Magnata] [0;32;1mSalvando Magnata atual[m
+2025-09-14 14:03:11 [INFO] [0;32;22m[Magnata] [0;32;1mDesabilitando plugin[m
+2025-09-14 14:03:11 [INFO] [Legendchat] Disabling Legendchat v1.1.2
+2025-09-14 14:03:11 [INFO] [Legendchat] Disabling Legendchat - Author: SubZero0
+2025-09-14 14:03:11 [INFO] [WorldGuard] Disabling WorldGuard v5.7.3
+2025-09-14 14:03:11 [INFO] [VipZero] Disabling VipZero v1.2.2
+2025-09-14 14:03:11 [INFO] [VipZero] Disabling VipZero - Author: SubZero0
+2025-09-14 14:03:11 [INFO] [AuthMe] Disabling AuthMe v2.7.0
+2025-09-14 14:03:11 [INFO] [AuthMe] Authme 2.7.0 disabled
+2025-09-14 14:03:11 [INFO] [Vault] Disabling Vault v1.2.16-b184
+2025-09-14 14:03:11 [INFO] [Essentials] Payment method was disabled. No longer accepting payments.
+2025-09-14 14:03:11 [INFO] [Vault] Disabled Version 1.2.16-b184
+2025-09-14 14:03:11 [INFO] [MineResetLite] Disabling MineResetLite v0.3.5
+2025-09-14 14:03:11 [INFO] [MineResetLite] MineResetLite disabled
+2025-09-14 14:03:11 [INFO] [MobSpawnerEggChanger] Disabling MobSpawnerEggChanger v1.9
+2025-09-14 14:03:11 [INFO] [mcMMO] Disabling mcMMO v1.4.05-b1870
+2025-09-14 14:03:11 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection http://mcstats.org/report/mcMMO in main server thread
+2025-09-14 14:03:11 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection socket://mcstats.org:80 in main server thread
+2025-09-14 14:03:13 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection http://mcstats.org/report/EMetrics in main server thread
+2025-09-14 14:03:13 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection socket://mcstats.org:80 in main server thread
+2025-09-14 14:03:15 [INFO] [mcMMO] Backing up your mcMMO Configuration... 
+2025-09-14 14:03:15 [INFO] [mcMMO] Backup Completed.
+2025-09-14 14:03:15 [INFO] [mcMMO] Was disabled.
+2025-09-14 14:03:15 [INFO] [EventoGamers] Disabling EventoGamers v2.2.1D
+2025-09-14 14:03:15 [INFO] [SCReset] Disabling SCReset v1.1.3
+2025-09-14 14:03:15 [INFO] [SCReset] Disabling plugin SCReset - Author: SubZero0
+2025-09-14 14:03:15 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.5
+2025-09-14 14:03:15 [INFO] WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+2025-09-14 14:03:15 [INFO] Permissions file successfully reloaded
+2025-09-14 14:03:15 [INFO] [PermissionsEx] v1.19.5 disabled successfully.
+2025-09-14 14:03:15 [INFO] [iConomy] Disabling iConomy v6.0.10b
+2025-09-14 14:03:15 [INFO] Essentials: Using config file enhanced permissions.
+2025-09-14 14:03:15 [INFO] Permissions listed in as player-commands will be given to all users.
+2025-09-14 14:03:15 [INFO] [iConomy] Closing general data...
+2025-09-14 14:03:15 [INFO] [iConomy] Disabled. (0 ms)
+2025-09-14 14:03:15 [INFO] [AntiAd] Disabling AntiAd v2.2.5
+2025-09-14 14:03:15 [INFO] [AntiAd] &2AntiAd Version 2.2.5 is now Disabled.
+2025-09-14 14:03:15 [INFO] [CustomServerMessages] Disabling CustomServerMessages v2.9.6
+2025-09-14 14:03:15 [INFO] [CustomServerMessages] CustomServerMessages disabled.
+2025-09-14 14:03:15 [INFO] [KitAdder] Disabling KitAdder v2.0
+2025-09-14 14:03:15 [INFO] [KitAdder] KitAdder has been disabled!
+2025-09-14 14:03:15 [INFO] [NoCheatPlus] Disabling NoCheatPlus v3.9.3-RC-b539
+2025-09-14 14:03:15 [INFO] [NoCheatPlus] Version 3.9.3-RC-b539 is disabled.
+2025-09-14 14:03:15 [INFO] [AutoSaveWorld] Disabling AutoSaveWorld v4.14.2
+2025-09-14 14:03:15 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:03:15 [SEVERE] net.minecraft.server.v1_5_R3.ExceptionWorldConflict: Failed to check session lock, aborting
+2025-09-14 14:03:15 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldNBTStorage.checkSession(WorldNBTStorage.java:75)
+2025-09-14 14:03:15 [SEVERE] 	at net.minecraft.server.v1_5_R3.World.F(World.java:2599)
+2025-09-14 14:03:15 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldServer.a(WorldServer.java:785)
+2025-09-14 14:03:15 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldServer.save(WorldServer.java:769)
+2025-09-14 14:03:15 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.CraftWorld.save(CraftWorld.java:649)
+2025-09-14 14:03:15 [SEVERE] 	at autosaveworld.threads.save.AutoSaveThread.saveWorldNormal(AutoSaveThread.java:190)
+2025-09-14 14:03:15 [SEVERE] 	at autosaveworld.threads.save.AutoSaveThread.saveWorld(AutoSaveThread.java:181)
+2025-09-14 14:03:15 [SEVERE] 	at autosaveworld.threads.save.AutoSaveThread.performSaveNow(AutoSaveThread.java:106)
+2025-09-14 14:03:15 [SEVERE] 	at autosaveworld.core.AutoSaveWorld.onDisable(AutoSaveWorld.java:131)
+2025-09-14 14:03:15 [SEVERE] 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:219)
+2025-09-14 14:03:15 [SEVERE] 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:481)
+2025-09-14 14:03:15 [SEVERE] 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:400)
+2025-09-14 14:03:15 [SEVERE] 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:393)
+2025-09-14 14:03:15 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.disablePlugins(CraftServer.java:277)
+2025-09-14 14:03:15 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.stop(MinecraftServer.java:334)
+2025-09-14 14:03:15 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:441)
+2025-09-14 14:03:15 [SEVERE] 	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+2025-09-14 14:03:15 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:03:19 [INFO] [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+2025-09-14 14:03:19 [INFO] [Multiverse-Core] - Disabled
+2025-09-14 14:03:19 [INFO] [Killer] Disabling Killer v2.0
+2025-09-14 14:03:19 [INFO] [Killer] Desativando Killer - Autor: SubZero0
+2025-09-14 14:03:19 [INFO] [ReduceLag] Disabling ReduceLag v1.1
+2025-09-14 14:03:19 [INFO] [AutoMessage] Disabling AutoMessage v2.3.2
+2025-09-14 14:03:19 [INFO] [ClearLag] Disabling ClearLag v2.8.4
+2025-09-14 14:03:19 [INFO] [ClearLag] Nullifying module fields..
+2025-09-14 14:03:19 [INFO] [ClearLag] Clearlag is now disabled!
+2025-09-14 14:03:19 [INFO] [xRename] Disabling xRename v1.0
+2025-09-14 14:03:19 [INFO] [xRename] PLUGIN DESATIVADO COM SUCESSO.
+2025-09-14 14:03:19 [INFO] [SimpleUc] Disabling SimpleUc v1.4.5
+2025-09-14 14:03:19 [INFO] [SimpleUc] SimpleUc disabled.
+2025-09-14 14:03:19 [INFO] [Essentials] Disabling Essentials v2.11.1
+2025-09-14 14:03:19 [INFO] [OpenInv] Disabling OpenInv v2.2.9
+2025-09-14 14:03:19 [INFO] [HealthBar] Disabling HealthBar v1.6
+2025-09-14 14:03:19 [INFO] HealthBar disabled, all the health bars have been removed.
+2025-09-14 14:03:19 [INFO] [TimTheEnchanter] Disabling TimTheEnchanter v3.0
+2025-09-14 14:03:19 [INFO] [TimTheEnchanter] I *warned* you, but did you listen to me? Oh, no, you *knew*, didn't you? Oh, it's just a harmless little *bunny*, isn't it? 
+2025-09-14 14:03:19 [INFO] [WorldEdit] Disabling WorldEdit v5.5.6
+2025-09-14 14:03:19 [INFO] [ChatClear] Disabling ChatClear v2.3.1
+2025-09-14 14:03:19 [INFO] [ChatClear] Plugin deactivated!
+2025-09-14 14:03:19 [INFO] [ChatClear] Plugin by MDRunaway!
+2025-09-14 14:03:19 [INFO] [AntiJoinBot] Disabling AntiJoinBot v1.8
+2025-09-14 14:03:19 [INFO] +-+-+-+-+[AntiJoinBotProxy by CodeByCode @200dvd]+-+-+-+-+
+2025-09-14 14:03:19 [INFO] AntiJoinBotProxy Shutdown ....
+2025-09-14 14:03:19 [INFO] [BanItem] Disabling BanItem v2.8
+2025-09-14 14:03:19 [INFO] BanItem is now Disabled!
+2025-09-14 14:03:19 [INFO] [MaxBans] Disabling MaxBans v2.1
+2025-09-14 14:03:19 [INFO] [MaxBans] Disabling Maxbans...
+2025-09-14 14:03:19 [INFO] [MaxBans] Clearing buffer...
+2025-09-14 14:03:19 [INFO] [MaxBans] Cleared buffer...
+2025-09-14 14:03:19 [INFO] [AlwaysDay] Disabling AlwaysDay v2.2.7
+2025-09-14 14:03:19 [INFO] [AlwaysDay] AlwaysDay v2.2.7 is now disabled.
+2025-09-14 14:03:19 [INFO] Please donate at the AlwaysDay page (http://dev.bukkit.org/server-mods/always-day/) if you are enjoying this plugin! Any contributions are greatly appreciated!
+2025-09-14 14:03:19 [INFO] [AlphaChest] Disabling AlphaChest v1.16.0
+2025-09-14 14:03:19 [INFO] [AlphaChest] saved 1 chests
+2025-09-14 14:03:19 [INFO] [CraftX1] Disabling CraftX1 v1.0.0
+2025-09-14 14:03:19 [INFO] [ColoredSigns] Disabling ColoredSigns v1.2
+2025-09-14 14:03:19 [INFO] [MotdManager] Disabling MotdManager v1.41-b20
+2025-09-14 14:03:19 [INFO] [MotdManager] version 1.41-b20 is disabled!
+2025-09-14 14:03:19 [INFO] Saving players
+2025-09-14 14:03:19 [WARNING] DSCT: socket closed
+2025-09-14 14:03:19 [INFO] Closing listening thread
+2025-09-14 14:03:19 [INFO] Saving worlds
+2025-09-14 14:03:19 [INFO] Saving chunks for level 'world'/Overworld
+2025-09-14 14:03:19 [INFO] Saving chunks for level 'terrenos'/Overworld
+2025-09-14 14:03:19 [INFO] Saving chunks for level 'arenax1'/Overworld
+2025-09-14 14:03:19 [SEVERE] net.minecraft.server.v1_5_R3.ExceptionWorldConflict: Failed to check session lock, aborting
+2025-09-14 14:03:19 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldNBTStorage.checkSession(WorldNBTStorage.java:75)
+2025-09-14 14:03:19 [SEVERE] 	at net.minecraft.server.v1_5_R3.World.F(World.java:2599)
+2025-09-14 14:03:19 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldServer.a(WorldServer.java:785)
+2025-09-14 14:03:19 [SEVERE] 	at net.minecraft.server.v1_5_R3.WorldServer.save(WorldServer.java:769)
+2025-09-14 14:03:19 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.saveChunks(MinecraftServer.java:318)
+2025-09-14 14:03:19 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.stop(MinecraftServer.java:349)
+2025-09-14 14:03:19 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:441)
+2025-09-14 14:03:19 [SEVERE] 	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+2025-09-14 14:03:19 [INFO] Stopping server
+2025-09-14 14:04:49 [INFO] Starting minecraft server version 1.5.2
+2025-09-14 14:04:49 [INFO] Loading properties
+2025-09-14 14:04:49 [INFO] Default game type: SURVIVAL
+2025-09-14 14:04:49 [INFO] Generating keypair
+2025-09-14 14:04:49 [INFO] Starting Minecraft server on 192.168.1.56:25565
+2025-09-14 14:04:50 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2025-09-14 14:04:50 [INFO] [PermissionsEx] sql backend registered!
+2025-09-14 14:04:50 [INFO] [PermissionsEx] file backend registered!
+2025-09-14 14:04:50 [INFO] [PermissionsEx] PermissionEx plugin initialized.
+2025-09-14 14:04:50 [SEVERE] Exception in thread "Thread-6" 
+2025-09-14 14:04:50 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+2025-09-14 14:04:50 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+2025-09-14 14:04:50 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+2025-09-14 14:04:50 [SEVERE] 	... 5 more
+2025-09-14 14:04:50 [INFO] [MotdManager] Loading MotdManager v1.41-b20
+2025-09-14 14:04:50 [INFO] [ColoredSigns] Loading ColoredSigns v1.2
+2025-09-14 14:04:50 [INFO] [CraftX1] Loading CraftX1 v1.0.0
+2025-09-14 14:04:50 [INFO] [AlphaChest] Loading AlphaChest v1.16.0
+2025-09-14 14:04:50 [INFO] [AlwaysDay] Loading AlwaysDay v2.2.7
+2025-09-14 14:04:50 [INFO] [MaxBans] Loading MaxBans v2.1
+2025-09-14 14:04:50 [INFO] [BanItem] Loading BanItem v2.8
+2025-09-14 14:04:50 [INFO] [AntiJoinBot] Loading AntiJoinBot v1.8
+2025-09-14 14:04:50 [INFO] [ChatClear] Loading ChatClear v2.3.1
+2025-09-14 14:04:50 [INFO] [WorldEdit] Loading WorldEdit v5.5.6
+2025-09-14 14:04:50 [INFO] [TimTheEnchanter] Loading TimTheEnchanter v3.0
+2025-09-14 14:04:50 [INFO] [HealthBar] Loading HealthBar v1.6
+2025-09-14 14:04:50 [INFO] [OpenInv] Loading OpenInv v2.2.9
+2025-09-14 14:04:50 [INFO] [Essentials] Loading Essentials v2.11.1
+2025-09-14 14:04:50 [INFO] [SimpleUc] Loading SimpleUc v1.4.5
+2025-09-14 14:04:50 [INFO] [xRename] Loading xRename v1.0
+2025-09-14 14:04:50 [INFO] [ClearLag] Loading ClearLag v2.8.4
+2025-09-14 14:04:50 [INFO] [AutoMessage] Loading AutoMessage v2.3.2
+2025-09-14 14:04:50 [INFO] [ReduceLag] Loading ReduceLag v1.1
+2025-09-14 14:04:50 [INFO] [Killer] Loading Killer v2.0
+2025-09-14 14:04:50 [INFO] [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+2025-09-14 14:04:50 [INFO] [AutoSaveWorld] Loading AutoSaveWorld v4.14.2
+2025-09-14 14:04:50 [INFO] [NoCheatPlus] Loading NoCheatPlus v3.9.3-RC-b539
+2025-09-14 14:04:50 [INFO] [KitAdder] Loading KitAdder v2.0
+2025-09-14 14:04:50 [INFO] [CustomServerMessages] Loading CustomServerMessages v2.9.6
+2025-09-14 14:04:50 [INFO] [AntiAd] Loading AntiAd v2.2.5
+2025-09-14 14:04:50 [INFO] [iConomy] Loading iConomy v6.0.10b
+2025-09-14 14:04:50 [INFO] [PermissionsEx] Loading PermissionsEx v1.19.5
+2025-09-14 14:04:50 [INFO] [PermissionsEx] Initializing file backend
+2025-09-14 14:04:50 [INFO] Permissions file successfully reloaded
+2025-09-14 14:04:50 [INFO] [SCReset] Loading SCReset v1.1.3
+2025-09-14 14:04:50 [INFO] [EventoGamers] Loading EventoGamers v2.2.1D
+2025-09-14 14:04:50 [INFO] [mcMMO] Loading mcMMO v1.4.05-b1870
+2025-09-14 14:04:50 [INFO] [MobSpawnerEggChanger] Loading MobSpawnerEggChanger v1.9
+2025-09-14 14:04:50 [INFO] [MineResetLite] Loading MineResetLite v0.3.5
+2025-09-14 14:04:50 [INFO] [Vault] Loading Vault v1.2.16-b184
+2025-09-14 14:04:50 [INFO] [AuthMe] Loading AuthMe v2.7.0
+2025-09-14 14:04:50 [INFO] [VipZero] Loading VipZero v1.2.2
+2025-09-14 14:04:50 [INFO] [WorldGuard] Loading WorldGuard v5.7.3
+2025-09-14 14:04:50 [INFO] [Legendchat] Loading Legendchat v1.1.2
+2025-09-14 14:04:50 [INFO] [Magnata] Loading Magnata v3.0
+2025-09-14 14:04:50 [INFO] [EssentialsSpawn] Loading EssentialsSpawn v2.11.1
+2025-09-14 14:04:50 [INFO] [MyCommand] Loading MyCommand v3.9.1
+2025-09-14 14:04:50 [INFO] [CombatLog] Loading CombatLog v1.0.3
+2025-09-14 14:04:50 [INFO] [SpotProtection] Loading SpotProtection v3.1.1
+2025-09-14 14:04:50 [INFO] [SimpleClans] Loading SimpleClans v2.4.1
+2025-09-14 14:04:50 [INFO] [ColoredTablist] Loading ColoredTablist v1.5.3
+2025-09-14 14:04:50 [INFO] [Info-Board] Loading Info-Board v0.2.9
+2025-09-14 14:04:50 [INFO] [ChestShop] Loading ChestShop v3.5
+2025-09-14 14:04:50 [INFO] [Gladiador] Loading Gladiador v2.0
+2025-09-14 14:04:50 [INFO] [MitoDoPvP] Loading MitoDoPvP v2.0
+2025-09-14 14:04:50 [INFO] [AutoSaveWorld] Enabling AutoSaveWorld v4.14.2
+2025-09-14 14:04:50 [INFO] [mcMMO] Enabling mcMMO v1.4.05-b1870
+2025-09-14 14:04:50 [INFO] [mcMMO] Loading mcMMO config.yml File...
+2025-09-14 14:04:50 [INFO] [mcMMO] Loading mcMMO treasures.yml File...
+2025-09-14 14:04:50 [INFO] [mcMMO] Loading mcMMO advanced.yml File...
+2025-09-14 14:04:50 [INFO] [mcMMO] Loading mcMMO child.yml File...
+2025-09-14 14:04:50 [INFO] [mcMMO] Loading mcMMO repair.vanilla.yml File...
+2025-09-14 14:04:51 [INFO] [mcMMO] Version 1.4.05-b1870 is enabled!
+2025-09-14 14:04:51 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection http://api.bukget.org/api2/bukkit/plugin/mcmmo/release in main server thread
+2025-09-14 14:04:51 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection socket://api.bukget.org:80 in main server thread
+2025-09-14 14:04:51 [INFO] [Vault] Enabling Vault v1.2.16-b184
+2025-09-14 14:04:51 [INFO] [Vault][Economy] Essentials Economy found: Waiting
+2025-09-14 14:04:51 [SEVERE] iConomy6 - If you are using Flatfile storage be aware that iCo6 has a CRITICAL bug which can wipe ALL iconomy data.
+2025-09-14 14:04:51 [SEVERE] if you're using Votifier, or any other plugin which handles economy data in a threaded manner your server is at risk!
+2025-09-14 14:04:51 [SEVERE] it is highly suggested to use SQL with iCo6 or to use an alternative economy plugin!
+2025-09-14 14:04:51 [INFO] [Vault][Economy] iConomy 6 found: Waiting
+2025-09-14 14:04:51 [INFO] [Vault][Permission] PermissionsEx found: Waiting
+2025-09-14 14:04:51 [INFO] [Vault][Permission] SuperPermissions loaded as backup permission system.
+2025-09-14 14:04:51 [INFO] [Vault][Chat] PermissionsEx found: Waiting
+2025-09-14 14:04:51 [INFO] [Vault] Enabled Version 1.2.16-b184
+2025-09-14 14:04:51 [INFO] [Legendchat] Enabling Legendchat v1.1.2
+2025-09-14 14:04:51 [INFO] [Legendchat] Legendchat (V1.1.2) - Author: SubZero0
+2025-09-14 14:04:51 [INFO] [Legendchat] Hooked to Vault (Permissions).
+2025-09-14 14:04:51 [INFO] [Legendchat] Hooked to Vault (Economy).
+2025-09-14 14:04:51 [INFO] [Legendchat] Hooked to Vault (Chat).
+2025-09-14 14:04:51 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-09-14 14:04:51 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2025-09-14 14:04:51 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-09-14 14:04:51 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2025-09-14 14:04:51 [INFO] Preparing level "world"
+2025-09-14 14:04:51 [INFO] Preparing start region for level 0 (Seed: -3083979623404973764)
+2025-09-14 14:04:52 [INFO] [MotdManager] Enabling MotdManager v1.41-b20
+2025-09-14 14:04:52 [INFO] [MotdManager] version 1.41-b20 is enabled!
+2025-09-14 14:04:52 [INFO] [ColoredSigns] Enabling ColoredSigns v1.2
+2025-09-14 14:04:52 [INFO] [CraftX1] Enabling CraftX1 v1.0.0
+2025-09-14 14:04:52 [INFO] [CraftX1] CraftX1 - Criado por BatemanBR
+2025-09-14 14:04:52 [INFO] [CraftX1] Hooked to SimpleClans 1!
+2025-09-14 14:04:52 [INFO] [AlphaChest] Enabling AlphaChest v1.16.0
+2025-09-14 14:04:52 [INFO] [AlphaChest] loaded 1 chests
+2025-09-14 14:04:52 [INFO] [AlwaysDay] Enabling AlwaysDay v2.2.7
+2025-09-14 14:04:52 [INFO] [AlwaysDay] AlwaysDay v2.2.7 is now enabled.
+2025-09-14 14:04:52 [INFO] Please donate at the AlwaysDay page (http://dev.bukkit.org/server-mods/always-day/) if you are enjoying this plugin! Any contributions are greatly appreciated!
+2025-09-14 14:04:52 [INFO] [MaxBans] Enabling MaxBans v2.1
+2025-09-14 14:04:52 [WARNING] [AlwaysDay] Could not connect to dev.bukkit.org, please try again later.
+2025-09-14 14:04:52 [INFO] [MaxBans] Using SQLite
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading from DB...
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading bans
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading ipbans
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading mutes
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading player names...
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading IP History
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading warn history...
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading chat commands...
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading history...
+2025-09-14 14:04:52 [INFO] [MaxBans] Starting DNS blacklist
+2025-09-14 14:04:52 [INFO] [MaxBans] Loading proxys...
+2025-09-14 14:04:52 [INFO] [BanItem] Enabling BanItem v2.8
+2025-09-14 14:04:52 [INFO] [BanItem] BanItem is now Enabled!
+2025-09-14 14:04:52 [INFO] [BanItem] made by: [abcalvin]
+2025-09-14 14:04:52 [INFO] BanItem's config.yml detected
+2025-09-14 14:04:52 [INFO] [AntiJoinBot] Enabling AntiJoinBot v1.8
+2025-09-14 14:04:52 [INFO] +-+-+-+-+[AntiJoinBotProxy by CodeByCode @200dvd]+-+-+-+-+
+2025-09-14 14:04:52 [INFO] AntiJoinBotProxy Loading ....
+2025-09-14 14:04:52 [INFO] AntiJoinBotProxy Version: 1.8
+2025-09-14 14:04:52 [INFO] AntiJoinBotProxy Load Config
+2025-09-14 14:04:52 [INFO] AntiJoinBotProxy Start Listener
+2025-09-14 14:04:52 [INFO] AntiJoinBotProxy Listener OK
+2025-09-14 14:04:52 [INFO] AntiJoinBotProxy Start MYSQL
+2025-09-14 14:04:52 [INFO] [mySQL TEST] Test query sccessful: localhost is not Blocked N.
+2025-09-14 14:04:52 [INFO] AntiJoinBot is enabled in 60 seconds
+2025-09-14 14:04:52 [INFO] [ChatClear] Enabling ChatClear v2.3.1
+2025-09-14 14:04:52 [INFO] [ChatClear] Plugin activated!
+2025-09-14 14:04:52 [INFO] [ChatClear] Plugin by MDRunaway
+2025-09-14 14:04:52 [INFO] [WorldEdit] Enabling WorldEdit v5.5.6
+2025-09-14 14:04:52 [INFO] WEPIF: Using the Bukkit Permissions API.
+2025-09-14 14:04:52 [INFO] [TimTheEnchanter] Enabling TimTheEnchanter v3.0
+2025-09-14 14:04:52 [INFO] [TimTheEnchanter] There are some who call me... Tim?
+2025-09-14 14:04:52 [INFO] [HealthBar] Enabling HealthBar v1.6
+2025-09-14 14:04:52 [INFO] [OpenInv] Enabling OpenInv v2.2.9
+2025-09-14 14:04:52 [INFO] [Essentials] Enabling Essentials v2.11.1
+2025-09-14 14:04:52 [INFO] [Vault][Economy] Essentials Economy hooked.
+2025-09-14 14:04:52 [INFO] Essentials: Using config file enhanced permissions.
+2025-09-14 14:04:52 [INFO] Permissions listed in as player-commands will be given to all users.
+2025-09-14 14:04:52 [INFO] [Essentials] Payment method found (Vault - Economy: iConomy 6 version: 1.2.16-b184)
+2025-09-14 14:04:52 [INFO] [SimpleUc] Enabling SimpleUc v1.4.5
+2025-09-14 14:04:52 [INFO] [SimpleUc] Enabling Metrics...
+2025-09-14 14:04:52 [INFO] [SimpleUc] Metrics enabled.
+2025-09-14 14:04:52 [INFO] [SimpleUc] SimpleUc enabled.
+2025-09-14 14:04:52 [INFO] [xRename] Enabling xRename v1.0
+2025-09-14 14:04:52 [INFO] [xRename] PLUGIN ATIVADO COM SUCESSO.
+2025-09-14 14:04:52 [INFO] [ClearLag] Enabling ClearLag v2.8.4
+2025-09-14 14:04:52 [INFO] [ClearLag] Loading modules...
+2025-09-14 14:04:52 [WARNING] [ClearLag] Horse is NOT a valid Entity!
+2025-09-14 14:04:52 [WARNING] [ClearLag] Horse is NOT a valid Entity!
+2025-09-14 14:04:52 [WARNING] [ClearLag] ARMOR_STAND is NOT a valid Entity!
+2025-09-14 14:04:52 [INFO] [ClearLag] Modules have been loaded!
+2025-09-14 14:04:52 [INFO] [ClearLag] Clearlag is now enabled!
+2025-09-14 14:04:52 [INFO] [ClearLag] Checking for updates...
+2025-09-14 14:04:52 [INFO] [AutoMessage] Enabling AutoMessage v2.3.2
+2025-09-14 14:04:52 [INFO] [ReduceLag] Enabling ReduceLag v1.1
+2025-09-14 14:04:52 [INFO] [ReduceLag] Is now activated on world world
+2025-09-14 14:04:52 [INFO] [Killer] Enabling Killer v2.0
+2025-09-14 14:04:52 [INFO] [Killer] Ativando Killer (V2.0) - Autor: SubZero0
+2025-09-14 14:04:52 [INFO] [Killer] Hooked to Vault (Economia)!
+2025-09-14 14:04:52 [INFO] [Killer] Hooked to Legendchat.
+2025-09-14 14:04:52 [INFO] [Killer] <> Horas automaticas:
+2025-09-14 14:04:52 [INFO] [Killer] Hora1 = 10:00
+2025-09-14 14:04:52 [INFO] [Killer] Hora2 = 15:00
+2025-09-14 14:04:52 [INFO] [Killer] Hora3 = 20:00
+2025-09-14 14:04:52 [INFO] [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+2025-09-14 14:04:52 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2025-09-14 14:04:53 [INFO] [AllPay] - Version 10.0 - hooked into iConomy 6 for Multiverse-Core v2.4-b527
+2025-09-14 14:04:53 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -3083979623404973764
+2025-09-14 14:04:53 [INFO] [ClearLag] No updates found!
+2025-09-14 14:04:53 [INFO] [Multiverse-Core] Loading World & Settings - 'terrenos' - Env: NORMAL - Type: FLAT & seed: -4918226679233821864
+2025-09-14 14:04:53 [INFO] Preparing start region for level 1 (Seed: -4918226679233821864)
+2025-09-14 14:04:53 [INFO] [Multiverse-Core] Loading World & Settings - 'arenax1' - Env: NORMAL - Type: FLAT & seed: 3840066353498274074
+2025-09-14 14:04:53 [INFO] Preparing start region for level 2 (Seed: 3840066353498274074)
+2025-09-14 14:04:54 [INFO] [Multiverse-Core] 3 - World(s) loaded.
+2025-09-14 14:04:54 [INFO] [NoCheatPlus] Enabling NoCheatPlus v3.9.3-RC-b539
+2025-09-14 14:04:54 [INFO] [NoCheatPlus] McAccess set to: 1.5.2 / CB2763-DEV
+2025-09-14 14:04:54 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+2025-09-14 14:04:54 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+2025-09-14 14:04:54 [INFO] [NoCheatPlus] Version 3.9.3-RC-b539 is enabled.
+2025-09-14 14:04:57 [INFO] [KitAdder] Enabling KitAdder v2.0
+2025-09-14 14:04:57 [INFO] [KitAdder] KitAdder has been enabled!
+2025-09-14 14:04:57 [INFO] [CustomServerMessages] Enabling CustomServerMessages v2.9.6
+2025-09-14 14:04:57 [INFO] [CustomServerMessages] CustomServerMessages enabled.
+2025-09-14 14:04:57 [INFO] [AntiAd] Enabling AntiAd v2.2.5
+2025-09-14 14:04:57 [INFO] [AntiAd] AntiAd Version 2.2.5 is now Enabled.
+2025-09-14 14:04:58 [INFO] [iConomy] Enabling iConomy v6.0.10b
+2025-09-14 14:04:58 [INFO] [iConomy - Celty] Enabled (6 ms)
+2025-09-14 14:04:58 [INFO] [iConomy - Celty] Contas, se purificam com equilibrio padrao.
+2025-09-14 14:04:58 [INFO] [Vault][Economy] iConomy 6 hooked.
+2025-09-14 14:04:58 [INFO] [PermissionsEx] Enabling PermissionsEx v1.19.5
+2025-09-14 14:04:58 [INFO] [PermissionsEx] Superperms support enabled.
+2025-09-14 14:04:58 [INFO] [PermissionsEx] v1.19.5 enabled
+2025-09-14 14:04:58 [INFO] WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+2025-09-14 14:04:58 [INFO] [Vault][Permission] PermissionsEx hooked.
+2025-09-14 14:04:58 [INFO] [Vault][Chat] PermissionsEx_Chat hooked.
+2025-09-14 14:04:58 [INFO] Essentials: Using PermissionsEx based permissions.
+2025-09-14 14:04:58 [INFO] [SCReset] Enabling SCReset v1.1.3
+2025-09-14 14:04:58 [INFO] [SCReset] Enabling plugin SCReset - Author: SubZero0
+2025-09-14 14:04:58 [INFO] [SCReset] Plugin Vault found!
+2025-09-14 14:04:58 [INFO] [SCReset] Hooked to SimpleClans!
+2025-09-14 14:04:58 [INFO] [EventoGamers] Enabling EventoGamers v2.2.1D
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mEvento corrida encontrado/carregado![m
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mEvento corrida2.0 encontrado/carregado![m
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mEvento Parkour encontrado/carregado![m
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mEvento spleef encontrado/carregado![m
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mListeners foram registrados.[m
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mComandos foram Inicializados.[m
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mConfigurações e eventos padrões criados/carregados.[m
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mAuto-inicializador de eventos está em funcionamento.[m
+2025-09-14 14:04:58 [INFO] [0;36;22m[EventoGamers] [0;37;1mEventoGamers inicializado. (Autor=AtomGamers)[m
+2025-09-14 14:04:58 [INFO] [MobSpawnerEggChanger] Enabling MobSpawnerEggChanger v1.9
+2025-09-14 14:04:58 [INFO] [MineResetLite] Enabling MineResetLite v0.3.5
+2025-09-14 14:04:59 [INFO] [MineResetLite] Loading mine from file 'mina.mine.yml'...
+2025-09-14 14:04:59 [INFO] [MineResetLite] MineResetLite version 0.3.5 enabled!
+2025-09-14 14:04:59 [INFO] [MineResetLite] =-= MineResetLite wouldn't be possible without the support of Don't Drop the Soap, MCPrison.com =-=
+2025-09-14 14:04:59 [INFO] [AuthMe] Enabling AuthMe v2.7.0
+2025-09-14 14:04:59 [INFO] [AuthMe] Loading Configuration File...
+2025-09-14 14:04:59 [INFO] [AuthMe] Merge new Config Options if needed..
+2025-09-14 14:04:59 [INFO] [AuthMe] Set Language: en
+2025-09-14 14:04:59 [INFO] [AuthMe] Authme 2.7.0 enabled
+2025-09-14 14:04:59 [INFO] [VipZero] Enabling VipZero v1.2.2
+2025-09-14 14:04:59 [INFO] [VipZero] Enabling VipZero (V1.2.2) - Author: SubZero0
+2025-09-14 14:04:59 [INFO] [VipZero] Checking for updates...
+2025-09-14 14:04:59 [WARNING] [AutoSaveWorld] Plugin VipZero attempted to establish connection https://api.curseforge.com/servermods/files?projectIds=51620 in main server thread
+2025-09-14 14:04:59 [WARNING] [AutoSaveWorld] Plugin VipZero attempted to establish connection socket://api.curseforge.com:443 in main server thread
+2025-09-14 14:04:59 [INFO] [VipZero] New update avaible: V1.2.4!
+2025-09-14 14:04:59 [INFO] [VipZero] Download: http://dev.bukkit.org/server-mods/vipzero/
+2025-09-14 14:04:59 [INFO] [VipZero] Checking for old config file...
+2025-09-14 14:04:59 [INFO] [VipZero] No updates found.
+2025-09-14 14:04:59 [INFO] [VipZero] Checking for config file update...
+2025-09-14 14:04:59 [INFO] [VipZero] No updates found.
+2025-09-14 14:04:59 [INFO] [VipZero] Checking for language file update...
+2025-09-14 14:04:59 [INFO] [VipZero] No updates found.
+2025-09-14 14:04:59 [INFO] [VipZero] Using flatfile system.
+2025-09-14 14:04:59 [INFO] [VipZero] Hooked to PermissionsEx.
+2025-09-14 14:04:59 [INFO] [VipZero] Hooked to Vault (Economy).
+2025-09-14 14:04:59 [INFO] [WorldGuard] Enabling WorldGuard v5.7.3
+2025-09-14 14:04:59 [INFO] [WorldGuard] (world) TNT ignition is PERMITTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (world) Lighters are PERMITTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (world) Lava fire is blocked.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (world) Fire spread is UNRESTRICTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] Loaded configuration for world 'world'
+2025-09-14 14:04:59 [INFO] [WorldGuard] (terrenos) TNT ignition is PERMITTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (terrenos) Lighters are PERMITTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (terrenos) Lava fire is blocked.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (terrenos) Fire spread is UNRESTRICTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] Loaded configuration for world 'terrenos'
+2025-09-14 14:04:59 [INFO] [WorldGuard] (arenax1) TNT ignition is PERMITTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (arenax1) Lighters are PERMITTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (arenax1) Lava fire is blocked.
+2025-09-14 14:04:59 [INFO] [WorldGuard] (arenax1) Fire spread is UNRESTRICTED.
+2025-09-14 14:04:59 [INFO] [WorldGuard] Loaded configuration for world 'arenax1'
+2025-09-14 14:04:59 [INFO] [WorldGuard] 22 regions loaded for 'world'
+2025-09-14 14:04:59 [INFO] [WorldGuard] 4 regions loaded for 'terrenos'
+2025-09-14 14:04:59 [INFO] [WorldGuard] 0 regions loaded for 'arenax1'
+2025-09-14 14:04:59 [INFO] [Magnata] Enabling Magnata v3.0
+2025-09-14 14:04:59 [INFO] [0;32;22m[Magnata] [0;32;1mAtivando o plugin[m
+2025-09-14 14:04:59 [INFO] [0;32;22m[Magnata] [0;32;1mVerificando o magnata atual[m
+2025-09-14 14:04:59 [INFO] [0;32;22m[Magnata] [0;35;22mMagnata atual: [0;32;1mGab[m
+2025-09-14 14:04:59 [INFO] [EssentialsSpawn] Enabling EssentialsSpawn v2.11.1
+2025-09-14 14:04:59 [INFO] [MyCommand] Enabling MyCommand v3.9.1
+2025-09-14 14:04:59 [INFO] =-=-=-=-=-=-=-=-=-=-=-MyCommand-=-=-=-=-=-=-=-=-=-=-=-=
+2025-09-14 14:04:59 [INFO] = Vault  : Ok. Hooked MyCommand Vault
+2025-09-14 14:04:59 [INFO] = Spout  : Not detected. Disabling spout feature.
+2025-09-14 14:04:59 [INFO] = Config : Ready | Custom Commands : 20
+2025-09-14 14:04:59 [INFO] = Version: 3.9.1
+2025-09-14 14:04:59 [INFO] = Author : MRI a.k.a Ivanpro
+2025-09-14 14:04:59 [INFO] = Status : Active
+2025-09-14 14:04:59 [INFO] =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2025-09-14 14:04:59 [INFO] [CombatLog] Enabling CombatLog v1.0.3
+2025-09-14 14:04:59 [INFO] Loading config.yml
+2025-09-14 14:04:59 [INFO] Loading messages.properties.
+2025-09-14 14:04:59 [INFO] [0;31;1m[CombatLog] Factions plugin not found! Safezone untagging will not work![m
+2025-09-14 14:04:59 [INFO] CombatLog v1.0.3 Enabled
+2025-09-14 14:05:00 [INFO] UpdateCheck: Unable to connect to BukkitDev!
+2025-09-14 14:05:00 [INFO] [SpotProtection] Enabling SpotProtection v3.1.1
+2025-09-14 14:05:00 [INFO] [SpotProtection] SpotProtection por SpotBr, Lendariof e Yarkhs ativado.
+2025-09-14 14:05:00 [INFO] [SimpleClans] Enabling SimpleClans v2.4.1
+2025-09-14 14:05:00 [INFO] [SimpleClans] SQLite Connection successful[m
+2025-09-14 14:05:00 [INFO] [SimpleClans] Clan players: 16[m
+2025-09-14 14:05:00 [INFO] [SimpleClans] [AutoUpdate] v1.1 enabled!
+2025-09-14 14:05:02 [INFO] [ColoredTablist] Enabling ColoredTablist v1.5.3
+2025-09-14 14:05:02 [INFO] [ColoredTablist] Config loaded
+2025-09-14 14:05:02 [INFO] [Info-Board] Enabling Info-Board v0.2.9
+2025-09-14 14:05:02 [INFO] Metrics was started!
+2025-09-14 14:05:02 [INFO] Theres a new update for InfoBoard(vInfo-Board v1.0.0).
+2025-09-14 14:05:02 [INFO] [ChestShop] Enabling ChestShop v3.5
+2025-09-14 14:05:02 [INFO] [ChestShop] Vault loaded - using iConomy 6
+2025-09-14 14:05:04 [INFO] [Gladiador] Enabling Gladiador v2.0
+2025-09-14 14:05:04 [INFO] [Gladiador] Ativando Gladiador (V2.0) - Autor: SubZero0
+2025-09-14 14:05:04 [INFO] [Gladiador] Hooked to SimpleClans 1!
+2025-09-14 14:05:04 [INFO] [Gladiador] Hooked to Vault (Economia)!
+2025-09-14 14:05:04 [INFO] [Gladiador] Hooked to Legendchat.
+2025-09-14 14:05:04 [INFO] [Gladiador] Hooked to HealthBar.
+2025-09-14 14:05:04 [INFO] [Gladiador] <> Data automatica:
+2025-09-14 14:05:04 [INFO] [Gladiador] Dia = 7
+2025-09-14 14:05:04 [INFO] [Gladiador] Hora = 19:00
+2025-09-14 14:05:04 [INFO] [MitoDoPvP] Enabling MitoDoPvP v2.0
+2025-09-14 14:05:04 [INFO] [0;36;1m[MitoDoPvP] [0;32;1mAtivando o plugin[m
+2025-09-14 14:05:04 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2025-09-14 14:05:08 [INFO] Done (16.977s)! For help, type "help" or "?"
+2025-09-14 14:05:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:05:10 [WARNING] [NoCheatPlus] Metrics error: ERR  (ConnectException): Connection refused: connect
+2025-09-14 14:05:10 [SEVERE] [Metrics] metrics.griefcraft.com
+2025-09-14 14:05:10 [INFO] [Metrics] metrics.griefcraft.com
+2025-09-14 14:05:10 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] [m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] Internal error![m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] If this bug hasn't been reported please open a ticket at http://forums.bukkit.org/threads/autoupdate-update-your-plugins.84421/[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] Include the following into your bug report:[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate]           ======= SNIP HERE =======[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] Unexpected character (<) at position 0.[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at org.json.simple.parser.Yylex.yylex(Unknown Source)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at org.json.simple.parser.JSONParser.nextToken(Unknown Source)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at org.json.simple.parser.JSONParser.parse(Unknown Source)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at org.json.simple.parser.JSONParser.parse(Unknown Source)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at net.sacredlabyrinth.phaed.simpleclans.AutoUpdate.run(AutoUpdate.java:291)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] 	at java.lang.Thread.run(Unknown Source)[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate]           ======= DUMP =======[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] version        : 1.1[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] delay          : 216000[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] ymlPrefix      : [m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] ymlSuffix      : [m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] bukkitdevPrefix: [m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] bukkitdevSuffix: [m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] bukkitdevSlug  : simpleclans[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] COLOR_INFO     : BLUE[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] COLO_OK        : GREEN[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] COLOR_ERROR    : RED[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] bukget         : http://bukget.v10lator.de/simpleclans[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] bukgetFallback : http://bukget.org/api/plugin/simpleclans/latest[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] pid            : 73[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] av             : 2.4.1[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] config         : YamlConfiguration[path='', root='YamlConfiguration'][m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] lock           : false[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] needUpdate     : false[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] updatePending  : false[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] UpdateUrl      : null[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] updateVersion  : null[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] pluginURL      : null[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] type           : null[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate]           ======= SNIP HERE =======[m
+2025-09-14 14:05:11 [INFO] SimpleClans [AutoUpdate] [m
+2025-09-14 14:05:12 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:05:12 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:05:12 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:05:12 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:05:23 [INFO] [0;36;22m[EventoGamers] [0;37;1mProcurando por novos Updates do Plugin..[m
+2025-09-14 14:05:23 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 14:05:23 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 14:05:23 [INFO] [0;36;22m[EventoGamers] [0;37;1mNovo Update do EventoGamers disponível (Vnull):[m
+2025-09-14 14:05:23 [INFO] [0;36;22m[EventoGamers] [0;37;1mPara atualizar acesse http://www.atomgamers.com/index.php?/[m
+2025-09-14 14:05:23 [SEVERE] java.lang.NullPointerException
+2025-09-14 14:05:23 [SEVERE] 	at com.koletar.jj.mineresetlite.MineResetLite.checkUpdates(MineResetLite.java:158)
+2025-09-14 14:05:23 [SEVERE] 	at com.koletar.jj.mineresetlite.MineResetLite.access$300(MineResetLite.java:41)
+2025-09-14 14:05:23 [SEVERE] 	at com.koletar.jj.mineresetlite.MineResetLite$2.run(MineResetLite.java:141)
+2025-09-14 14:05:23 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)
+2025-09-14 14:05:23 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+2025-09-14 14:05:23 [SEVERE] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2025-09-14 14:05:23 [SEVERE] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2025-09-14 14:05:23 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+2025-09-14 14:05:26 [INFO] Yoham[/189.113.244.46:39343] logged in with entity id 13 at ([terrenos] 174.05935680992877, 4.0, 94.00110519479645)
+2025-09-14 14:05:26 [INFO] [CustomServerMessages] [+] Yoham  Entrou no Server!
+2025-09-14 14:05:27 [INFO] [WorldEdit] Using inbuilt NmsBlock for this version.
+2025-09-14 14:05:29 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 14:05:29 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 14:05:32 [INFO] Yoham issued server command: /login 1234567
+2025-09-14 14:05:32 [INFO] [AuthMe] Yoham logged in!
+2025-09-14 14:05:35 [INFO] Gab[/177.8.242.104:56643] logged in with entity id 14 at ([terrenos] 183.83928548068792, 8.364456059972948, -35.37613446537529)
+2025-09-14 14:05:35 [INFO] [0;32;22m[21m[MAGNATA] [0;32;1mMagnata [0;36;1mGab [0;32;1mentrou no servidor[m
+2025-09-14 14:05:35 [INFO] [CustomServerMessages] [+] Gab  Entrou no Server!
+2025-09-14 14:05:37 [INFO] Gab issued server command: /login #@MdarB@2022#@!
+2025-09-14 14:05:37 [INFO] [AuthMe] Gab logged in!
+2025-09-14 14:05:38 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection http://atomgamers.com/updater/EventoGamers.html in main server thread
+2025-09-14 14:05:38 [WARNING] [AutoSaveWorld] Plugin EventoGamers attempted to establish connection socket://atomgamers.com:80 in main server thread
+2025-09-14 14:05:41 [INFO] Dibra[/177.8.242.104:56649] logged in with entity id 15 at ([terrenos] 173.9416917815725, 4.0, 68.78088304963764)
+2025-09-14 14:05:41 [INFO] [CustomServerMessages] [+] Dibra  Entrou no Server!
+2025-09-14 14:05:43 [INFO] Yoham issued server command: /spot comprar 12 teste
+2025-09-14 14:05:43 [INFO] debug
+2025-09-14 14:05:45 [INFO] Dibra issued server command: /login 1510
+2025-09-14 14:05:45 [INFO] [AuthMe] Dibra logged in!
+2025-09-14 14:05:47 [INFO] Yoham issued server command: /spot
+2025-09-14 14:06:02 [INFO] Yoham issued server command: /spot pvparea
+2025-09-14 14:06:08 [INFO] Gab issued server command: /afl
+2025-09-14 14:06:08 [INFO] [0;37;1m[[0;31;22mMRL[0;37;1m] [0;31;1mmina [0;35;1mhas been reset automatically![m
+2025-09-14 14:06:08 [INFO] AntiJoinBot is enabled
+2025-09-14 14:06:09 [INFO] Gab issued server command: /afk
+2025-09-14 14:06:27 [INFO] Yoham issued server command: /spot comprar 24 teste
+2025-09-14 14:06:34 [INFO] Yoham issued server command: /spot pvparea
+2025-09-14 14:06:44 [INFO] Yoham issued server command: /spot pvparea ligado
+2025-09-14 14:06:49 [INFO] Gab issued server command: //copy
+2025-09-14 14:06:52 [INFO] Gab issued server command: //copy
+2025-09-14 14:06:57 [INFO] Gab issued server command: //paste
+2025-09-14 14:07:32 [INFO] Gab issued server command: /warp mina
+2025-09-14 14:07:36 [INFO] Dibra issued server command: /warp mina
+2025-09-14 14:08:20 [INFO] Yoham issued server command: /rg flag teste pvp
+2025-09-14 14:08:23 [INFO] [ChestShop] Dibra sold 24 Ink Sack:4 for 166.67 to AdminShop at [world] -2047, 50, 559
+2025-09-14 14:08:26 [INFO] Dibra issued server command: /repair
+2025-09-14 14:08:29 [INFO] Yoham issued server command: /rg flag teste pvpdeny
+2025-09-14 14:08:36 [INFO] Yoham issued server command: /spot
+2025-09-14 14:08:45 [INFO] Yoham issued server command: /spot pvparea teste
+2025-09-14 14:09:02 [INFO] Yoham issued server command: /spot delarea
+2025-09-14 14:09:10 [INFO] Yoham issued server command: /spot delarea teste
+2025-09-14 14:09:23 [INFO] Yoham issued server command: /spot comprar
+2025-09-14 14:09:31 [INFO] Yoham issued server command: /spot comprar 8 teste
+2025-09-14 14:09:38 [INFO] Yoham issued server command: /spot comprar 50 teste
+2025-09-14 14:09:38 [INFO] debug
+2025-09-14 14:09:48 [INFO] Yoham issued server command: /spot delarea teste
+2025-09-14 14:10:08 [INFO] Gab issued server command: /spawn
+2025-09-14 14:10:08 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:10:11 [INFO] Gab issued mycmd command : /terrenos
+2025-09-14 14:10:11 [INFO] Gab issued server command: /warp terrenos
+2025-09-14 14:10:12 [INFO] Yoham issued server command: /spot comprar 50 teste
+2025-09-14 14:10:12 [INFO] debug
+2025-09-14 14:10:31 [INFO] Yoham issued server command: /spot pvparea
+2025-09-14 14:10:37 [INFO] Yoham issued server command: /spot pvparea true
+2025-09-14 14:10:42 [INFO] Dibra issued mycmd command : /terrenos
+2025-09-14 14:10:42 [INFO] Dibra issued server command: /warp terrenos
+2025-09-14 14:11:10 [INFO] Dibra issued server command: /spot
+2025-09-14 14:11:15 [INFO] Dibra issued server command: /spot comprar 5 teste
+2025-09-14 14:11:26 [INFO] Dibra issued server command: /spot
+2025-09-14 14:11:28 [INFO] Dibra issued server command: /spot delete
+2025-09-14 14:11:33 [INFO] Dibra issued server command: /spot delarea dibra
+2025-09-14 14:11:35 [INFO] Yoham issued server command: /spot delarea teste
+2025-09-14 14:11:47 [INFO] Dibra issued server command: /spot comprar 5 teste
+2025-09-14 14:11:50 [INFO] Yoham issued server command: /spot comprar 12 teste
+2025-09-14 14:11:50 [INFO] debug
+2025-09-14 14:11:53 [INFO] Dibra issued server command: /spot comprar 10 teste
+2025-09-14 14:12:03 [INFO] Yoham issued server command: /spot delarea teste
+2025-09-14 14:12:26 [INFO] Gab issued server command: /rg info
+2025-09-14 14:12:28 [INFO] Yoham issued server command: /rg info
+2025-09-14 14:12:47 [INFO] Yoham issued server command: /rg list
+2025-09-14 14:13:10 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:13:11 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:13:22 [INFO] Gab issued server command: /rg define terrenoshub
+2025-09-14 14:13:33 [INFO] Yoham issued server command: /spot comprar
+2025-09-14 14:13:37 [INFO] Gab issued server command: /rg flag terrenoshub pvp deny
+2025-09-14 14:13:42 [INFO] Yoham issued server command: /spot comprar 12 tnt
+2025-09-14 14:13:42 [INFO] debug
+2025-09-14 14:13:49 [INFO] Yoham issued server command: /tp gab
+2025-09-14 14:13:55 [INFO] Gab issued server command: /rg flag terrenoshub mob-spawning deny
+2025-09-14 14:14:05 [INFO] Gab issued server command: /rg flag terrenoshub Build deny
+2025-09-14 14:14:17 [INFO] Gab issued server command: /rg flag terrenoshub invincible allow
+2025-09-14 14:14:27 [INFO] Yoham issued server command: /spot delarea teste
+2025-09-14 14:14:29 [INFO] Yoham issued server command: /spot delarea tnt
+2025-09-14 14:14:33 [INFO] Yoham issued server command: /spot comprar 12 tnt
+2025-09-14 14:14:33 [INFO] debug
+2025-09-14 14:14:42 [INFO] Yoham issued server command: /spot delarea tnt
+2025-09-14 14:14:52 [INFO] Yoham issued server command: /spot comprar 12 tnt
+2025-09-14 14:14:52 [INFO] debug
+2025-09-14 14:14:58 [INFO] Yoham issued server command: /spot delarea tnt
+2025-09-14 14:15:02 [INFO] Dibra issued server command: /spot comprar 10 teste
+2025-09-14 14:15:07 [INFO] Dibra issued server command: /spot comprar 10 teste
+2025-09-14 14:15:08 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:15:08 [INFO] [Metrics] metrics.griefcraft.com
+2025-09-14 14:15:08 [SEVERE] [Metrics] metrics.griefcraft.com
+2025-09-14 14:15:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:15:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:15:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:15:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:15:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:15:10 [WARNING] [NoCheatPlus] Metrics error: ERR  (ConnectException): Connection refused: connect
+2025-09-14 14:15:11 [INFO] Dibra issued server command: /spot comprar 10 teste
+2025-09-14 14:15:21 [INFO] Dibra issued server command: /spot comprar 10 teste
+2025-09-14 14:15:26 [INFO] Yoham issued server command: /spot comprar 12 tnt
+2025-09-14 14:15:26 [INFO] debug
+2025-09-14 14:15:27 [INFO] Dibra issued server command: /spot comprar 100 teste
+2025-09-14 14:15:32 [INFO] Yoham issued server command: /spot pvparea
+2025-09-14 14:15:35 [INFO] Dibra issued server command: /spot comprar 50 teste
+2025-09-14 14:15:35 [INFO] Yoham issued server command: /spot pvparea 12
+2025-09-14 14:15:41 [INFO] Dibra issued server command: /spot comprar 50 teste
+2025-09-14 14:15:49 [INFO] Dibra issued server command: /spot comprar 50 teste
+2025-09-14 14:15:49 [INFO] debug
+2025-09-14 14:15:57 [INFO] Dibra issued server command: /spot delarea teste
+2025-09-14 14:16:01 [INFO] Dibra issued mycmd command : /terrenos
+2025-09-14 14:16:01 [INFO] Dibra issued server command: /warp terrenos
+2025-09-14 14:16:08 [INFO] [0;37;1m[[0;31;22mMRL[0;37;1m] [0;31;1mmina [0;35;1mhas been reset automatically![m
+2025-09-14 14:16:15 [INFO] Yoham issued mycmd command : /terrenos
+2025-09-14 14:16:15 [INFO] Yoham issued server command: /warp terrenos
+2025-09-14 14:19:22 [INFO] Yoham issued server command: /spot
+2025-09-14 14:19:32 [INFO] Yoham issued server command: /spot pvparea
+2025-09-14 14:19:36 [INFO] Yoham issued server command: /spot 1
+2025-09-14 14:19:42 [INFO] Gab issued server command: /mv remove arenax1
+2025-09-14 14:19:42 [INFO] [Multiverse-Core] World 'arenax1' was unloaded from memory.
+2025-09-14 14:19:42 [INFO] [Multiverse-Core] World 'arenax1' was removed from config.yml
+2025-09-14 14:19:46 [INFO] Yoham issued server command: /spot pvpare
+2025-09-14 14:19:47 [INFO] Gab issued server command: /spawn
+2025-09-14 14:20:02 [INFO] Yoham issued server command: /spot areamsg
+2025-09-14 14:20:08 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:20:08 [WARNING] arenax1 has had time setting removed. This is because it may not exist.
+2025-09-14 14:20:08 [WARNING] arenax1 has had weather setting removed. This is because it may not exist.
+2025-09-14 14:20:12 [INFO] Yoham issued server command: /spot pvp
+2025-09-14 14:20:22 [INFO] Yoham issued server command: /spot infoarea
+2025-09-14 14:20:36 [INFO] Yoham issued server command: /spot flag tnt pvp allow
+2025-09-14 14:20:56 [INFO] Yoham issued server command: /spot infoarea tnt
+2025-09-14 14:21:06 [INFO] Yoham issued server command: /spot
+2025-09-14 14:21:13 [INFO] Connection reset
+2025-09-14 14:21:13 [INFO] Dibra lost connection: disconnect.quitting
+2025-09-14 14:21:13 [INFO] [CustomServerMessages] [-] Dibra Saiu do Server!
+2025-09-14 14:21:25 [INFO] Yoham issued server command: /pvp area
+2025-09-14 14:21:29 [INFO] Yoham issued server command: /spot pvparea
+2025-09-14 14:21:31 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:21:31 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:22:27 [INFO] Yoham issued server command: /pvpcasa
+2025-09-14 14:22:37 [INFO] Yoham issued server command: /spot pvpcasa
+2025-09-14 14:23:08 [INFO] Yoham issued server command: /spot
+2025-09-14 14:25:08 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:25:08 [INFO] [Metrics] metrics.griefcraft.com
+2025-09-14 14:25:08 [SEVERE] [Metrics] metrics.griefcraft.com
+2025-09-14 14:25:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:25:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:25:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:25:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:25:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:25:10 [WARNING] [NoCheatPlus] Metrics error: ERR  (ConnectException): Connection refused: connect
+2025-09-14 14:25:36 [INFO] Yoham issued server command: /pvparea
+2025-09-14 14:26:05 [INFO] Yoham issued server command: /spot pvparea tnt
+2025-09-14 14:26:08 [INFO] [0;37;1m[[0;31;22mMRL[0;37;1m] [0;31;1mmina [0;35;1mhas been reset automatically![m
+2025-09-14 14:26:14 [INFO] Yoham issued server command: /spot infoarea tnt
+2025-09-14 14:26:21 [INFO] Yoham issued server command: /spot pvpcasa tnt
+2025-09-14 14:26:23 [INFO] Yoham issued server command: /spot pvparea tnt
+2025-09-14 14:29:52 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:29:52 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:30:08 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:30:48 [INFO] Yoham issued server command: /spot pvparea tnt enable
+2025-09-14 14:30:51 [INFO] Yoham issued server command: /spot pvparea tnt on
+2025-09-14 14:31:28 [INFO] Dibra[/177.8.242.104:53429] logged in with entity id 54 at ([terrenos] 111.0277663033618, 4.0, -7.766531029042246)
+2025-09-14 14:31:28 [INFO] [CustomServerMessages] [+] Dibra  Entrou no Server!
+2025-09-14 14:31:31 [INFO] Dibra issued server command: /login 1510
+2025-09-14 14:31:31 [INFO] [AuthMe] Dibra logged in!
+2025-09-14 14:31:35 [INFO] Yoham issued server command: /tp dibra yoham
+2025-09-14 14:31:46 [SEVERE] Could not pass event BarHideEvent to Gladiador v2.0
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:427)
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:477)
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:462)
+	at com.gmail.filoghost.healthbar.PlayerBar.hideHealthBar(PlayerBar.java:72)
+	at com.gmail.filoghost.healthbar.DamageListener$3$1.run(DamageListener.java:393)
+	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_5_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:345)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.r(MinecraftServer.java:513)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.r(DedicatedServer.java:226)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.q(MinecraftServer.java:477)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:410)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: java.lang.NullPointerException
+	at me.subzero0.gladiador2.Main.formatTag(Main.java:669)
+	at me.subzero0.gladiador2.hooks.HealthBar.onBhide(HealthBar.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:425)
+	... 12 more
+2025-09-14 14:31:52 [INFO] Dibra issued server command: /kit
+2025-09-14 14:31:55 [INFO] Dibra issued server command: /kit
+2025-09-14 14:31:55 [INFO] Yoham issued server command: /spot delarea
+2025-09-14 14:31:56 [INFO] Dibra issued server command: /kits
+2025-09-14 14:31:58 [INFO] Yoham issued server command: /spot
+2025-09-14 14:31:59 [INFO] Dibra issued server command: /kit pvp
+2025-09-14 14:32:07 [INFO] Yoham issued server command: /spot delarea
+2025-09-14 14:32:10 [INFO] Yoham issued server command: /spot delarea tnt
+2025-09-14 14:35:08 [INFO] [AlphaChest] auto-saved 1 chests
+2025-09-14 14:35:08 [INFO] [Metrics] metrics.griefcraft.com
+2025-09-14 14:35:08 [SEVERE] [Metrics] metrics.griefcraft.com
+2025-09-14 14:35:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:35:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:35:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:35:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:35:10 [INFO] [Metrics] Connection refused: connect
+2025-09-14 14:35:10 [WARNING] [NoCheatPlus] Metrics error: ERR  (ConnectException): Connection refused: connect
+2025-09-14 14:36:08 [INFO] [0;37;1m[[0;31;22mMRL[0;37;1m] [0;31;1mmina [0;35;1mhas been reset automatically![m
+2025-09-14 14:38:12 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:38:12 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:38:36 [INFO] CONSOLE: Stopping the server..[m
+2025-09-14 14:38:36 [INFO] Stopping server
+2025-09-14 14:38:36 [INFO] [MitoDoPvP] Disabling MitoDoPvP v2.0
+2025-09-14 14:38:36 [INFO] [0;36;1m[MitoDoPvP] [0;32;1mSalvando o mito atual[m
+2025-09-14 14:38:36 [INFO] [0;32;22m[MitoDoPvP] [0;32;1mDesativando o plugin[m
+2025-09-14 14:38:36 [INFO] [Gladiador] Disabling Gladiador v2.0
+2025-09-14 14:38:36 [INFO] [Gladiador] Desativando Gladiador - Autor: SubZero0
+2025-09-14 14:38:36 [INFO] [ChestShop] Disabling ChestShop v3.5
+2025-09-14 14:38:36 [INFO] [Info-Board] Disabling Info-Board v0.2.9
+2025-09-14 14:38:36 [INFO] [ColoredTablist] Disabling ColoredTablist v1.5.3
+2025-09-14 14:38:36 [INFO] [SimpleClans] Disabling SimpleClans v2.4.1
+2025-09-14 14:38:36 [INFO] [SpotProtection] Disabling SpotProtection v3.1.1
+2025-09-14 14:38:36 [INFO] [SpotProtection] SpotProtection Desativado!
+2025-09-14 14:38:36 [INFO] [CombatLog] Disabling CombatLog v1.0.3
+2025-09-14 14:38:36 [INFO] CombatLog v1.0.3 Disabled
+2025-09-14 14:38:36 [INFO] [MyCommand] Disabling MyCommand v3.9.1
+2025-09-14 14:38:36 [INFO] =-=-=-=-=-=-=-=-=-=-=-MyCommand-=-=-=-=-=-=-=-=-=-=-=-=
+2025-09-14 14:38:36 [INFO] = Version : 3.9.1
+2025-09-14 14:38:36 [INFO] = Author  : MRI a.k.a Ivanpro
+2025-09-14 14:38:36 [INFO] = Status  : Deactive
+2025-09-14 14:38:36 [INFO] =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+2025-09-14 14:38:36 [INFO] [EssentialsSpawn] Disabling EssentialsSpawn v2.11.1
+2025-09-14 14:38:36 [INFO] [Magnata] Disabling Magnata v3.0
+2025-09-14 14:38:36 [INFO] [0;32;22m[Magnata] [0;32;1mSalvando Magnata atual[m
+2025-09-14 14:38:36 [INFO] [0;32;22m[Magnata] [0;32;1mDesabilitando plugin[m
+2025-09-14 14:38:36 [INFO] [Legendchat] Disabling Legendchat v1.1.2
+2025-09-14 14:38:36 [INFO] [Legendchat] Disabling Legendchat - Author: SubZero0
+2025-09-14 14:38:36 [INFO] [WorldGuard] Disabling WorldGuard v5.7.3
+2025-09-14 14:38:36 [INFO] [VipZero] Disabling VipZero v1.2.2
+2025-09-14 14:38:36 [INFO] [VipZero] Disabling VipZero - Author: SubZero0
+2025-09-14 14:38:36 [INFO] [AuthMe] Disabling AuthMe v2.7.0
+2025-09-14 14:38:36 [INFO] [AuthMe] Authme 2.7.0 disabled
+2025-09-14 14:38:36 [INFO] [Vault] Disabling Vault v1.2.16-b184
+2025-09-14 14:38:36 [INFO] [Essentials] Payment method was disabled. No longer accepting payments.
+2025-09-14 14:38:36 [INFO] [Vault] Disabled Version 1.2.16-b184
+2025-09-14 14:38:36 [INFO] [MineResetLite] Disabling MineResetLite v0.3.5
+2025-09-14 14:38:36 [INFO] [MineResetLite] MineResetLite disabled
+2025-09-14 14:38:36 [INFO] [MobSpawnerEggChanger] Disabling MobSpawnerEggChanger v1.9
+2025-09-14 14:38:36 [INFO] [mcMMO] Disabling mcMMO v1.4.05-b1870
+2025-09-14 14:38:36 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection http://mcstats.org/report/mcMMO in main server thread
+2025-09-14 14:38:36 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection socket://mcstats.org:80 in main server thread
+2025-09-14 14:38:38 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection http://mcstats.org/report/EMetrics in main server thread
+2025-09-14 14:38:38 [WARNING] [AutoSaveWorld] Plugin mcMMO attempted to establish connection socket://mcstats.org:80 in main server thread
+2025-09-14 14:38:40 [INFO] [mcMMO] Backing up your mcMMO Configuration... 
+2025-09-14 14:38:40 [INFO] [mcMMO] Backup Completed.
+2025-09-14 14:38:40 [INFO] [mcMMO] Was disabled.
+2025-09-14 14:38:40 [INFO] [EventoGamers] Disabling EventoGamers v2.2.1D
+2025-09-14 14:38:40 [INFO] [SCReset] Disabling SCReset v1.1.3
+2025-09-14 14:38:40 [INFO] [SCReset] Disabling plugin SCReset - Author: SubZero0
+2025-09-14 14:38:40 [INFO] [PermissionsEx] Disabling PermissionsEx v1.19.5
+2025-09-14 14:38:40 [INFO] WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+2025-09-14 14:38:40 [INFO] Permissions file successfully reloaded
+2025-09-14 14:38:40 [INFO] [PermissionsEx] v1.19.5 disabled successfully.
+2025-09-14 14:38:40 [INFO] [iConomy] Disabling iConomy v6.0.10b
+2025-09-14 14:38:40 [INFO] Essentials: Using config file enhanced permissions.
+2025-09-14 14:38:40 [INFO] Permissions listed in as player-commands will be given to all users.
+2025-09-14 14:38:40 [INFO] [iConomy] Closing general data...
+2025-09-14 14:38:40 [INFO] [iConomy] Disabled. (0 ms)
+2025-09-14 14:38:40 [INFO] [AntiAd] Disabling AntiAd v2.2.5
+2025-09-14 14:38:40 [INFO] [AntiAd] &2AntiAd Version 2.2.5 is now Disabled.
+2025-09-14 14:38:40 [INFO] [CustomServerMessages] Disabling CustomServerMessages v2.9.6
+2025-09-14 14:38:40 [INFO] [CustomServerMessages] CustomServerMessages disabled.
+2025-09-14 14:38:40 [INFO] [KitAdder] Disabling KitAdder v2.0
+2025-09-14 14:38:40 [INFO] [KitAdder] KitAdder has been disabled!
+2025-09-14 14:38:40 [INFO] [NoCheatPlus] Disabling NoCheatPlus v3.9.3-RC-b539
+2025-09-14 14:38:40 [INFO] [NoCheatPlus] Version 3.9.3-RC-b539 is disabled.
+2025-09-14 14:38:40 [INFO] [AutoSaveWorld] Disabling AutoSaveWorld v4.14.2
+2025-09-14 14:38:40 [INFO] [0;34;1mAutoSaving[m
+2025-09-14 14:38:40 [INFO] [0;34;1mAutoSave Complete[m
+2025-09-14 14:38:46 [INFO] [Multiverse-Core] Disabling Multiverse-Core v2.4-b527
+2025-09-14 14:38:46 [INFO] [Multiverse-Core] - Disabled
+2025-09-14 14:38:46 [INFO] [Killer] Disabling Killer v2.0
+2025-09-14 14:38:46 [INFO] [Killer] Desativando Killer - Autor: SubZero0
+2025-09-14 14:38:46 [INFO] [ReduceLag] Disabling ReduceLag v1.1
+2025-09-14 14:38:46 [INFO] [AutoMessage] Disabling AutoMessage v2.3.2
+2025-09-14 14:38:46 [INFO] [ClearLag] Disabling ClearLag v2.8.4
+2025-09-14 14:38:46 [INFO] [ClearLag] Nullifying module fields..
+2025-09-14 14:38:46 [INFO] [ClearLag] Clearlag is now disabled!
+2025-09-14 14:38:46 [INFO] [xRename] Disabling xRename v1.0
+2025-09-14 14:38:46 [INFO] [xRename] PLUGIN DESATIVADO COM SUCESSO.
+2025-09-14 14:38:46 [INFO] [SimpleUc] Disabling SimpleUc v1.4.5
+2025-09-14 14:38:46 [INFO] [SimpleUc] SimpleUc disabled.
+2025-09-14 14:38:46 [INFO] [Essentials] Disabling Essentials v2.11.1
+2025-09-14 14:38:46 [INFO] [OpenInv] Disabling OpenInv v2.2.9
+2025-09-14 14:38:46 [INFO] [HealthBar] Disabling HealthBar v1.6
+2025-09-14 14:38:46 [INFO] HealthBar disabled, all the health bars have been removed.
+2025-09-14 14:38:46 [INFO] [TimTheEnchanter] Disabling TimTheEnchanter v3.0
+2025-09-14 14:38:46 [INFO] [TimTheEnchanter] I *warned* you, but did you listen to me? Oh, no, you *knew*, didn't you? Oh, it's just a harmless little *bunny*, isn't it? 
+2025-09-14 14:38:46 [INFO] [WorldEdit] Disabling WorldEdit v5.5.6
+2025-09-14 14:38:46 [INFO] [ChatClear] Disabling ChatClear v2.3.1
+2025-09-14 14:38:46 [INFO] [ChatClear] Plugin deactivated!
+2025-09-14 14:38:46 [INFO] [ChatClear] Plugin by MDRunaway!
+2025-09-14 14:38:46 [INFO] [AntiJoinBot] Disabling AntiJoinBot v1.8
+2025-09-14 14:38:46 [INFO] +-+-+-+-+[AntiJoinBotProxy by CodeByCode @200dvd]+-+-+-+-+
+2025-09-14 14:38:46 [INFO] AntiJoinBotProxy Shutdown ....
+2025-09-14 14:38:46 [INFO] [BanItem] Disabling BanItem v2.8
+2025-09-14 14:38:46 [INFO] BanItem is now Disabled!
+2025-09-14 14:38:46 [INFO] [MaxBans] Disabling MaxBans v2.1
+2025-09-14 14:38:46 [INFO] [MaxBans] Disabling Maxbans...
+2025-09-14 14:38:46 [INFO] [MaxBans] Clearing buffer...
+2025-09-14 14:38:46 [INFO] [MaxBans] Cleared buffer...
+2025-09-14 14:38:46 [INFO] [AlwaysDay] Disabling AlwaysDay v2.2.7
+2025-09-14 14:38:46 [INFO] [AlwaysDay] AlwaysDay v2.2.7 is now disabled.
+2025-09-14 14:38:46 [INFO] Please donate at the AlwaysDay page (http://dev.bukkit.org/server-mods/always-day/) if you are enjoying this plugin! Any contributions are greatly appreciated!
+2025-09-14 14:38:46 [INFO] [AlphaChest] Disabling AlphaChest v1.16.0
+2025-09-14 14:38:46 [INFO] [AlphaChest] saved 1 chests
+2025-09-14 14:38:46 [INFO] [CraftX1] Disabling CraftX1 v1.0.0
+2025-09-14 14:38:46 [INFO] [ColoredSigns] Disabling ColoredSigns v1.2
+2025-09-14 14:38:46 [INFO] [MotdManager] Disabling MotdManager v1.41-b20
+2025-09-14 14:38:46 [INFO] [MotdManager] version 1.41-b20 is disabled!
+2025-09-14 14:38:46 [INFO] Saving players
+2025-09-14 14:38:46 [WARNING] DSCT: socket closed
+2025-09-14 14:38:46 [INFO] Closing listening thread
+2025-09-14 14:38:46 [INFO] Saving worlds
+2025-09-14 14:38:46 [INFO] Saving chunks for level 'world'/Overworld
+2025-09-14 14:38:46 [INFO] Saving chunks for level 'terrenos'/Overworld
+2025-09-14 14:38:46 [INFO] Stopping server

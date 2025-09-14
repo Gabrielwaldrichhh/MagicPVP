@@ -316,36 +316,42 @@ debug: false
 # Turn off god mode when people exit.
 remove-god-on-disconnect: false
 
-# Auto-AFK
+auto-afk: -1
+auto-afk-kick: -1
+notify-on-afk: false
 # After this timeout in seconds, the user will be set as afk.
 # This feature requires the player to have essentials.afk.auto node.
 # Set to -1 for no timeout.
-auto-afk: 300
 
 # Auto-AFK Kick
 # After this timeout in seconds, the user will be kicked from the server.
 # essentials.afk.kickexempt node overrides this feature.
 # Set to -1 for no timeout.
-auto-afk-kick: -1
+
+#auto-afk-kick: -1
 
 # Set this to true, if you want to freeze the player, if he is afk.
 # Other players or monsters can't push him out of afk mode then.
 # This will also enable temporary god mode for the afk player.
 # The player has to use the command /afk to leave the afk mode.
-freeze-afk-players: false
+
+#freeze-afk-players: false
 
 # When the player is afk, should he be able to pickup items?
 # Enable this, when you don't want people idling in mob traps.
-disable-item-pickup-while-afk: false
+
+#disable-item-pickup-while-afk: false
 
 # This setting controls if a player is marked as active on interaction.
 # When this setting is false, you will need to manually un-AFK using the /afk command.
-cancel-afk-on-interact: true
+
+#cancel-afk-on-interact: true
 
 # Should we automatically remove afk status when the player moves?
 # Player will be removed from AFK on chat/command regardless of this setting.
 # Disable this to reduce server lag.
-cancel-afk-on-move: true
+
+#cancel-afk-on-move: true
 
 # You can disable the death messages of Minecraft here.
 death-messages: true
