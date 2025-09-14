@@ -2,13 +2,11 @@ groups:
   default:
     permissions:
     - modifyworld.*
-  Subdono:
-    permissions:
     - '*'
     - essentials.repair
     - essentials.repair.enchanted
-    - essentials.reapair.armor
-    - essentials.reapair.all
+    - essentials.repair.armor
+    - essentials.repair.all
     prefix: '&0[&9Sub-Diretor&0]&r '
     suffix: ' > '
   dono:
@@ -16,8 +14,8 @@ groups:
     - '*'
     - essentials.repair
     - essentials.repair.enchanted
-    - essentials.reapair.armor
-    - essentials.reapair.all
+    - essentials.repair.armor
+    - essentials.repair.all
     - mycommand.cmd.1
     - mycommand.cmd.2
     - mycommand.cmd.3
@@ -25,7 +23,6 @@ groups:
     - mycommand.cmd.5
     prefix: '&0[&9Diretor&0]&r '
     suffix: ' > '
-  Moderador:
     prefix: '&0[&9Moderador&0]&r '
     suffix: ' > '
     permissions:
@@ -55,8 +52,8 @@ groups:
     - essentials.tp
     - essentials.repair
     - essentials.repair.enchanted
-    - essentials.reapair.armor
-    - essentials.reapair.all
+    - essentials.repair.armor
+    - essentials.repair.all
     - iconomy.money
     - iconomy.holgings
     - iconomy.holgings.others
@@ -260,8 +257,8 @@ groups:
     - essentials.tpa
     - essentials.repair
     - essentials.repair.enchanted
-    - essentials.reapair.armor
-    - essentials.reapair.all
+    - essentials.repair.armor
+    - essentials.repair.all
     - iconomy.money
     - iconomy.holgings
     - iconomy.holgings.others
@@ -332,8 +329,8 @@ groups:
     - essentials.tpa
     - essentials.repair
     - essentials.repair.enchanted
-    - essentials.reapair.armor
-    - essentials.reapair.all
+    - essentials.repair.armor
+    - essentials.repair.all
     - iconomy.money
     - iconomy.holgings
     - iconomy.holgings.others
