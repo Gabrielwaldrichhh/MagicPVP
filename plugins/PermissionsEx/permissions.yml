@@ -33,8 +33,6 @@ groups:
     - essentials.fly
     - spotprotection.use
     - spotprotection.1
-    - essentials.chat.afk.auto
-    - essentials.chat.afk
     - essentials.chat.shout
     - essentials.chat.format
     - essentials.chat.color

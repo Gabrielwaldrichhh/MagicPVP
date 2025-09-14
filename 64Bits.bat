@@ -1,1 +1,1 @@
-java -Xmx2G -Xms1G -jar craftbukkit.jar
+java -Xmx3G -Xms3G -jar craftbukkit.jar

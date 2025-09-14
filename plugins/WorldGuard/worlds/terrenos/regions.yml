@@ -19,6 +19,12 @@ regions:
         owners:
             players: [2yellow03]
         members: {}
+    __global__:
+        type: global
+        priority: 0
+        flags: {build: deny, pvp: deny}
+        owners: {}
+        members: {}
     terrenos:
         type: cuboid
         min: {x: 86.0, y: 0.0, z: -63.0}
@@ -26,9 +32,17 @@ regions:
         priority: 0
         flags:
             creeper-explosion: deny
-            invincible: allow
             blocked-cmds: [/spot]
+            invincible: allow
             pvp: deny
             mob-spawning: deny
+        owners: {}
+        members: {}
+    terrenoshub:
+        type: cuboid
+        min: {x: 26.0, y: 0.0, z: -122.0}
+        max: {x: 179.0, y: 57.0, z: 35.0}
+        priority: 0
+        flags: {build: deny, invincible: allow, pvp: deny, mob-spawning: deny}
         owners: {}
         members: {}
