@@ -24,9 +24,10 @@ message-lists:
     suffix: ''
     messages:
     - '&6Nao use a senha do MagicPVP em nenhum outro servidor'
+    - '&6O Servidor esta em fase de teste, se achar um BUG Reporte!'
     - '&6Todos os domingo &219:00 &6Evento Gladiador'
     - '&6Quer Comprar Vip? Acesse '
-    - '&6Quer tag &4You&fTuber? Poste um video e mande no Discord do Servidor! !'
+    - '&6Quer tag &4You&fTuber? Poste um video e mande no Discord do Servidor!'
     - '&6Vips Tem muitas vantagens verifique no site!'
     - '&6Para comprar um terreno, digite /terrenos!'
   vip:

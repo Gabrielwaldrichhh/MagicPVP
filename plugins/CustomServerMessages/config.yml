@@ -1,10 +1,10 @@
 CustomServerMessages:
   Event:
     join:
-      enable: false
+      enable: true
       message: '&b[&a+&b] &6&player &c Entrou no Server!'
     quit:
-      enable: false
+      enable: true
       message: '&b[&a-&b] &6&player &cSaiu do Server!'
     whitelist:
       enable: true
