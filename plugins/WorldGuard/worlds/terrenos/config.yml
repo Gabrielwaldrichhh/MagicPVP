@@ -9,4 +9,15 @@
 # Remove the {} and add your own entries.
 #
 
-{}
+pvp: false
+lava-fire: false
+fire-spread: false
+lava-spread: false
+disable-mob-spawning: true
+disable-creeper-block-damage: true
+disable-tnt-block-damage: true
+block-plugin-spawning: true
+weather:
+    disable-lightning-strikes: true
+    disable-ice-formation: true
+    disable-snow-formation: true

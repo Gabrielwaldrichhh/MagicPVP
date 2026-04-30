@@ -1,0 +1,11 @@
+locale:
+  mine-reset: '&8[&2MagicPVP&8] &fA mina &a%mine% &ffoi resetada!'
+  mine-reset-warning: '&8[&2MagicPVP&8] &fA mina &a%mine% &fserá resetada em &a%seconds% &fsegundos!'
+  mine-no-longer-contains: '&8[&2MagicPVP&8] &fA mina &a%mine% &fnao contem mais &c%block%&f.'
+  mine-now: '&8[&2MagicPVP&8] &fA mina &a%mine% &fagora tem &a%percent%% &fde &a%block%&f.'
+  mine-reset-by: '&8[&2MagicPVP&8] &fA mina &a%mine% &ffoi resetada por &a%player%&f.'
+  no-permission: '&8[&c!&8] &fVoce nao tem permissao para isso.'
+  invalid-mine: '&8[&c!&8] &fMina invalida.'
+  mine-created: '&8[&2MagicPVP&8] &fMina &a%mine% &fcriada com sucesso!'
+  mine-deleted: '&8[&2MagicPVP&8] &fMina &a%mine% &fdeletada.'
+  mine-set: '&8[&2MagicPVP&8] &fMina &a%mine% &fatualizada.'

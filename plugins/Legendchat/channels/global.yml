@@ -7,5 +7,5 @@ needFocus: false
 distance: 0.0
 crossworlds: true
 delayPerMessage: 5
-costPerMessage: 500.0
-showCostMessage: true
+costPerMessage: 0.0
+showCostMessage: false

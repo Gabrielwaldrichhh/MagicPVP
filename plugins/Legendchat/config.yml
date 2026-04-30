@@ -17,7 +17,7 @@ maintain_spy_mode: false
 use_async_chat_event: true
 text_to_tag: []
 format:
-  default: '{color}[{nick}] {groupprefix}{prefix}{gladiador}{mito}{killer}{predador}{magnata}{bprefix2}{bprefix}&f{sender}{bsuffix}{suffix}{groupsuffix}{color}: {msg}'
+  default: '{groupprefix}&f{sender} &8» &f{msg}'
   bungeecord: '{color}[{nick}] -{server}- {groupprefix}{prefix}{bprefix2}{bprefix}&f{sender}{bsuffix}{suffix}{groupsuffix}{color}: {msg}'
   spy: '&8[SPY] &7{msg}'
 private_message_format:

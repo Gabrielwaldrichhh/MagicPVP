@@ -1,7 +1,13 @@
-﻿&3<-------------------------------------------->
-&4&l[&c+&4&l]&0&l &aBem-Vindo, &f{USERNAME} &aAo server
-&4&l[&c+&4&l]&0&l &9/kit pvp &apara batalhar
-&4&l[&c+&4&l]&0&l &aNao Abuse de bugs
-&4&l[&c+&4&l]&0&l &aSite Em Breve!
-&4&l[&c+&4&l]&0&l &aPara pegar seu terreno digite &f/terrenos
-&3<-------------------------------------------->
+&8&m==============================
+  &2&lMagicPVP &8| &fFullPvP 1.5.2 Raiz
+&8&m==============================
+  &fBem-vindo, &a{USERNAME}&f!
+
+  &a/kit pvp     &8» &7Kit de combate
+  &a/treinar     &8» &7Arena de treino P4
+  &a/terreno     &8» &7Compre seu terreno
+  &a/clan        &8» &7Crie seu cla
+  &a/ajuda       &8» &7Central de ajuda
+&8&m==============================
+  &7Site: &fmagicpvp.com.br
+&8&m==============================

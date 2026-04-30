@@ -1,3 +1,5 @@
+# 
+# --- Promoção para Membro (reset) ---
 MySQL:
   use: false
   Host: localhost
@@ -6,8 +8,8 @@ MySQL:
   Password: '123'
   Database: minecraft
 language: br
-server_name: SpringPvP
-check_for_updates: true
+server_name: MagicPVP
+check_for_updates: false
 case_sensitive_for_flatfile: false
 key_length: 10
 one_vip_change: false
@@ -31,89 +33,84 @@ paypal:
 logging:
   usekey: true
 vip_groups:
-- membro
-- vip
-- vipx
-default_group: membro
+- Membro
+- MagicVIP
+- MagicVIPX
+default_group: Membro
 vip_items:
-- Membro,0,cmd,pex user @player group set membro
-- vip,0,$,400000
-- vip,0,xp,100
-- vip,0,310,1,protection-4-unbreaking-5-desc-@player
-- vip,0,311,1,protection-4-unbreaking-5-desc-@player
-- vip,0,312,1,protection-4-unbreaking-5-desc-@player
-- vip,0,313,1,protection-4-unbreaking-5-desc-@player
-- vip,0,310,1,protection-4-unbreaking-5-desc-@player
-- vip,0,311,1,protection-4-unbreaking-5-desc-@player
-- vip,0,312,1,protection-4-unbreaking-5-desc-@player
-- vip,0,313,1,protection-4-unbreaking-5-desc-@player
-- vip,0,276,1,sharpness-5-unbreaking-7-fireaspect-2-desc-@player
-- vip,0,279,1,sharpness-5-unbreaking-7-fireaspect-2-efficiency-7-desc-@player
-- vip,0,278,1,fortune-3-efficiency-7-unbreaking-3-desc-@player
-- vip,0,277,1,efficiency-7-fortune-3-unbreaking-3-desc-@player
-- vip,0,261,1,power-5-punch-3-infinity-1-flame-2-desc-@player
-- vip,0,262,64,desc-@player
-- vip,0,262,64,desc-@player
-- vip,0,264,64,desc-@player
-- vip,0,264,64,desc-@player
-- vip,0,264,64,desc-@player
-- vip,0,264,64,desc-@player
-- vip,0,266,64,desc-@player
-- vip,0,266,64,desc-@player
-- vip,0,266,64,desc-@player
-- vip,0,266,64,desc-@player
-- vip,0,388,64,desc-@player
-- vip,0,388,64,desc-@player
-- vip,0,388,64,desc-@player
-- vip,0,388,64,desc-@player
-- vip,0,265,64,desc-@player
-- vip,0,265,64,desc-@player
-- vip,0,265,64,desc-@player
-- vip,0,265,64,desc-@player
-- vip,0,322:1,64,desc-@player
-- vip,0,322:1,64,desc-@player
-- vip,0,322:1,64,desc-@player
-- vip,0,322:1,64,desc-@player
-- vip,0,cmd,pex user @player group set vip
-- vipx,0,$,900000
-- vipx,0,xp,200
-- vipx,0,cmd,pex user @player group set vipx
-- vipx,0,310,2,protection-5-unbreaking-5-desc-@player
-- vipx,0,311,2,protection-5-unbreaking-5-desc-@player
-- vipx,0,312,2,protection-5-unbreaking-5-desc-@player
-- vipx,0,313,2,protection-5-unbreaking-5-desc-@player
-- vipx,0,310,2,protection-5-unbreaking-5-desc-@player
-- vipx,0,311,2,protection-5-unbreaking-5-desc-@player
-- vipx,0,312,2,protection-5-unbreaking-5-desc-@player
-- vipx,0,313,2,protection-5-unbreaking-5-desc-@player
-- vipx,0,276,2,sharpness-7-unbreaking-7-fireaspect-2-desc-@player
-- vipx,0,279,2,sharpness-7-unbreaking-7-fireaspect-2-efficiency-7-desc-@player
-- vipx,0,278,2,fortune-5-efficiency-7-unbreaking-5-desc-@player
-- vipx,0,277,2,efficiency-7-fortune-5-unbreaking-5-desc-@player
-- vipx,0,261,1,power-7-punch-4-infinity-1-flame-3-desc-@player
-- vipx,0,262,64,desc-@player
-- vipx,0,262,64,desc-@player
-- vipx,0,264,64,desc-@player
-- vipx,0,264,64,desc-@player
-- vipx,0,264,64,desc-@player
-- vipx,0,264,64,desc-@player
-- vipx,0,266,64,desc-@player
-- vipx,0,266,64,desc-@player
-- vipx,0,266,64,desc-@player
-- vipx,0,266,64,desc-@player
-- vipx,0,388,64,desc-@player
-- vipx,0,388,64,desc-@player
-- vipx,0,388,64,desc-@player
-- vipx,0,388,64,desc-@player
-- vipx,0,265,64,desc-@player
-- vipx,0,265,64,desc-@player
-- vipx,0,265,64,desc-@player
-- vipx,0,265,64,desc-@player
-- vipx,0,322:1,64,desc-@player
-- vipx,0,322:1,64,desc-@player
-- vipx,0,322:1,64,desc-@player
-- vipx,0,322:1,64,desc-@player
-- vipx,0,potion:fireresistance:false:480:0,20,regen-480:0-speed-480:0-strength-480:0-nightvision-480:0-fireresistance-480:0-name-&dPocao do Capiroto-desc-@player
+- Membro,0,cmd,pex user @player group set Membro
+- MagicVIP,0,cmd,pex user @player group set MagicVIP
+- MagicVIP,0,cmd,broadcast &8[&d&lMagicVIP&8] &f@player &dativou o &d&lMagicVIP &fno &2&lMagicPVP&f!
+- MagicVIP,0,cmd,msg @player &8[&d&lMagicVIP&8] &fBem-vindo ao lado magico! Seu inv foi preenchido.
+- MagicVIP,0,$,200000
+- MagicVIP,0,xp,50
+- MagicVIP,0,310,1,protection-4-unbreaking-3-desc-&d&lCapacete_Magic_de_@player
+- MagicVIP,0,311,1,protection-4-unbreaking-3-desc-&d&lPeitoral_Magic_de_@player
+- MagicVIP,0,312,1,protection-4-unbreaking-3-desc-&d&lCalca_Magic_de_@player
+- MagicVIP,0,313,1,protection-4-unbreaking-3-desc-&d&lBota_Magic_de_@player
+- MagicVIP,0,310,1,protection-4-unbreaking-3-desc-&d&lCapacete_Magic_de_@player
+- MagicVIP,0,311,1,protection-4-unbreaking-3-desc-&d&lPeitoral_Magic_de_@player
+- MagicVIP,0,312,1,protection-4-unbreaking-3-desc-&d&lCalca_Magic_de_@player
+- MagicVIP,0,313,1,protection-4-unbreaking-3-desc-&d&lBota_Magic_de_@player
+- MagicVIP,0,276,1,sharpness-5-unbreaking-5-fireaspect-1-desc-&d&lEspada_Magic_de_@player
+- MagicVIP,0,279,1,sharpness-5-unbreaking-5-efficiency-5-desc-&d&lMachado_Magic_de_@player
+- MagicVIP,0,278,1,efficiency-5-fortune-2-unbreaking-3-desc-&d&lPicareta_Magic_de_@player
+- MagicVIP,0,261,1,power-4-punch-2-infinity-1-flame-1-desc-&d&lArco_Magic_de_@player
+- MagicVIP,0,383,1,54,desc-&aOvo_de_Zumbi
+- MagicVIP,0,383,1,54,desc-&aOvo_de_Zumbi
+- MagicVIP,0,322:1,64,desc-&4&lMaca_Encantada
+- MagicVIP,0,322:1,64,desc-&4&lMaca_Encantada
+- MagicVIP,0,potion:strength:false:480:1,32,desc-&c&lForca_I
+- MagicVIP,0,potion:speed:false:480:1,32,desc-&b&lVelocidade_I
+- MagicVIPX,0,cmd,pex user @player group set MagicVIPX
+- MagicVIPX,0,cmd,broadcast &8[&5&lMagicVIPX&8] &f@player &5ativou o &5&lMagicVIPX &fno &2&lMagicPVP&f!
+- MagicVIPX,0,cmd,msg @player &8[&5&lMagicVIPX&8] &fBem-vindo ao nivel maximo do lado magico!
+- MagicVIPX,0,$,900000
+- MagicVIPX,0,xp,200
+- MagicVIPX,0,310,2,protection-5-unbreaking-5-desc-&5&lCapacete_MagicX_de_@player
+- MagicVIPX,0,311,2,protection-5-unbreaking-5-desc-&5&lPeitoral_MagicX_de_@player
+- MagicVIPX,0,312,2,protection-5-unbreaking-5-desc-&5&lCalca_MagicX_de_@player
+- MagicVIPX,0,313,2,protection-5-unbreaking-5-desc-&5&lBota_MagicX_de_@player
+- MagicVIPX,0,310,2,protection-5-unbreaking-5-desc-&5&lCapacete_MagicX_de_@player
+- MagicVIPX,0,311,2,protection-5-unbreaking-5-desc-&5&lPeitoral_MagicX_de_@player
+- MagicVIPX,0,312,2,protection-5-unbreaking-5-desc-&5&lCalca_MagicX_de_@player
+- MagicVIPX,0,313,2,protection-5-unbreaking-5-desc-&5&lBota_MagicX_de_@player
+- MagicVIPX,0,276,2,sharpness-7-unbreaking-7-fireaspect-2-desc-&5&lEspada_MagicX_de_@player
+- MagicVIPX,0,279,2,sharpness-7-unbreaking-7-fireaspect-2-efficiency-7-desc-&5&lMachado_MagicX_de_@player
+- MagicVIPX,0,278,2,fortune-5-efficiency-7-unbreaking-5-desc-&5&lPicareta_MagicX_de_@player
+- MagicVIPX,0,277,2,efficiency-7-fortune-5-unbreaking-5-desc-&5&lPa_MagicX_de_@player
+- MagicVIPX,0,261,1,power-7-punch-4-infinity-1-flame-3-desc-&5&lArco_MagicX_de_@player
+- MagicVIPX,0,262,64,desc-&7Flecha
+- MagicVIPX,0,262,64,desc-&7Flecha
+- MagicVIPX,0,264,64,desc-&b&lDiamante
+- MagicVIPX,0,264,64,desc-&b&lDiamante
+- MagicVIPX,0,264,64,desc-&b&lDiamante
+- MagicVIPX,0,264,64,desc-&b&lDiamante
+- MagicVIPX,0,266,64,desc-&6&lOuro
+- MagicVIPX,0,266,64,desc-&6&lOuro
+- MagicVIPX,0,266,64,desc-&6&lOuro
+- MagicVIPX,0,266,64,desc-&6&lOuro
+- MagicVIPX,0,388,64,desc-&aEsmeralda
+- MagicVIPX,0,388,64,desc-&aEsmeralda
+- MagicVIPX,0,388,64,desc-&aEsmeralda
+- MagicVIPX,0,388,64,desc-&aEsmeralda
+- MagicVIPX,0,265,64,desc-&7Ferro
+- MagicVIPX,0,265,64,desc-&7Ferro
+- MagicVIPX,0,265,64,desc-&7Ferro
+- MagicVIPX,0,265,64,desc-&7Ferro
+- MagicVIPX,0,322:1,64,desc-&4&lMaca_Encantada
+- MagicVIPX,0,322:1,64,desc-&4&lMaca_Encantada
+- MagicVIPX,0,322:1,64,desc-&4&lMaca_Encantada
+- MagicVIPX,0,322:1,64,desc-&4&lMaca_Encantada
+- MagicVIPX,0,potion:fireresistance:false:480:0,20,regen-480:0-speed-480:0-strength-480:0-nightvision-480:0-fireresistance-480:0-name-&5Pocao_Magic_do_Capiroto-desc-&5&lPocao_do_Capiroto
 keys: {}
 vips:
- 
+  Gabri:
+    inicio: 29/04/2026
+    usando: MagicVIP
+    MagicVIP: 300
+    MagicVIPX: 30
+  Gab:
+    inicio: 29/04/2026
+    usando: MagicVIP
+    MagicVIP: 30

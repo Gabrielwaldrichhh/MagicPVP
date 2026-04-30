@@ -1,15 +1,3 @@
-#  ----------------------------------------------------
-#  AutoMessage Configuration File
-#  ----------------------------------------------------
-#  Message Configuration:
-#     Messages are handled in lists to allow for advanced customization!
-#     Feel free to add color codes by using & in your messages!
-#     To split a message onto multiple lines use the \n delimiter!
-#     Lines starting with / will be run as a command!
-#     To add single apostrophes into a message use ''.
-#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
-#     If you are unfamiliar with YAML use the in-game commands: /am help
-
 settings:
   enabled: true
   min-players: 0
@@ -20,24 +8,40 @@ message-lists:
     random: false
     interval: 120
     expiry: -1
-    prefix: '&8&l[&c&l!&8&l] -> '
+    prefix: '&8[&2MagicPVP&8] '
     suffix: ''
     messages:
-    - '&6Nao use a senha do MagicPVP em nenhum outro servidor'
-    - '&6O Servidor esta em fase de teste, se achar um BUG Reporte!'
-    - '&6Todos os domingo &219:00 &6Evento Gladiador'
-    - '&6Quer Comprar Vip? Acesse '
-    - '&6Quer tag &4You&fTuber? Poste um video e mande no Discord do Servidor!'
-    - '&6Vips Tem muitas vantagens verifique no site!'
-    - '&6Para comprar um terreno, digite /terrenos!'
+    - '&fNao use a senha do &2MagicPVP &fem outros servidores!'
+    - '&fServidor em BETA &8- &freporte bugs no &2Discord&f!'
+    - '&fTodo &2domingo &fas &219h &ftemos o evento &2Gladiador&f! Use &2/gladiador &fpara participar.'
+    - '&fCompre &2VIP&f e tenha vantagens! Acesse &2magicpvp.com.br'
+    - '&fQuer a tag &2Youtuber&f? Poste um video e mande no Discord!'
+    - '&fCrie seu cla com &2/clan create <tag> <nome> &f- custa apenas &2500 Reais&f!'
+    - '&fCompre seu terreno com &2/terreno &f- construa sem medo!'
+    - '&fUse &2/kit pvp &fpara pegar seu kit de combate!'
+    - '&fVeja o top de ricos com &2/baltop&f!'
+    - '&fTreine com set P4 de graca! Use &2/treinar &fpara entrar na Arena de Treino!'
+    - '&fMinerou na mina? Use &2/vendertudo &fpara vender seus minerios e ganhar dinheiro!'
+  x1:
+    enabled: true
+    random: false
+    interval: 3600
+    expiry: -1
+    prefix: ''
+    suffix: ''
+    messages:
+    - '&8&m==============================='
+    - '&8[&c&lX1&8] &fEvento X1 disponivel! Desafie alguem!'
+    - '&8[&c&lX1&8] &fUse &c/x1 desafiar <jogador> &fpara iniciar uma luta!'
+    - '&8[&c&lX1&8] &fPremio: &a$30.000 Reais &fpara o vencedor!'
+    - '&8&m==============================='
   vip:
     enabled: true
     random: false
-    interval: 120
+    interval: 240
     expiry: -1
-    prefix: '&8&l[&c&l!&8&l] -> '
-    suffix: '&8&l[&d&lVIP&8&l]'
+    prefix: '&8[&a!&8] '
+    suffix: ''
     messages:
-    - '&6Nao use a senha do MagicPVP nenhum outro servidor'
-    - '&6Todos os domingo &219:00 &6Evento Gladiador'
-    - '&6Use o comando /fly para voar'
+    - '&8[&6VIP&8] &fUse &2/fly &fpara voar!'
+    - '&8[&6VIP&8] &fUse &2/repair &fpara reparar seus itens!'

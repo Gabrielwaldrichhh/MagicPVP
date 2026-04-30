@@ -1,7 +1,4 @@
 # iConomy 6.0.8b
-# @author     Nijikokun <nijikokun@gmail.com>
-# @license    GPLv2
-# @copyright  Copyright AniGaiku LLC (C) 2010-2011
 System:
   Permissions:
     Use:
@@ -15,7 +12,7 @@ System:
       - Centavo
       - Centavos
     Account:
-      Holdings: 10.0
+      Holdings: 50.0
   Formatting:
     Minor: false
     Seperate: false
@@ -23,7 +20,8 @@ System:
   Logging:
     Enabled: false
   Purging:
-    Enabled: true
+    # IMPORTANTE: false evita que contas de jogadores inativos sejam deletadas
+    Enabled: false
   Interest:
     Enabled: false
     Online: true
@@ -52,4 +50,4 @@ System:
       Username: root
       Password: ''
       All: true
-Rank-Size: 5
+Rank-Size: 10

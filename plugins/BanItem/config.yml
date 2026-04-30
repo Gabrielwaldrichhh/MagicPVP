@@ -1,4 +1,4 @@
-Confiscate: false
+Confiscate: true
 UpdateChecker: false
 Delay: 10
 Filter:
@@ -24,24 +24,24 @@ Filter:
 - 31
 - 79
 Ban Reason:
-- This item %d is banned in world %s because
+- Este item esta banido no servidor!
 Blacklist:
-- '381:0:Item Foi Banido! '
-- '368:0:Item Foi Banido! '
-- '327:0:Item Foi Banido! '
-- '10:0:Item Foi Banido! '
-- '11:0:Item Foi Banido! '
-- '259:0:Item Foi Banido! '
-- '154:0:Item Foi Banido! '
-- '145:0:Item Foi Banido! '
-- '145:1:Item Foi Banido! '
-- '145:2:Item Foi Banido! '
-- '29:0:Item Foi Banido! '
-- '33:0:Item Foi Banido! '
-- '46:0:Item Foi Banido! '
-- '120:0:Item Foi Banido! '
-- '373:78:Item Foi Banido! '
-- '373:46:Item Foi Banido! '
+- 381:0:Item banido!
+- 368:0:Item banido!
+- 327:0:Item banido!
+- 10:0:Item banido!
+- 11:0:Item banido!
+- 259:0:Item banido!
+- 154:0:Item banido!
+- 145:0:Item banido!
+- 145:1:Item banido!
+- 145:2:Item banido!
+- 29:0:Item banido!
+- 33:0:Item banido!
+- 46:0:Item banido!
+- 120:0:Item banido!
+- 373:78:Item banido!
+- 373:46:Item banido!
 Blacklist Placement: []
 Blacklist Pickup: []
 Blacklist Interaction: []

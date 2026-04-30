@@ -1,0 +1,56 @@
+# Logs
+*.log
+*.log.*
+*.log.lck
+*.lck
+crash-reports/
+server.log*
+nocheatplus.log*
+worldedit.log*
+
+# Mundos (dados de terreno — pesados e desnecessários no git)
+world/region/
+world/players/
+world/mcmmo_regions/
+world/session.lock
+world/uid.dat
+world/data/
+world/level.dat_old
+world/level.dat_mcr
+spawn/
+arenas/
+terrenos/region/
+terrenos/players/
+terrenos/mcmmo_regions/
+terrenos/session.lock
+terrenos/uid.dat
+terrenos/data/
+terrenos/level.dat_old
+terrenos/level.dat_mcr
+worldtemp/
+schematics/
+
+# Backups automáticos do mcMMO
+plugins/mcMMO/backup/
+
+# Dados de jogadores (resetar no deploy)
+plugins/Essentials/userdata/
+plugins/AuthMe/auths.db
+plugins/AuthMe/players.yml
+plugins/iConomy/accounts.mini
+plugins/SimpleClans/SimpleClans.db
+plugins/mcMMO/FlatFileStuff/mcmmo.users
+plugins/MaxBans/bans.db
+plugins/AntiJoinBot/ipdata.db
+
+# Locks e temporários
+*.lck
+*.lock
+plugins/Multiverse-Core/debug.log*
+plugins/WorldEdit/worldedit.log*
+plugins/NoCheatPlus/nocheatplus.log*
+plugins/ChestShop/items.db
+
+# Jar desativado
+plugins/AutoPickupMagicOld.jar
+plugins/SpotProtection.jar.bak

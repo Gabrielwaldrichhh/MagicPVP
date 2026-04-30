@@ -14,7 +14,7 @@ settings:
   query-plugins: true
   deprecated-verbose: default
   shutdown-message: Server fechado volte mais tarde!
-  whitelist-message: You are not white-listed on this server!
+  whitelist-message: '&cServidor em manutencao. Volte mais tarde!'
   log-commands: true
   command-complete: true
   spam-exclusions:
@@ -27,37 +27,6 @@ settings:
   bungee-proxies:
   - 127.0.0.1
   texture-resolution: 16
-spawn-limits:
-  monsters: 70
-  animals: 15
-  water-animals: 5
-  ambient: 15
-chunk-gc:
-  period-in-ticks: 600
-  load-threshold: 0
-ticks-per:
-  animal-spawns: 400
-  monster-spawns: 1
-  autosave: 0
-  hopper-transfer: 8
-  hopper-check: 8
-auto-updater:
-  enabled: true
-  on-broken:
-  - warn-console
-  - warn-ops
-  on-update:
-  - warn-console
-  - warn-ops
-  preferred-channel: rb
-  host: dl.bukkit.org
-  suggest-channels: true
-database:
-  username: bukkit
-  isolation: SERIALIZABLE
-  driver: org.sqlite.JDBC
-  password: walrus
-  url: jdbc:sqlite:{DIR}{NAME}.db
 world-settings:
   default:
     growth-chunks-per-tick: 650
@@ -88,6 +57,35 @@ world-settings:
     view-distance: 5
     growth-chunks-per-tick: 0
     random-light-updates: true
+spawn-limits:
+  monsters: 70
+  animals: 15
+  water-animals: 5
+  ambient: 15
+chunk-gc:
+  period-in-ticks: 600
+  load-threshold: 0
+ticks-per:
+  animal-spawns: 400
+  monster-spawns: 1
+  autosave: 0
+  hopper-transfer: 8
+  hopper-check: 8
+auto-updater:
+  enabled: false
+  on-broken:
+  - warn-console
+  on-update:
+  - warn-console
+  preferred-channel: rb
+  host: dl.bukkit.org
+  suggest-channels: false
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
 orebfuscator:
   enable: false
   engine-mode: 1

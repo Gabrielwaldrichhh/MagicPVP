@@ -72,35 +72,34 @@
 # The group setting will always go to default if the players group isn't found.(Scoreboards per group requires vault to be on the server)
 # The world setting will always go to global if the players world isn't found.
 # ==================================================================
-Check for Updates: true
+Check for Updates: false
 Custom Variables:
-  <website>: Breve
-  <plugindev>: LendaCraft
+  <website>: magicpvp.com.br
+  <plugindev>: SniperzCiinema
 Disabled Worlds:
 - DisabledWorld1
 - DisabledWorld2
 Scrolling Text:
   Enable: false
-  Shift Time: 0.1
-Update Time: 2
+  Shift Time: 0.15
+Update Time: 5
 Info Board:
   '1':
-    Show Time: 5
+    Show Time: 99999
     global:
       default:
-        Title: '&a&lStatus'
+        Title: '&2&lMagic&a&lPVP'
         Rows:
-        - '&6<17>----<5><9><5>----<16> '
-        - <arrow> &5&lBem Vindo!
-        - '&f<player>'
-        - '<arrow> &b&lMoney:'
-        - '&a<money>'
-        - '<arrow> &6&lClan:'
-        - '&e<simpleclanstag>'
-        - '<arrow> &d&lGrupo:'
-        - '&c<rank>'
-        - '<arrow> &3&lLevel:'
-        - '&e<level> '
-        - '<arrow>&2&lSite:'
-        - '&eEm Breve!'
-        - '&6<nuke>----=<skull>=----<nuke>'
+        - '&8&m               '
+        - '&f&l <player>'
+        - '&a&l <rank>'
+        - '&8&m               '
+        - '&2 $ &fR$ <money>'
+        - '&e <6> &fCla&8: &b<simpleclanstag>'
+        - '&8&m               '
+        - '&c <skull> &fKills&8: &c<simpleclanskills>'
+        - '&4 <skull> &fMortes&8: &7<simpleclansdeaths>'
+        - '&6 ~ &fKDR&8: &e<simpleclanskdr>'
+        - '&8&m               '
+        - '&7 <3> &fOnline&8: &a<onlineplayers>'
+        - '&8&m               '

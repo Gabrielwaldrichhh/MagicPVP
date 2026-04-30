@@ -3,7 +3,5 @@
 # github: https://github.com/syamn/MotdManager
 
 MotdList:
-- '&7[&b&l!&7] &6&l-=&a&lLendaCraft&4&lPvP&6&l=-&0&k!!!!&0[&6&lOnline&0]&0&k[[[[[[[[[[[][[[[[[[[[[[[[[&6&l<- &4&lFull PVP
-  &6&l1.5.2'
-- '&7[&b&l!&7] &b&l20-ON &c&lKeyvip&b&l/&c&lDrop &7[&b&l!&7]'
-FakeMaxPlayer: 20
+- '&8[&a&lMagicPVP&8] &fFullPvP Raiz 1.5.2'
+FakeMaxPlayer: 100

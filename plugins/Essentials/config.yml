@@ -218,46 +218,70 @@ player-commands:
 # 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
+  iniciante:
+    delay: 999999999
+    items:
+      - 267 1 sharpness:1 name:&f&lEspada_Iniciante
+      - 310 1 protection:1 name:&f&lCapacete_Iniciante
+      - 311 1 protection:1 name:&f&lPeitoral_Iniciante
+      - 312 1 protection:1 name:&f&lCalca_Iniciante
+      - 313 1 protection:1 name:&f&lBota_Iniciante
+      - 364 32
+
   pvp:
     delay: 600
     items:
-      - 267 1 sharpness:5 unbreaking:3  # Espada de ferro encantada
-      - 310 1 protection:3 unbreaking:3
-      - 311 1 protection:3 unbreaking:3
-      - 312 1 protection:3 unbreaking:3
-      - 313 1 protection:3 unbreaking:3
-      - 364 32  # Carne assada
+      - 267 1 sharpness:3 knockback:1 name:&c&lEspada_PvP
+      - 310 1 protection:2 name:&7&lCapacete_PvP
+      - 311 1 protection:2 name:&7&lPeitoral_PvP
+      - 312 1 protection:2 name:&7&lCalca_PvP
+      - 313 1 protection:2 name:&7&lBota_PvP
+      - 364 32
+      - 282 6
 
   fome:
     delay: 300
     items:
-      - 364 64   # Carne assada
-      - 320 64   # Carne de porco assada
-      - 297 32   # Pão
+      - 364 64
+      - 320 32
+      - 282 4
+
+  minerar:
+    delay: 43200
+    items:
+      - 278 1 efficiency:3 unbreaking:2 fortune:1 name:&e&lPicareta_Mineiro
+      - 256 1 efficiency:2 unbreaking:1 name:&7&lPa_Mineiro
+      - 270 1 name:&6&lEnxada_Mineiro
+      - 50 16
+      - 364 16
 
   vip:
     delay: 86400
     items:
-      - 276 1 sharpness:4 unbreaking:2  # Espada de diamante um pouco mais fraca
-      - 310 1 protection:4 unbreaking:3
-      - 311 1 protection:4 unbreaking:3
-      - 312 1 protection:4 unbreaking:3
-      - 313 1 protection:4 unbreaking:3
-      - 322:1 10   # 3 maçãs do capiroto
-      - 373:8201 2  # 2 poções de força II
+      - 276 1 sharpness:5 unbreaking:3 fireaspect:1 name:&d&lEspada_MagicVIP
+      - 310 1 protection:4 unbreaking:3 name:&d&lCapacete_MagicVIP
+      - 311 1 protection:4 unbreaking:3 name:&d&lPeitoral_MagicVIP
+      - 312 1 protection:4 unbreaking:3 name:&d&lCalca_MagicVIP
+      - 313 1 protection:4 unbreaking:3 name:&d&lBota_MagicVIP
+      - 322:1 16
       - 364 64
+      - 282 16
+      - 373:8193 4
+      - 373:8225 4
+      - 52 1
 
-  vipmagic:
-    delay: 86400
+  treinar:
+    delay: 0
     items:
-      - 276 2 sharpness:5 unbreaking:3  # Espada de diamante melhor
-      - 310 2 protection:4 unbreaking:3
-      - 311 2 protection:4 unbreaking:3
-      - 312 2 protection:4 unbreaking:3
-      - 313 2 protection:4 unbreaking:3
-      - 322:1 20   # 8 maçãs do capiroto
-      - 373:8201 4  # 4 poções de força II
-      - 364 64
+      - 276 1 sharpness:5 unbreaking:3 name:&b&lEspada_Treino
+      - 310 1 protection:4 unbreaking:3 name:&b&lCapacete_Treino
+      - 311 1 protection:4 unbreaking:3 name:&b&lPeitoral_Treino
+      - 312 1 protection:4 unbreaking:3 name:&b&lCalca_Treino
+      - 313 1 protection:4 unbreaking:3 name:&b&lBota_Treino
+      - 322:1 16
+      - 373:8193 4
+      - 373:8225 4
+      - 282 16
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
 # To enable signs, remove # symbol. To disable all signs, comment/remove each sign.
@@ -455,7 +479,7 @@ tpa-accept-cancellation: 120
 # For more information, visit http://wiki.ess3.net/wiki/Essentials_Economy
 
 # Defines the balance with which new players begin.  Defaults to 0.
-starting-balance: 0
+starting-balance: 50
 
 # worth-# defines the value of an item when it is sold to the server via /sell.
 # These are now defined in worth.yml
@@ -705,7 +729,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost, and permissions.
   #kit: ''
-  kit: tools
+  kit: iniciante
 
 # Set this to lowest, if you want Multiverse to handle the respawning.
 # Set this to high, if you want EssentialsSpawn to handle the respawning.

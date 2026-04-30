@@ -6,5 +6,5 @@ Global:
   perMobPermissions: false
 Messages:
   ChangeSpawner: '&2Mobspawn Trocado com Exito %entity. Reconnect do Servidor!'
-  NotEnoughSpawnerEggs: '&cYou dont have enough %entity Eggs.'
-  FailedSpawnerEggs: '&cFailed changing the spawner type!'
+  NotEnoughSpawnerEggs: '&8[&c!&8] &fVoce nao tem ovos de %entity suficientes.'
+  FailedSpawnerEggs: '&8[&c!&8] &fFalha ao alterar o tipo do spawner.'

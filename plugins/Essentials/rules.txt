@@ -1,3 +1,13 @@
-[1] Be respectful
-[2] Be ethical
-[3] Use common sense
+&8&m==============================
+  &2&lMagicPVP &8| &fRegras do Servidor
+&8&m==============================
+  &a[1] &fRespeite todos os jogadores
+  &a[2] &fProibido hack, cheat ou exploit
+  &a[3] &fProibido spam e flood no chat
+  &a[4] &fProibido racismo e ofensas graves
+  &a[5] &fProibido divulgar outros servidores
+  &a[6] &fBugs devem ser reportados no Discord
+  &a[7] &fDecisoes da Staff sao definitivas
+&8&m==============================
+  &7Descumprir = &cban permanente
+&8&m==============================

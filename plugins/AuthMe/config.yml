@@ -22,7 +22,7 @@ GroupOptions:
 settings:
   sessions:
     enabled: false
-    timeout: 10
+    timeout: 0
   restrictions:
     allowChat: false
     allowCommands:
@@ -31,6 +31,8 @@ settings:
     - /l
     - /reg
     - /passpartu
+    - /site
+    - /discord
     maxRegPerIp: 3
     maxNicknameLength: 20
     ForceSingleSession: true
@@ -40,19 +42,19 @@ settings:
     AllowedRestrictedUser: []
     kickNonRegistered: false
     kickOnWrongPassword: false
-    teleportUnAuthedToSpawn: false
+    teleportUnAuthedToSpawn: true
     minNicknameLength: 3
     allowMovement: false
     timeout: 30
     allowedNicknameCharacters: '[a-zA-Z0-9_?]*'
-    allowedMovementRadius: 100
+    allowedMovementRadius: 0
     enablePasswordVerifier: true
     ProtectInventoryBeforeLogIn: true
   GameMode:
     ForceSurvivalMode: false
     ResetInventotyIfCreative: false
   security:
-    minPasswordLength: 4
+    minPasswordLength: 5
     unLoggedinGroup: unLoggedinGroup
     passwordHash: SHA256
     passwordMaxLength: 20
@@ -62,7 +64,7 @@ settings:
     force: true
   unrestrictions:
     UnrestrictedName: []
-  messagesLanguage: en
+  messagesLanguage: br
 ExternalBoardOptions:
   mySQLColumnSalt: ''
   mySQLColumnGroup: ''

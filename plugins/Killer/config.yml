@@ -12,9 +12,9 @@ Timers:
     TempoEntre: 15
   Finalizando: 30
 Arena:
-  Entrada: gladiador;-542.5;4.0;1574.5;-179.40004;86.70002
-  Saida: world;-1774.5;8.0;431.5;-90.35553;-0.14999261
-  Camarote: gladiador;-542.5;25.0;1574.5;-177.3001;89.399994
+  Entrada: world;771.5;5.0;-25.5;0.0;0.0
+  Saida: world;771.5;5.0;-25.5;0.0;0.0
+  Camarote: world;771.5;5.0;-25.5;0.0;0.0
 Vencedor: ''
 Bloquear:
   Comandos: true

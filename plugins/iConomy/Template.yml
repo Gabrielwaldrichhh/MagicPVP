@@ -1,92 +1,51 @@
-##
-# Messaging Template
-##
-# Variables
-#   These are denoted by the + signs before them;
-#   Not every line contains the same variables. 
-#   To prevent any errors or issues, we have included every variable for each line.
-##
-# Colors
-#   Previously you would use a utf-8 character to use colors, this has been replaced
-#   to make your lives easier, there are 3 different methods of adding color to your lines
-#   each orchestrated for a different personality type.
-#
-#   Whichever is easiest for you to remember; They all do the same, and you can mix and match.
-#
-#   Methods: &[code] or `[name-code] or the easier alternative InEquality Signed color brackets: <color>
-#
-#   Color Mapping:
-#     &c `c Color     &c `c Color
-#     -- -- -----     -- -- -----
-#     &0 `k black     &f `w white
-#     &1 `B navy      &a `g lime
-#     &2 `G green     &b `a aqua
-#     &3 `A teal      &c `r rose
-#     &4 `R red       &d `p pink
-#     &5 `P purple    &e `y yellow
-#     &6 `Y gold
-#     &7 `s silver
-#     &8 `S gray
-#     &9 `b blue
-#
-#     For black would be: <black> or `k or &0
-#     Example using Inequality: <green>Hi I'm green! <white>Now White!?
-#     Example using &: &2Hi I'm green! &fNow White!?
-#     Example using `: `GHi I'm green! `wNow White!?
-#     Example using all: `GI'm Green, &fWhite, <yellow>and Yellow!
-##
-# Additional Tag for Interest Announcement
-#   +bank,+b = Shows bank name
-##
-
 tag:
-    money: "<red>[<white>Money<red>] "
+    money: "&8[&2$&8] "
 
 personal:
-    balance: "<red>Money: <white>+balance"
-    reset: "<rose>Sua conta foi redefinida."
-    set: "<red>Seu saldo foi alterado para <white>+amount"
-    debit: "<rose>Sua conta tinha <white>+amount<rose> debitada."
-    credit: "<white>+amount<red> foi creditado em sua conta."
-    status: "<red>Status da conta e atualmente <white>+status<red>."
+    balance: "&7Seu saldo: &2R$ +balance"
+    reset: "&7Sua conta foi resetada."
+    set: "&7Seu saldo foi alterado para &2R$ +amount"
+    debit: "&7Foram debitados &2R$ +amount &7da sua conta."
+    credit: "&2R$ +amount &7foi adicionado na sua conta."
+    status: "&7Status da sua conta: &2+status"
 
 player:
-    set: "<red>+name equilibrio foi alterado para <white>+amount"
-    balance: "<red>+name Money: <white>+balance"
-    reset: "<white>+name <rose>Conta resetada com sucesso."
-    credit: "<white>+name <red>conta tinha <white>+amount<red> criditado."
-    debit: "<white>+name <rose>conta tinha <white>+amount<rose> debitado."
-    status: "<white>+name <red>status da conta e <white>+status<red>."
+    set: "&7Saldo de &2+name &7alterado para &2R$ +amount"
+    balance: "&7Saldo de &2+name&7: &2R$ +balance"
+    reset: "&7Conta de &2+name &7resetada."
+    credit: "&2R$ +amount &7adicionado na conta de &2+name&7."
+    debit: "&2R$ +amount &7debitado da conta de &2+name&7."
+    status: "&7Status da conta de &2+name&7: &2+status"
 
 payment:
-    self: "<rose>Desculpe, voce nao pode enviar dinheiro para si mesmo."
-    to: "<red>Enviou <white>+amount<red> para <white>+name<red>."
-    from: "<white>+name<red> lhe enviou <white>+amount<red>."
+    self: "&cVoce nao pode enviar dinheiro para si mesmo."
+    to: "&7Voce enviou &2R$ +amount &7para &2+name&7."
+    from: "&2+name &7te enviou &2R$ +amount&7."
 
 statistics:
-    opening: "<red>-----[ <white>iConomy Stats <red>]-----"
-    total:  "<gray>Total +currency: <white>+amount"
-    average: "<gray>Media +currency: <white>+amount"
-    accounts: "<gray>Total de contas: <white>+amount"
+    opening: "&8[&2MagicPVP&8] &2Estatisticas de Economia"
+    total:  "&7Total em circulacao: &2R$ +amount"
+    average: "&7Media por jogador: &2R$ +amount"
+    accounts: "&7Total de contas: &2+amount"
 
 interest:
-    announcement: "+amount <red>Adquirida com juros."
+    announcement: "&2R$ +amount &7de juros adicionado."
 
 accounts:
-    empty: "<rose>Todas as contas deletadas."
-    purge: "<rose>Todas as contas inativas foram purgados."
-    create: "<red>Conta criada com o nome <white>+name<red>."
-    remove: "<red>Conta deletada: <white>+name<red>."
-    status: "<red>Status da conta e agora <white>+status<red>."
+    empty: "&7Todas as contas foram deletadas."
+    purge: "&7Contas inativas removidas."
+    create: "&7Conta criada para &2+name&7."
+    remove: "&7Conta de &2+name &7deletada."
+    status: "&7Status alterado para &2+status&7."
 
 top:
-    opening: "<red>-----[ <white>Magnatas <red>]-----"
-    item: "<gray>+i. <red>+name <gray>- <white>+amount"
+    opening: "&8[&2MagicPVP&8] &2Top Magnatas"
+    item: "&8+i. &2+name &8- &2R$ +amount"
 
 error:
-    online: "<rose>Desculpe, ninguem esta online."
-    exists: "<rose>Conta ja existe."
-    create: "<rose>Nao foi possivel criar uma conta com o nome <white>+name<rose>."
-    remove: "<rose>Não foi possivel remover a conta com o nome <white>+name<rose>."
-    account: "<rose>Conta <white>+name<rose> nao existe."
-    funds: "<rose>Desculpe, voce nao tem fundos suficientes para fazer isso."
+    online: "&cNenhum jogador online."
+    exists: "&cEssa conta ja existe."
+    create: "&cNao foi possivel criar conta para &f+name&c."
+    remove: "&cNao foi possivel remover a conta de &f+name&c."
+    account: "&cA conta de &f+name &cnao existe."
+    funds: "&cVoce nao tem saldo suficiente para isso."

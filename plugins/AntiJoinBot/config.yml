@@ -1,13 +1,13 @@
 AntiJoinBot:
   use:
-    MySQL: true
+    MySQL: false
   kick:
-    message: Proxy is Detected. (maybe a error Please reconnect your Router)
+    message: '&8[&c!&8] &fConexao suspeita detectada. Tente reconectar.'
   join:
     enabled: true
     interval: 2.5
 Blacklist:
   use:
-    shroomery: true
-    botscout: true
-    stopforumspam: true
+    shroomery: false
+    botscout: false
+    stopforumspam: false

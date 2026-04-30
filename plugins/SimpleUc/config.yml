@@ -2,11 +2,11 @@
 # SimpleUc v1.4.5 - Configuration
 #    http://dev.bukkit.org/server-mods/simpleuc/pages/configuration/
 # ------------------------------------
-prevent-messages: false 
-message: '&d[Server] -> Oops, esse comando nao existe no servidor =('
+prevent-messages: true
+message: '&8[&c!&8] &fComando inexistente. Use &a/ajuda &fpara ver os comandos disponíveis.'
 random-messages: false
 messages:
-- '&d[Server] -> Oops, esse comando nao existe no servidor =('
+- '&8[&c!&8] &fComando inexistente. Use &a/ajuda &fpara ver os comandos disponíveis.'
 command-correction:
   enabled: false
   success: '&6Did you mean: "&c%command%&6"?'
@@ -18,3 +18,5 @@ hide-commands:
   commands:
   - nick
   - suc
+  - treinar
+  - treinarsair

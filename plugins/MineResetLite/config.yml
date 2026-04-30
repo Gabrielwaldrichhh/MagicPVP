@@ -4,7 +4,7 @@
 broadcast-in-world-only: false
 # When true, this config option enables update alerts. I do not send any extra information along when 
 # checking, and query a static file hosted on Dropbox. 
-check-for-updates: true
+check-for-updates: false
 # MineResetLite supports multiple languages. Indicate the language to be used here.
 # Languages available at the time this config was generated: Danish (thanks Beijiru), Spanish (thanks enetocs)
 # Use the following values for these languages: English: 'en', Danish: 'da', Spanish: 'es'

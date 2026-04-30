@@ -10,7 +10,7 @@
 # http://dev.bukkit.org/server-mods/clearlagg/pages/mob-types/nodes/ #
 #--------------------------------------------------------------------#
 settings:
-  auto-update: true
+  auto-update: false
   enable-signs: true
   config-version: 7
   disable-waterlife: true
@@ -204,11 +204,11 @@ item-merger:
 # -- NOTE: Putting the interval to low will cause issues!
 auto-removal:
   enabled: true
-  broadcast-message: '&d[!] -> Removidos&4 +RemoveAmount &dItens do chao!'
+  broadcast-message: '&8[&2MagicPVP&8] &f+RemoveAmount &7itens removidos do chao.'
   broadcast-warning: true
   autoremoval-interval: 120
   warnings:
-        - time:60 msg:&d[!] -> Cuidado removendo Itens em +remaining segundos!
+        - time:60 msg:&8[&2MagicPVP&8] &fItens do chao serao removidos em &a+remaining &fsegundos!
   
 #What should be removed during an auto-removal
 remove:

@@ -47,7 +47,7 @@ Broadcast:
 
 Tag:
   Message-Enabled: true
-  Duration: 10
+  Duration: 15
   PVP: true
   PVE: false
   Remove:
@@ -85,6 +85,7 @@ DisabledCommands:
   - fix all
   - repair
   - logout
+  - fly
 
 # To disable Combat tagging for ALL players in specific worlds, simply add the name of the World folder under "Worlds."
 DisabledWorlds:

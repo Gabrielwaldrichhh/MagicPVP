@@ -2,16 +2,16 @@ CustomServerMessages:
   Event:
     join:
       enable: true
-      message: '&b[&a+&b] &6&player &c Entrou no Server!'
+      message: ''
     quit:
       enable: true
-      message: '&b[&a-&b] &6&player &cSaiu do Server!'
+      message: ''
     whitelist:
       enable: true
-      message: '&6Desculpe servidor em Manutencao'
+      message: '&8[&c!&8] &fServidor em manutencao. Volte mais tarde!'
     serverfull:
       enable: true
-      message: '&cDesculpe Servidor Cheio, tente mais tarde!'
+      message: '&8[&c!&8] &fServidor lotado! Tente novamente em instantes.'
   Command:
     say:
       enable: true

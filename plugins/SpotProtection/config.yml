@@ -1,67 +1,43 @@
 ################Economia##################
 
-# Coloque abaixo o preco da unidade de bloco da protecao
-# Ex. /comprar 10 casa = 10*PrecoDoBloco = R$100,00
-# Ex. /comprar 100 casa = 100*PrecoDoBloco = R$1000,00  
+# Preco por bloco ao comprar terreno
+# Ex: /spot comprar 20 casa = 20 * PrecoBlocoCompra = R$200
+PrecoBlocoCompra: 100
 
-PrecoBlocoCompra: 1000
-
-# Coloque abaixo o preco da unidade de tamanho da expansao
-# Ex. /expandir casa 1 = 1*PrecoDoExpancao = R$50,00
-# Ex. /comprar casa 10 = 10*PrecoDoExpancao = R$500,00  
-
+# Preco por bloco ao expandir
 PrecoBlocoExpansao: 50
 
-# Coloque abaixo o preco do /pvpcasa se ele tirar pvp da casa, ou colocar, 
-#tera de pagar pelo preco abaixo.
+# Preco para ativar/desativar PvP no terreno
+PrecoDoPVP: 500
 
-PrecoDoPVP: 25000
-
-#Coloque abaixo a abreviacao do nome de sua moeda
-#Isso ira aparecer nos textos em que demostra dinheiro pego pelo plugin Vault
-
+# Abreviacao da moeda
 NomeDaMoeda: R$
 
-#Coloque aqui o nome do servidor que ira aparecer em cima da placa de venda de sua area
-
-NomeDoServer: SpringPvP   
+# Nome do servidor nas placas
+NomeDoServer: MagicPVP
 
 ##############Protection####################
 
-# Coloque false caso voce queira deixar o bloco na maior altura possivel
-# Coloque true se voce quer deixar o bloco alinhada
+# false = altura livre | true = alinhado ao chao
+Alinhar: true
 
-Alinhar: false
-
-# Coloque ai o ID do bloco que fara o contorno de seu terreno
-
+# ID do bloco de contorno do terreno (85 = fence de madeira)
 BlockId: 85
 
-# Coloque ai o Maximo de areas que um player podera ter
-
+# Maximo de areas por player
 MaxDeAreas: 1
 
-# Coloque aqui o tamanho limite da area que cada player pode criar
+# Tamanho minimo: 10 | Tamanho maximo por compra
+TamanhoMax: 100
 
-TamanhoMax: 50
+# Bloquear /sethome em areas de outros players
+AntHome: true
 
-# Coloque true se voce quer que bloqueie sethome de players
-# nao membros ou lideres em areas protegidas
-
-AntHome: false
-
-#Coloque abaixo o maximo e minimo de altura que ira proteger
-#no momento em que voce usar o /comprar.
-#Ex: 0-256 ira proteger da Bedrock ate a altura 256
-
+# Altura de protecao (0-256 = bedrock ao topo)
 AlturaMaxEMin: 0-256
 
-#Coloque abaixo true caso voce queira que seja removido as folhas e 
-#os troncos da area em que o player comprar
-
+# Remover arvores ao comprar area
 RemoverArvores: false
 
-#Escolha a linguagem do plugin. Use o padrão i18n. Por enquanto só tem:
-#en_US e pt_BR
-
+# Linguagem
 Linguagem: pt_BR

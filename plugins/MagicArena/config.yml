@@ -1,0 +1,22 @@
+# MagicArena - Arena de Treino
+arena-world: arenas
+
+arena-spawn:
+  x: 1492.5
+  y: 26.0
+  z: 2050.5
+  yaw: -89.0
+  pitch: 0.0
+
+always-day-worlds:
+  - world
+  - spawn
+  - terrenos
+  - arenas
+
+messages:
+  enter: '&8[&2MagicPVP&8] &fVoce entrou na &2Arena de Treino&f! Kit P4 aplicado.'
+  exit: '&8[&2MagicPVP&8] &fVoce saiu da &2Arena de Treino&f. Inventario restaurado.'
+  already-inside: '&8[&c!&8] &fVoce ja esta na arena! Use &2/treinarsair &fpara sair.'
+  not-inside: '&8[&c!&8] &fVoce nao esta na arena de treino.'
+  spawn-set: '&8[&2MagicPVP&8] &fSpawn da arena de treino definido aqui!'

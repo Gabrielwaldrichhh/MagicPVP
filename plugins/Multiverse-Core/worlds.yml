@@ -1,5 +1,149 @@
 worlds:
   world:
+    seed: -2343350609971251928
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: MagicPVP
+      color: GREEN
+    pvp: true
+    scale: 1.0
+    respawnworld: world
+    allowweather: false
+    difficulty: NORMAL
+    time: 6000
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: false
+    adjustspawn: true
+    portalform: NONE
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 773.5
+      y: 4.0
+      z: -42.5
+      pitch: 0.0
+      yaw: 0.0
+      world: world
+    autoload: true
+    bedrespawn: false
+  spawn:
+    seed: 5350418096430930869
+    environment: NORMAL
+    type: NORMAL
+    time: 6000
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: false
+    difficulty: EASY
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 297.5
+      y: 64.0
+      z: 350.5
+      pitch: 3.436472
+      yaw: 90.05451
+      world: spawn
+    autoload: true
+    bedrespawn: true
+  terrenos:
+    seed: -3716784220757504484
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: Terrenos
+      color: GREEN
+    pvp: false
+    scale: 1.0
+    respawnworld: world
+    allowweather: false
+    difficulty: PEACEFUL
+    time: 6000
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: false
+    autoheal: true
+    adjustspawn: true
+    portalform: NONE
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 994.0
+      y: 4.0
+      z: -509.0
+      pitch: 0.0
+      yaw: 0.0
+      world: terrenos
+    autoload: true
+    bedrespawn: false
+  arenas:
+    seed: -307027953240248799
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: Arenas
+      color: RED
+    pvp: true
+    scale: 1.0
+    respawnworld: spawn
+    allowweather: false
+    difficulty: NORMAL
+    time: 6000
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: false
+    adjustspawn: true
+    portalform: NONE
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 1518.0
+      y: 4.0
+      z: 2047.0
+      pitch: 0.0
+      yaw: 0.0
+      world: arenas
+    autoload: true
+    bedrespawn: false
+  worldtemp:
     seed: -3083979623404973764
     environment: NORMAL
     type: FLAT
@@ -13,9 +157,9 @@ worlds:
     allowweather: true
     difficulty: EASY
     animals:
-      spawn: false
+      spawn: true
     monsters:
-      spawn: false
+      spawn: true
     entryfee:
       currency: -1
       price: 0.0
@@ -26,46 +170,11 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: -1773.5
+      x: -1774.0
       y: 8.0
-      z: 431.5
+      z: 431.0
       pitch: 0.0
       yaw: 0.0
-      world: world
-    autoload: true
-    bedrespawn: true
-  terrenos:
-    seed: -4918226679233821864
-    environment: NORMAL
-    type: FLAT
-    hidden: false
-    alias:
-      name: ''
-      color: WHITE
-    pvp: true
-    scale: 1.0
-    respawnworld: ''
-    allowweather: true
-    difficulty: EASY
-    animals:
-      spawn: false
-    monsters:
-      spawn: false
-    entryfee:
-      currency: -1
-      price: 0.0
-    hunger: true
-    autoheal: true
-    adjustspawn: true
-    portalform: ALL
-    gamemode: SURVIVAL
-    keepspawninmemory: true
-    spawn:
-      x: 107.5
-      y: 4.0
-      z: -41.5
-      pitch: 0.0
-      yaw: 0.0
-      world: terrenos
+      world: worldtemp
     autoload: true
     bedrespawn: true
