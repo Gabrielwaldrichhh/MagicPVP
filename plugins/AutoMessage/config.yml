@@ -11,7 +11,7 @@ message-lists:
     prefix: '&8[&2MagicPVP&8] '
     suffix: ''
     messages:
-    - '&fNao use a senha do &2MagicPVP &fem outros servidores!'
+    - '&fNao use a senha do &2MagicPVP &fem outros servidores! &8| &aplay.magicpvp.com.br'
     - '&fServidor em BETA &8- &freporte bugs no &2Discord&f!'
     - '&fTodo &2domingo &fas &219h &ftemos o evento &2Gladiador&f! Use &2/gladiador &fpara participar.'
     - '&fCompre &2VIP&f e tenha vantagens! Acesse &2magicpvp.com.br'
