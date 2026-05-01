@@ -1,8 +1,9 @@
-enabled: true
+enabled: false
 worlds:
   day:
   - terrenos
   - world
+  - Teste
   night: []
   calm: []
   storm: []

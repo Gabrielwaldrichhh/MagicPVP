@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"screen -S minecraft -X hardcopy /tmp/mc.txt && grep -i 'broken\\\\|invalid\\\\|kit\\\\|Done\\\\|error' /tmp/mc.txt | tail -15\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"screen -S minecraft -X hardcopy /tmp/mc.txt && tail -5 /tmp/mc.txt && ls /root/MagicPVP/plugins/Essentials/config.yml.broken* 2>/dev/null | tail -3\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"screen -S minecraft -X stuff 'essentials reload\\\\n'\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"screen -S minecraft -X hardcopy /tmp/mc.txt && grep -i 'error\\\\|warn\\\\|failed\\\\|broken\\\\|exception' /tmp/mc.txt | grep -v 'AutoUpdate\\\\|UpdateUrl\\\\|updateVersion\\\\|COLOR_ERROR\\\\|lock\\\\|needUpdate' | head -30\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"ls /root/MagicPVP/plugins/Essentials/config.yml.broken* 2>/dev/null | wc -l && ls /root/MagicPVP/world 2>/dev/null | head -5 && ls /root/MagicPVP/ | grep -v 'plugins\\\\|world\\\\|logs\\\\|crash'\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"ls /root/MagicPVP/ | grep -E '^[a-z]' && echo '---mundos---' && ls /root/MagicPVP/ | grep -vE 'plugins|logs|cache|lib|crash|\\\\.txt|\\\\.yml|\\\\.jar|\\\\.bat|\\\\.exe|\\\\.sh|\\\\.log|\\\\.lck|wepif|server|bukkit|help|ops|white|permissions|spigot|craft|64Bits|BukkitGUI'\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"ls /root/MagicPVP/plugins/ | grep -v '\\\\.disabled$'\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"cat /root/MagicPVP/plugins/MineResetLite/mines/*.yml 2>/dev/null | head -20 || echo 'Sem minas configuradas'\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"cat /root/MagicPVP/plugins/CombatLog/config.yml | grep -E 'Duration|Fine|Drop|Kill|Ban|Commands'\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"cat /root/MagicPVP/plugins/Essentials/config.yml | grep -E 'pvp|fall|starting-balance|teleport-delay|teleport-cooldown'\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"until ! pgrep -f craftbukkit > /dev/null; do sleep 2; done && echo parou\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"rm -rf /root/MagicPVP/worldtemp && echo 'worldtemp apagado'\")",
+      "Bash(ssh -i ~/.ssh/id_rsa root@177.7.50.35 \"ls /root/MagicPVP/ | grep -i teste\")",
+      "Bash(scp -i ~/.ssh/id_rsa root@177.7.50.35:/root/MagicPVP/plugins/PermissionsEx/permissions.yml \"c:/Users/Gab/Desktop/MagicPVP/MagicPVP/plugins/PermissionsEx/permissions.yml\")",
+      "Bash(scp -i ~/.ssh/id_rsa root@177.7.50.35:/root/MagicPVP/plugins/AuthMe/config.yml \"c:/Users/Gab/Desktop/MagicPVP/MagicPVP/plugins/AuthMe/config.yml\")",
+      "Bash(scp -i ~/.ssh/id_rsa root@177.7.50.35:/root/MagicPVP/server.properties \"c:/Users/Gab/Desktop/MagicPVP/MagicPVP/server.properties\")",
+      "Bash(scp -i ~/.ssh/id_rsa root@177.7.50.35:/root/MagicPVP/plugins/Essentials/config.yml \"c:/Users/Gab/Desktop/MagicPVP/MagicPVP/plugins/Essentials/config.yml\")",
+      "Bash(git reset *)"
+    ]
+  }
+}

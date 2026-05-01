@@ -221,67 +221,94 @@ kits:
   iniciante:
     delay: 999999999
     items:
-      - 267 1 sharpness:1 name:&f&lEspada_Iniciante
-      - 310 1 protection:1 name:&f&lCapacete_Iniciante
-      - 311 1 protection:1 name:&f&lPeitoral_Iniciante
-      - 312 1 protection:1 name:&f&lCalca_Iniciante
-      - 313 1 protection:1 name:&f&lBota_Iniciante
-      - 364 32
+      - '267 1 sharpness:1 name:&f&lEspada_Iniciante'
+      - '310 1 protection:1 name:&f&lCapacete_Iniciante'
+      - '311 1 protection:1 name:&f&lPeitoral_Iniciante'
+      - '312 1 protection:1 name:&f&lCalca_Iniciante'
+      - '313 1 protection:1 name:&f&lBota_Iniciante'
+      - '364 32'
 
   pvp:
     delay: 600
     items:
-      - 267 1 sharpness:3 knockback:1 name:&c&lEspada_PvP
-      - 310 1 protection:2 name:&7&lCapacete_PvP
-      - 311 1 protection:2 name:&7&lPeitoral_PvP
-      - 312 1 protection:2 name:&7&lCalca_PvP
-      - 313 1 protection:2 name:&7&lBota_PvP
-      - 364 32
-      - 282 6
+      - '267 1 sharpness:3 knockback:1 name:&c&lEspada_PvP'
+      - '310 1 protection:2 name:&7&lCapacete_PvP'
+      - '311 1 protection:2 name:&7&lPeitoral_PvP'
+      - '312 1 protection:2 name:&7&lCalca_PvP'
+      - '313 1 protection:2 name:&7&lBota_PvP'
+      - '364 32'
+      - '282 6'
 
   fome:
     delay: 300
     items:
-      - 364 64
-      - 320 32
-      - 282 4
+      - '364 64'
+      - '320 32'
+      - '282 4'
 
   minerar:
     delay: 43200
     items:
-      - 278 1 efficiency:3 unbreaking:2 fortune:1 name:&e&lPicareta_Mineiro
-      - 256 1 efficiency:2 unbreaking:1 name:&7&lPa_Mineiro
-      - 270 1 name:&6&lEnxada_Mineiro
-      - 50 16
-      - 364 16
+      - '278 1 efficiency:3 unbreaking:2 fortune:1 name:&e&lPicareta_Mineiro'
+      - '256 1 efficiency:2 unbreaking:1 name:&7&lPa_Mineiro'
+      - '270 1 name:&6&lEnxada_Mineiro'
+      - '50 16'
+      - '364 16'
 
   vip:
     delay: 86400
     items:
-      - 276 1 sharpness:5 unbreaking:3 fireaspect:1 name:&d&lEspada_MagicVIP
-      - 310 1 protection:4 unbreaking:3 name:&d&lCapacete_MagicVIP
-      - 311 1 protection:4 unbreaking:3 name:&d&lPeitoral_MagicVIP
-      - 312 1 protection:4 unbreaking:3 name:&d&lCalca_MagicVIP
-      - 313 1 protection:4 unbreaking:3 name:&d&lBota_MagicVIP
-      - 322:1 16
-      - 364 64
-      - 282 16
-      - 373:8193 4
-      - 373:8225 4
-      - 52 1
+      - '276 1 sharpness:5 unbreaking:3 name:&d&lEspada_MagicVIP'
+      - '310 1 protection:4 unbreaking:3 name:&d&lCapacete_MagicVIP'
+      - '311 1 protection:4 unbreaking:3 name:&d&lPeitoral_MagicVIP'
+      - '312 1 protection:4 unbreaking:3 name:&d&lCalca_MagicVIP'
+      - '313 1 protection:4 unbreaking:3 name:&d&lBota_MagicVIP'
+      - '322:1 128'
+      - '373:8233 32'
+      - '373:8226 32'
+
+  vipx:
+    delay: 86400
+    items:
+      - '276 1 sharpness:7 unbreaking:7 fireaspect:2 name:&5&lEspada_MagicVIPX'
+      - '276 1 sharpness:7 unbreaking:7 fireaspect:2 name:&5&lEspada2_MagicVIPX'
+      - '271 1 sharpness:7 unbreaking:7 name:&5&lMachado_MagicVIPX'
+      - '271 1 sharpness:7 unbreaking:7 name:&5&lMachado2_MagicVIPX'
+      - '261 1 power:7 punch:4 infinity:1 name:&5&lArco_MagicVIPX'
+      - '310 1 protection:5 unbreaking:5 name:&5&lCapacete_MagicVIPX'
+      - '311 1 protection:5 unbreaking:5 name:&5&lPeitoral_MagicVIPX'
+      - '312 1 protection:5 unbreaking:5 name:&5&lCalca_MagicVIPX'
+      - '313 1 protection:5 unbreaking:5 name:&5&lBota_MagicVIPX'
+      - '310 1 protection:5 unbreaking:5 name:&5&lCapacete2_MagicVIPX'
+      - '311 1 protection:5 unbreaking:5 name:&5&lPeitoral2_MagicVIPX'
+      - '312 1 protection:5 unbreaking:5 name:&5&lCalca2_MagicVIPX'
+      - '313 1 protection:5 unbreaking:5 name:&5&lBota2_MagicVIPX'
+      - '322:1 64'
+      - '322:1 64'
+      - '322:1 64'
+      - '322:1 64'
+      - '264 64'
+      - '264 64'
+      - '264 64'
+      - '264 64'
+      - '266 64'
+      - '266 64'
+      - '266 64'
+      - '266 64'
+      - '262 128'
 
   treinar:
     delay: 0
     items:
-      - 276 1 sharpness:5 unbreaking:3 name:&b&lEspada_Treino
-      - 310 1 protection:4 unbreaking:3 name:&b&lCapacete_Treino
-      - 311 1 protection:4 unbreaking:3 name:&b&lPeitoral_Treino
-      - 312 1 protection:4 unbreaking:3 name:&b&lCalca_Treino
-      - 313 1 protection:4 unbreaking:3 name:&b&lBota_Treino
-      - 322:1 16
-      - 373:8193 4
-      - 373:8225 4
-      - 282 16
+      - '276 1 sharpness:5 unbreaking:3 name:&b&lEspada_Treino'
+      - '310 1 protection:4 unbreaking:3 name:&b&lCapacete_Treino'
+      - '311 1 protection:4 unbreaking:3 name:&b&lPeitoral_Treino'
+      - '312 1 protection:4 unbreaking:3 name:&b&lCalca_Treino'
+      - '313 1 protection:4 unbreaking:3 name:&b&lBota_Treino'
+      - '322:1 16'
+      - '373:8193 4'
+      - '373:8225 4'
+      - '282 16'
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
 # To enable signs, remove # symbol. To disable all signs, comment/remove each sign.

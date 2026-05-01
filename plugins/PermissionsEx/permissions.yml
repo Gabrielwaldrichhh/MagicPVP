@@ -107,6 +107,13 @@ groups:
     - MagicVIP
     permissions:
     - essentials.kits.vipx
+  YouTuber:
+    prefix: '&8[&c&lYouTuber&8] &f'
+    suffix: ''
+    inheritance:
+    - MagicVIP
+    permissions:
+    - essentials.kits.vip
   Mod:
     prefix: '&8[&9&lMod&8] &f'
     suffix: ''
