@@ -26,6 +26,9 @@ ops-name-color: '4'
 nickname-prefix: '~'
 
 # Disable this if you have any other plugin, that modifies the displayname of a user.
+# Idioma das mensagens (arquivo customizado: messages_pt_BR.properties)
+locale: pt_BR
+
 change-displayname: true
 
 # When this option is enabled, the (tab) player list will be updated with the displayname.
@@ -246,6 +249,11 @@ kits:
       - '320 32'
       - '282 4'
 
+  pesca:
+    delay: 600
+    items:
+      - '346 1 name:&b&lVara_de_Pesca'
+
   minerar:
     delay: 43200
     items:
@@ -255,60 +263,41 @@ kits:
       - '50 16'
       - '364 16'
 
+
+  # VIP (diario): 1 set P4 INQ3 + capiroto (maca dourada encantada)
   vip:
     delay: 86400
     items:
-      - '276 1 sharpness:5 unbreaking:3 name:&d&lEspada_MagicVIP'
-      - '310 1 protection:4 unbreaking:3 name:&d&lCapacete_MagicVIP'
-      - '311 1 protection:4 unbreaking:3 name:&d&lPeitoral_MagicVIP'
-      - '312 1 protection:4 unbreaking:3 name:&d&lCalca_MagicVIP'
-      - '313 1 protection:4 unbreaking:3 name:&d&lBota_MagicVIP'
-      - '322:1 128'
-      - '373:8233 32'
-      - '373:8226 32'
+      - '310 1 protection:4 unbreaking:3 name:&d&lCapacete_VIP'
+      - '311 1 protection:4 unbreaking:3 name:&d&lPeitoral_VIP'
+      - '312 1 protection:4 unbreaking:3 name:&d&lCalca_VIP'
+      - '313 1 protection:4 unbreaking:3 name:&d&lBota_VIP'
+      - '322:1 2'
+      - '322 16'
+      - '368 4'
+      - '364 32'
 
+  # VIPX (diario): 3 sets P4 INQ3 + capiroto
   vipx:
     delay: 86400
     items:
-      - '276 1 sharpness:7 unbreaking:7 fireaspect:2 name:&5&lEspada_MagicVIPX'
-      - '276 1 sharpness:7 unbreaking:7 fireaspect:2 name:&5&lEspada2_MagicVIPX'
-      - '271 1 sharpness:7 unbreaking:7 name:&5&lMachado_MagicVIPX'
-      - '271 1 sharpness:7 unbreaking:7 name:&5&lMachado2_MagicVIPX'
-      - '261 1 power:7 punch:4 infinity:1 name:&5&lArco_MagicVIPX'
-      - '310 1 protection:5 unbreaking:5 name:&5&lCapacete_MagicVIPX'
-      - '311 1 protection:5 unbreaking:5 name:&5&lPeitoral_MagicVIPX'
-      - '312 1 protection:5 unbreaking:5 name:&5&lCalca_MagicVIPX'
-      - '313 1 protection:5 unbreaking:5 name:&5&lBota_MagicVIPX'
-      - '310 1 protection:5 unbreaking:5 name:&5&lCapacete2_MagicVIPX'
-      - '311 1 protection:5 unbreaking:5 name:&5&lPeitoral2_MagicVIPX'
-      - '312 1 protection:5 unbreaking:5 name:&5&lCalca2_MagicVIPX'
-      - '313 1 protection:5 unbreaking:5 name:&5&lBota2_MagicVIPX'
-      - '322:1 64'
-      - '322:1 64'
-      - '322:1 64'
-      - '322:1 64'
-      - '264 64'
-      - '264 64'
-      - '264 64'
-      - '264 64'
-      - '266 64'
-      - '266 64'
-      - '266 64'
-      - '266 64'
-      - '262 128'
+      - '310 1 protection:4 unbreaking:3 name:&5&lCapacete_VIPX'
+      - '311 1 protection:4 unbreaking:3 name:&5&lPeitoral_VIPX'
+      - '312 1 protection:4 unbreaking:3 name:&5&lCalca_VIPX'
+      - '313 1 protection:4 unbreaking:3 name:&5&lBota_VIPX'
+      - '310 1 protection:4 unbreaking:3 name:&5&lCapacete_VIPX'
+      - '311 1 protection:4 unbreaking:3 name:&5&lPeitoral_VIPX'
+      - '312 1 protection:4 unbreaking:3 name:&5&lCalca_VIPX'
+      - '313 1 protection:4 unbreaking:3 name:&5&lBota_VIPX'
+      - '310 1 protection:4 unbreaking:3 name:&5&lCapacete_VIPX'
+      - '311 1 protection:4 unbreaking:3 name:&5&lPeitoral_VIPX'
+      - '312 1 protection:4 unbreaking:3 name:&5&lCalca_VIPX'
+      - '313 1 protection:4 unbreaking:3 name:&5&lBota_VIPX'
+      - '322:1 5'
+      - '322 32'
+      - '368 8'
+      - '364 64'
 
-  treinar:
-    delay: 0
-    items:
-      - '276 1 sharpness:5 unbreaking:3 name:&b&lEspada_Treino'
-      - '310 1 protection:4 unbreaking:3 name:&b&lCapacete_Treino'
-      - '311 1 protection:4 unbreaking:3 name:&b&lPeitoral_Treino'
-      - '312 1 protection:4 unbreaking:3 name:&b&lCalca_Treino'
-      - '313 1 protection:4 unbreaking:3 name:&b&lBota_Treino'
-      - '322:1 16'
-      - '373:8193 4'
-      - '373:8225 4'
-      - '282 16'
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
 # To enable signs, remove # symbol. To disable all signs, comment/remove each sign.
@@ -445,7 +434,7 @@ repair-enchanted: true
 
 # Allow 'unsafe' enchantments in kits and item spawning.
 # Warning: Mixing and overleveling some enchantments can cause issues with clients, servers and plugins.
-unsafe-enchantments: false
+unsafe-enchantments: true
 
 #Do you want essentials to keep track of previous location for /back in the teleport listener?
 #If you set this to true any plugin that uses teleport will have the previous location registered.
@@ -487,9 +476,9 @@ world-home-permissions: false
 # People with essentials.sethome.multiple.unlimited are not limited by these numbers.
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:  
-  default: 3
+  default: 1
   # essentials.sethome.multiple.vip
-  vip: 5
+  vip: 3
   # essentials.sethome.multiple.staff
   staff: 10
 
@@ -506,7 +495,7 @@ tpa-accept-cancellation: 120
 # For more information, visit http://wiki.ess3.net/wiki/Essentials_Economy
 
 # Defines the balance with which new players begin.  Defaults to 0.
-starting-balance: 50
+starting-balance: 1500
 
 # worth-# defines the value of an item when it is sold to the server via /sell.
 # These are now defined in worth.yml
@@ -654,11 +643,11 @@ protect:
   # Disable various default physics and behaviors.
   disable:
     # Should fall damage be disabled?
-    fall: false
+    fall: true
 
     # Users with the essentials.protect.pvp permission will still be able to attack each other if this is set to true.
     # They will be unable to attack users without that same permission node.
-    pvp: false
+    pvp: true
 
     # Should drowning damage be disabled?
     # (Split into two behaviors; generally, you want both set to the same value.)
@@ -751,7 +740,7 @@ newbies:
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
-  spawnpoint: newbies
+  spawnpoint: default
 
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost, and permissions.

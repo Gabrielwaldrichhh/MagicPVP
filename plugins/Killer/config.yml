@@ -1,4 +1,6 @@
 AutoStart:
+  Hora1: 9999
+  Hora2: 9999
   Hora3: 2000
 Premios:
   Tag: '&4&l[&4Killer&4&l]&r '
@@ -12,9 +14,9 @@ Timers:
     TempoEntre: 15
   Finalizando: 30
 Arena:
-  Entrada: world;771.5;5.0;-25.5;0.0;0.0
-  Saida: world;771.5;5.0;-25.5;0.0;0.0
-  Camarote: world;771.5;5.0;-25.5;0.0;0.0
+  Entrada: eventos;440.5;63.0;-4.5;0.0;0.0
+  Saida: spawn;297.5;64.0;350.5;180.0;0.0
+  Camarote: eventos;450.5;101.0;0.5;0.0;45.0
 Vencedor: ''
 Bloquear:
   Comandos: true

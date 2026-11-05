@@ -1,0 +1,16 @@
+regions:
+    __global__:
+        type: global
+        priority: 0
+        flags: {pvp: deny, build: deny, mob-spawning: deny, tnt: deny, creeper-explosion: deny, fire-spread: deny,
+            lava-flow: deny, water-flow: allow, use: allow, item-drop: allow, lighter: deny}
+        owners: {}
+        members: {}
+    minavip:
+        type: cuboid
+        min: {x: 28.0, y: 82.0, z: -15.0}
+        max: {x: 57.0, y: 99.0, z: 14.0}
+        priority: 10
+        flags: {build: allow, pvp: deny}
+        owners: {}
+        members: {}

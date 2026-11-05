@@ -5,7 +5,7 @@
 # > Description: Automatize os eventos do seu servidor com facilidade!             < #
 #                                                                                    #
 # > Cada evento devera ter seu arquivo .yml proprio criado na pasta Eventos dentro < #
-#   da pasta do Plugin, e nela devera conter todas as configuraÃ§oes obrigatorias   < #
+#   da pasta do Plugin, e nela devera conter todas as configuraçoes obrigatorias   < #
 #   como as mostras no evento padrao ("example.yml")                               < #
 #                                                                                    #
 # > /evento iniciar (Nome) - Inicializar um Evento.                                < #
@@ -13,12 +13,12 @@
 # > /evento sair - Sair do Evento que voce esta participando.                      < #
 # > /evento - Entrar no Evento que esta ocorrendo.                                 < #
 #                                                                                    #
-# > No final de cada evento vocÃª deverÃ¡ criar uma placa contendo os seguintes:     < #
+# > No final de cada evento você deverá criar uma placa contendo os seguintes:     < #
 #                                                                                  < #
 # Linha 01: [Evento]                                                               < #
 # Linha 02: nome_do_evento                                                         < #
 #                                                                                    #
-# PermissÃ£o do Plugin: "eventogamers.admin"                                        < #
+# Permissão do Plugin: "eventogamers.admin"                                        < #
 ######################################################################################
 
 #Configure o prefixo utilizando cores para as mensagens de sucesso
@@ -33,9 +33,7 @@ PrefixWarning: "&3[Evento] &6"
 #Configure os horarios dos eventos automaticos que ocorreram diariamente
 #HORA:MINUTO EVENTO
 #Exemplo: "04:00 example", pode notar-se que em '/plugins/EventoGamers/Eventos/' tem o example.yml.
-#checar_eventos = Segundos para checar se um evento tem que ser inicializado automÃ¡ticamente no momento atual
+#checar_eventos = Segundos para checar se um evento tem que ser inicializado automáticamente no momento atual
 checar_eventos: 10
-Automatico:
-  - "20:00 corrida"
-  - "20:30 corrida2.0"
-  - "21:00 parkour"
+# desligado em 2026-11-05: as arenas apontavam para um mapa antigo que nao existe (refazer na ideia 4)
+Automatico: []

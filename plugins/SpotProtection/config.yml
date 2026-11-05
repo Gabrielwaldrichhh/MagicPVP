@@ -2,13 +2,13 @@
 
 # Preco por bloco ao comprar terreno
 # Ex: /spot comprar 20 casa = 20 * PrecoBlocoCompra = R$200
-PrecoBlocoCompra: 100
+PrecoBlocoCompra: 10
 
 # Preco por bloco ao expandir
-PrecoBlocoExpansao: 50
+PrecoBlocoExpansao: 5
 
 # Preco para ativar/desativar PvP no terreno
-PrecoDoPVP: 500
+PrecoDoPVP: 200
 
 # Abreviacao da moeda
 NomeDaMoeda: R$

@@ -1,7 +1,7 @@
 # MyCommand  Commands Config File
 # commandsnumber (default 20) it's number of command you want make
 options:
-  commandsnumber: 36
+  commandsnumber: 19
 '1':
   command: /? [TAB]
   type: TEXT
@@ -33,135 +33,117 @@ options:
   - '&8[&c!&8] &fVoce nao tem permissao para usar esse comando.'
   permission-required: true
 '6':
-  command: /portais
-  type: RUNCOMMAND
-  runcmd:
-  - /warp portais
-  permission-required: true
-'7':
-  command: /fps
-  type: RUNCOMMAND
-  runcmd:
-  - /warp fps
-  permission-required: true
-'8':
   command: /terrenos
   type: RUNCOMMAND
   runcmd:
   - /warp terrenos
   permission-required: false
-'9':
+'7':
   command: /loja
   type: RUNCOMMAND
   runcmd:
   - /warp loja
   permission-required: false
-'10':
-  command: /end
-  type: RUNCOMMAND
-  runcmd:
-  - /warp end
-  permission-required: true
-'11':
+'8':
   command: /minerar
   type: RUNCOMMAND
   runcmd:
   - /warp mina
   permission-required: false
-'12':
+'9':
   command: /ajuda
   type: RUNCOMMAND
   runcmd:
   - /helpop
   permission-required: false
-'13':
+'10':
   command: /helpop
   type: TEXT
   text:
-  - '&8&m=========================='
+  - '&8&m=============================='
   - '    &2&lMagicPVP &8| &fCentral de Ajuda'
-  - '&8&m=========================='
-  - '  &a/kit pvp     &8» &7Kit de combate'
-  - '  &a/kit fome    &8» &7Comida gratis'
-  - '  &a/kit minerar &8» &7Picareta gratis'
-  - '  &a/treinar     &8» &7Arena de treino P4'
-  - '  &a/clan        &8» &7Gerenciar seu cla'
-  - '  &a/terreno     &8» &7Comprar terreno'
-  - '  &a/spawn       &8» &7Voltar ao spawn'
-  - '  &a/site        &8» &7Site do servidor'
-  - '  &a/discord     &8» &7Entre no Discord'
-  - '&8&m=========================='
+  - ' &e&lCOMECE: &a/kit iniciante &8| &a/kit pvp &8| &a/kit fome &8| &a/kit minerar'
+  - ' &e&lDINHEIRO: &a/loja &7(mercado) &8| &a/vendertudo &8| &a/money'
+  - '   &a/minerar &7(mina de diamante) &8| &a/pesca &7(vara gratis)'
+  - ' &c&lPVP: &c/treinar &7(set P4) &8| &c/fps &7(seu kit) &8| &c/minapvp'
+  - '   &c/x1 desafiar <nick> &7(R$ 30 mil) &8| &6/evento &7(a cada 30 min)'
+  - ' &b&lCLA: &a/clan ajuda &8| &b&lTERRENO: &a/terrenos &8| &a/terreno'
+  - '   &a/sethome &7e &a/home &7(so nos terrenos) &8| &d&lVIP: &d/vip'
+  - ' &7&lOUTROS: &a/fix &8| &a/spawn &8| &a/g &7e &a/l &7(chat) &8| &a/regras'
+  - '&8&m=============================='
+  - '  &fGuia completo: &a/info &8| &fDuvidas e VIP: &9/discord'
+  - '&8&m=============================='
   permission-required: false
-'14':
+'11':
   command: /desbugar
   type: RUNCOMMAND
   runcmd:
-  - /tp $player
+  - /spawn
   permission-required: false
-'15':
+'12':
   command: /mc
   type: TEXT
   text:
   - '&8[&c!&8] &fVoce nao tem permissao para usar esse comando.'
   permission-required: true
-'16':
+'13':
   command: /site
   type: TEXT
   text:
-  - '&8&m=========================='
-  - '    &2&lMagicPVP &8| &fSite Oficial'
-  - '&8&m=========================='
-  - '  &fAcesse &a&lmagicpvp.com.br &fe encontre:'
-  - '  &a>> &fComprar &6&lVIP &8e &bBoleiro PRO'
-  - '  &a>> &fReportar bugs'
-  - '  &a>> &fFalar com a Staff'
-  - '  &a>> &fNoticias e eventos'
-  - '&8&m=========================='
+  - '&8&m=============================='
+  - '    &2&lMagicPVP &8| &fSite'
+  - '&8&m=============================='
+  - '  &fNosso site esta em construcao.'
+  - '  &fEnquanto isso, tudo pelo &9&lDiscord&f:'
+  - '  &a� &fCompra de &6VIP&f, suporte e denuncias'
+  - '  &a� &fNoticias, eventos e sugestoes'
+  - ' '
+  - '  &bhttps://discord.gg/cVbym967DK'
+  - '&8&m=============================='
   permission-required: false
-'17':
+'14':
   command: /discord
   type: TEXT
   text:
   - '&8&m=========================='
-  - '    &2&lMagicPVP &8| &fDiscord Oficial'
+  - '    &2&lMagicPVP &8| &9&lDiscord Oficial'
   - '&8&m=========================='
-  - '  &fEntre na nossa comunidade!'
-  - '  &a>> &fReporte bugs e sugestoes'
-  - '  &a>> &fParticipe dos eventos'
-  - '  &a>> &fFale com a Staff'
+  - '  &fEntre no nosso Discord para:'
+  - '  &a>> &fSuporte com a Staff'
+  - '  &a>> &fCompra de &6VIP'
+  - '  &a>> &fDuvidas, sugestoes e eventos'
   - ' '
-  - '  &fLink no site: &a&lmagicpvp.com.br'
+  - '  &bhttps://discord.gg/cVbym967DK'
   - '&8&m=========================='
   permission-required: false
-'18':
-  command: /wefill
-  type: RUNASOPERATOR
-  runcmd:
-  - //pos1 $arg1,$arg2,$arg3
-  - //pos2 $arg4,$arg5,$arg6
-  - //set $arg7
-  permission-required: false
-'19':
-  command: /portais2
-  type: TEXT
-  text:
-  - '&8[&c!&8] &fComando desativado.'
-  permission-required: true
-'20':
-  command: /portais3
-  type: TEXT
-  text:
-  - '&8[&c!&8] &fComando desativado.'
-  permission-required: true
-'22':
+'15':
   command: /venderlapis
   type: TEXT
   text:
   - '&8[&c!&8] &fUse &a/vendertudo &fpara vender seus minerios.'
   permission-required: false
-'21':
+'16':
   command: /vendertudo
   type: RUNCOMMAND
   runcmd:
   - /sell all
+  permission-required: false
+'17':
+  command: /pesca
+  type: RUNCOMMAND
+  runcmd:
+  - /warp pesca
+  - /kit pesca
+  permission-required: false
+'18':
+  command: /minapvp
+  type: RUNCOMMAND
+  runcmd:
+  - /warp minapvp
+  permission-required: false
+'19':
+  command: /fps
+  type: RUNCOMMAND
+  runcmd:
+  - /warp fps
   permission-required: false

@@ -60,8 +60,6 @@ area-filter:
     - Painting
     - Wolf
     - Villager
-    - Horse
-    - ARMOR_STAND
 
 #Should clearlag reset the config (more stable), or attempt to add the new paths into your config?
 # -- Puting this as false wont reset your config, but may cause bugs.. Still in testing!
@@ -182,7 +180,6 @@ kill-mobs:
   mob-filter:
         - Villager
         - Wolf
-        - Horse
   
 #This takes care of mob spawners
 # -- max-spawn is the max entities that can be within the check-radius
@@ -295,7 +292,7 @@ limit:
   enable-limit: false
   max: 1000
   check-interval: 60
-  broadcast-message: '&6[ClearLag] &aLimit reached, removed +RemoveAmount Entities!'
+  broadcast-message: '&8[&2MagicPVP&8] &fLimite de entidades atingido: &a+RemoveAmount &fremovidas.'
   world-filter:
     - this_world
   broadcast-removal: true

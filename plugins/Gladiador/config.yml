@@ -9,7 +9,7 @@ Format:
 Premios:
   Mito:
     Ativar: true
-    Cmd: setmito @player
+    Cmd: setarmito @player
   Tag: '&b[&cGladiador&b]&r '
   Dinheiro: 200000
 Timers:
@@ -21,9 +21,9 @@ Timers:
     TempoEntre: 10
   Finalizando: 30
 Arena:
-  Entrada: gladiador;-542.5;4.0;1574.5;-89.699844;89.85
-  Saida: world;-1774.5;8.0;431.5;-90.35553;-0.14999261
-  Camarote: gladiador;-542.5;25.0;1574.5;-87.29984;89.85
+  Entrada: eventos;0.5;101.0;8.5;180.0;0.0
+  Saida: spawn;297.5;64.0;350.5;180.0;0.0
+  Camarote: eventos;0.5;166.0;0.5;180.0;45.0
 Update: 60
 Vencedores: []
 Bans: {}

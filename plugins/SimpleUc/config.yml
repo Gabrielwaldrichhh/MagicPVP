@@ -3,13 +3,13 @@
 #    http://dev.bukkit.org/server-mods/simpleuc/pages/configuration/
 # ------------------------------------
 prevent-messages: true
-message: '&8[&c!&8] &fComando inexistente. Use &a/ajuda &fpara ver os comandos disponÃ­veis.'
+message: '&8[&c!&8] &fComando inexistente. Use &a/ajuda &fpara ver os comandos disponíveis.'
 random-messages: false
 messages:
-- '&8[&c!&8] &fComando inexistente. Use &a/ajuda &fpara ver os comandos disponÃ­veis.'
+- '&8[&c!&8] &fComando inexistente. Use &a/ajuda &fpara ver os comandos disponíveis.'
 command-correction:
   enabled: false
-  success: '&6Did you mean: "&c%command%&6"?'
+  success: '&8[&c!&8] &fVoce quis dizer &a%command%&f?'
   failed: ''
   cmd-whitelist:
   - help

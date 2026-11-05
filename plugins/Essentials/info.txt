@@ -1,54 +1,69 @@
-This is the info file.
-
-This file format works for the info.txt, motd.txt and rules.txt
-
-You can create a specific file for a user or a group:
-Name it info_username.txt or info_groupname.txt
-
-This also works with motd and rules.
-
-Extra pages:
-Type /info Colors
-Type /info Tags
-
-If you have problem viewing this file ingame, try using /einfo.
-If this works, it means another command is blocking /info.
-
-It can contain chapters like the Chapter1 below:
-
-#Chapter1
-Lines starting with # begin a new chapter
-The user has to type /info Chapter1 to read this chapter
-
-If the file starts with a # then the user is shown a chapter selection, 
-when he does not select a chapter.
-
-#Colors
-Minecraft colors:
-&0 &&0  &1 &&1  &2 &&2  &3 &&3
-&4 &&4  &5 &&5  &6 &&6  &7 &&7
-&8 &&8  &9 &&9  &a &&a  &b &&b
-&c &&c  &d &&d  &e &&e  &f &&f
-&0 
-&&k &kMagic&r   &&l &lBold
-&&m &mStrike&r  &&n &nUline
-&&o &oItalic&r   &&r &rReset
-
-#Tags
-&6Player name:&r {PLAYER}
-&6IP:&r {IP}
-&6Address:&r {ADDRESS}
-&6Balance:&r {BALANCE}
-&6Unread mails:&r {MAILS}
-&6Current world:&r {WORLD}
-&6Worlds list:&r {WORLDS}
-&6Number of online players:&r {ONLINE}
-&6Number of unique players who joined the server:&r {UNIQUE}
-&6Player list:&r {PLAYERLIST}
-&6Time of server:&r {TIME}
-&6Date of server:&r {DATE}
-&6Time of world PM/AM:&r {WORLDTIME12}
-&6Time of world:&r {WORLDTIME24}
-&6Date of world:&r {WORLDDATE}
-&6Plugin list:&r {PLUGINS}
-&6Version of Craftbukkit:&r {VERSION}
+#
+&2&lGuia do MagicPVP &8- &fescolha um capitulo:
+  &a/info comecar   &8» &7Primeiros passos
+  &a/info dinheiro  &8» &7Como ganhar dinheiro
+  &a/info pvp       &8» &7Arenas, x1 e mina PvP
+  &a/info eventos   &8» &7Eventos e premios
+  &a/info cla       &8» &7Clas, tags e guerra
+  &a/info terreno   &8» &7Terrenos, farm e gaiola
+  &a/info vip       &8» &7Vantagens do VIP
+#comecar
+&2&lGuia MagicPVP &8| &fPrimeiros passos
+  &e1. &a/kit iniciante &f(uma vez) e &a/kit pvp &f(a cada 10 min)
+  &e2. &a/kit minerar &fe va na &a/minerar &f(mina de diamante)
+  &e3. &fVenda na Loja da Mina ou com &a/vendertudo
+  &e4. &fCompre um terreno (&a/info terreno&f) e monte sua farm
+  &e5. &fTreine PvP de graca na &a/treinar &f(set P4, nada se perde)
+  &fItem gasto? &a/fix &frepara de graca. Saldo: &a/money
+#dinheiro
+&2&lGuia MagicPVP &8| &fComo ganhar dinheiro
+  &a» &fFarm e o que mais rende: &acana R$5&f, &acacto R$4&f,
+    &acogumelo e verruga R$6&f, &aabobora R$15 &f(por unidade)
+  &a» &fMinerio: diamante R$15 (&a/minerar&f, reseta a cada 5 min)
+  &a» &fEsmeralda R$30 na &c/minapvp &f(mina com PvP!)
+  &a» &fVenda: &a/vendertudo &fou nas placas da &a/loja &f(botao esquerdo)
+  &a» &fCompra: placas da &a/loja &f(botao direito)
+  &a» &fEventos, x1, Killer e Gladiador dao premios em dinheiro
+  &fSet P4 ~R$ 31 mil | Cap R$ 6 mil | &cGaiola R$ 2 milhoes
+#pvp
+&2&lGuia MagicPVP &8| &fPvP
+  &c/treinar &8» &fArena com set P4 de treino; morrer nao perde nada
+  &c/fps &8» &fArena fechada de vidro, PvP com o SEU kit (morreu, perdeu)
+  &c/x1 desafiar <nick> &8» &fDuelo valendo R$ 30 mil (&c/x1 aceitar&f)
+  &c/minapvp &8» &fMina de esmeralda; PvP liberado fora do acampamento
+  &4Killer &8» &ftodo dia as 20h | &4Gladiador &8» &fsabado as 19h
+  &7Deslogar em combate = morte. Em combate nao tem /spawn nem /warp.
+#eventos
+&2&lGuia MagicPVP &8| &fEventos
+  &fA cada &630 minutos &ftem evento! Digite &6/evento &fpara entrar.
+  &e» &eCorrida &f(R$10 mil) - chegue primeiro no fim da pista
+  &e» &bParkour &f(R$15 mil) - suba ate o trofeu
+  &e» &2Labirinto &f(R$10 mil) - ache o centro
+  &e» &cPega-pega &f(R$15 mil) - nao fique com a batata!
+  &e» &4Fight &f(R$20 mil) - duelos com kit, o ultimo vence
+  &7Seus itens ficam guardados e voltam ao sair (&f/evento sair&7).
+#cla
+&2&lGuia MagicPVP &8| &fClas
+  &a/clan criar <tag> <nome> &8» &fcria seu cla (R$ 500)
+  &a/clan convidar <nick> &8» &fchama alguem | &a/aceitar &fpara entrar
+  &a/clan perfil &8| &a/clan membros &8| &a/clan lista
+  &a/clan alianca &8| &a/clan rival &8| &a/clan guerra
+  &fA tag do cla aparece no chat e no tab.
+  &fGladiador (sabado 19h): o cla que sobrar vence! &a/clan ajuda
+#terreno
+&2&lGuia MagicPVP &8| &fTerrenos, farm e gaiola
+  &a/terrenos &8» &fvai ao mundo de terrenos
+  &a/terreno comprar <tamanho> <nome> &8» &fR$ 10 por tamanho
+  &fMembro: 1 terreno de ate 50x50 | &dVIP: 3 de ate 100x100
+  &a/terreno addamigo &8| &a/terreno meus &8| &a/terreno expandir
+  &a/sethome &fsalva sua casa (so nos terrenos) | &a/home
+  &fMobs so nascem de &egaiola &fdentro do seu terreno.
+  &fTroque o mob da gaiola com &eovo &f(clique direito). Gaiola e ovo na &a/loja&f.
+#vip
+&2&lGuia MagicPVP &8| &fVIP
+  &d» &fArea VIP &d/vip&f: ilha com mina de diamante, loja com desconto,
+    Casa do Diamante (paga +40%), parkour, castelo e muito mais
+  &d» &f/fly nos terrenos e na area VIP | 3 terrenos de 100x100
+  &d» &fKit VIP diario (set P4 + caps) e /fix all
+  &d» &fAtivacao com R$, sets P5/P6, gaiolas e ovos de zumbi
+  &fCompre no &9/discord &fe ative com &d/usarkey <key>&f. Tempo: &d/tempovip

@@ -86,6 +86,19 @@ DisabledCommands:
   - repair
   - logout
   - fly
+  - vip
+  - minapvp
+  - pesca
+  - terrenos
+  - loja
+  - minerar
+  - desbugar
+  - kit
+  - treinar
+  - fps
+  - evento
+  - mpevento
+  - ec
 
 # To disable Combat tagging for ALL players in specific worlds, simply add the name of the World folder under "Worlds."
 DisabledWorlds:

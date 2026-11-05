@@ -1,0 +1,168 @@
+regions:
+    __global__:
+        type: global
+        priority: 0
+        flags: {build: deny, mob-spawning: deny, tnt: deny, creeper-explosion: deny, fire-spread: deny,
+            lava-flow: deny, water-flow: allow, use: allow, item-drop: allow, lighter: deny, chest-access: deny}
+        owners: {}
+        members: {}
+    camarote_gladiador:
+        type: cuboid
+        min: {x: -11.0, y: 160.0, z: -11.0}
+        max: {x: 11.0, y: 172.0, z: 11.0}
+        priority: 10
+        flags: {pvp: deny, invincible: allow}
+        owners: {}
+        members: {}
+    camarote_killer:
+        type: cuboid
+        min: {x: 443.0, y: 95.0, z: -7.0}
+        max: {x: 457.0, y: 107.0, z: 7.0}
+        priority: 10
+        flags: {pvp: deny, invincible: allow}
+        owners: {}
+        members: {}
+    treino_arena:
+        type: cuboid
+        min: {x: -45.0, y: 50.0, z: 315.0}
+        max: {x: 45.0, y: 140.0, z: 405.0}
+        priority: 10
+        flags: {pvp: allow, build: deny, tnt: deny, mob-spawning: deny, creeper-explosion: deny, blocked-cmds: [/spawn, /tpa, /kit, /back, /fly, /tpahere, /home, /tpaccept, /warp]}
+        owners: {}
+        members: {}
+    treino_lobby:
+        type: cuboid
+        min: {x: -5.0, y: 104.0, z: 323.0}
+        max: {x: 5.0, y: 111.0, z: 331.0}
+        priority: 11
+        flags: {pvp: deny, build: deny, tnt: deny, mob-spawning: deny, creeper-explosion: deny, blocked-cmds: [/tpa, /tpahere, /tpaccept, /home, /back, /warp, /kit, /fly, /ec, /enderchest, /pay, /give, /item, /i, /repair, /hat, /money, /logout]}
+        owners: {}
+        members: {}
+    fps_arena:
+        type: cuboid
+        min: {x: -45.0, y: 140.0, z: 214.0}
+        max: {x: 45.0, y: 165.0, z: 304.0}
+        priority: 10
+        flags: {pvp: allow, build: deny, tnt: deny, mob-spawning: deny, creeper-explosion: deny, blocked-cmds: [/fly]}
+        owners: {}
+        members: {}
+    fps_lobby:
+        type: cuboid
+        min: {x: -6.0, y: 150.0, z: 215.0}
+        max: {x: 6.0, y: 156.0, z: 221.0}
+        priority: 11
+        flags: {pvp: deny, invincible: allow, build: deny}
+        owners: {}
+        members: {}
+    minapvp_mina:
+        type: cuboid
+        min: {x: -470.0, y: 76.0, z: -20.0}
+        max: {x: -431.0, y: 99.0, z: 19.0}
+        priority: 10
+        flags: {build: allow}
+        owners: {}
+        members: {}
+    minapvp_acampamento:
+        type: cuboid
+        min: {x: -397.0, y: 60.0, z: -22.0}
+        max: {x: -353.0, y: 160.0, z: 22.0}
+        priority: 10
+        flags: {pvp: deny, invincible: allow, use: allow, chest-access: allow}
+        owners: {}
+        members: {}
+    evt_corrida:
+        type: cuboid
+        min: {x: 50.0, y: 80.0, z: -362.0}
+        max: {x: 258.0, y: 140.0, z: -274.0}
+        priority: 10
+        flags: {pvp: deny, build: deny, invincible: allow}
+        owners: {}
+        members: {}
+    evt_parkour:
+        type: cuboid
+        min: {x: -12.0, y: 90.0, z: -440.0}
+        max: {x: 12.0, y: 140.0, z: -254.0}
+        priority: 10
+        flags: {pvp: deny, build: deny, invincible: allow}
+        owners: {}
+        members: {}
+    evt_labirinto:
+        type: cuboid
+        min: {x: -172.0, y: 80.0, z: -342.0}
+        max: {x: -128.0, y: 140.0, z: -290.0}
+        priority: 10
+        flags: {pvp: deny, build: deny, invincible: allow}
+        owners: {}
+        members: {}
+    evt_pega:
+        type: cuboid
+        min: {x: -173.0, y: 80.0, z: -483.0}
+        max: {x: -127.0, y: 140.0, z: -437.0}
+        priority: 10
+        flags: {pvp: deny, build: deny}
+        owners: {}
+        members: {}
+    evt_fight:
+        type: cuboid
+        min: {x: 100.0, y: 80.0, z: -520.0}
+        max: {x: 147.0, y: 120.0, z: -478.0}
+        priority: 10
+        flags: {pvp: allow, build: deny}
+        owners: {}
+        members: {}
+    evt_corrida_portao:
+        type: cuboid
+        min: {x: 58.0, y: 101.0, z: -282.0}
+        max: {x: 58.0, y: 103.0, z: -278.0}
+        priority: 0
+        flags: {}
+        owners: {}
+        members: {}
+    evt_corrida_chegada:
+        type: cuboid
+        min: {x: 248.0, y: 100.0, z: -360.0}
+        max: {x: 256.0, y: 106.0, z: -352.0}
+        priority: 0
+        flags: {}
+        owners: {}
+        members: {}
+    evt_parkour_portao:
+        type: cuboid
+        min: {x: -2.0, y: 101.0, z: -262.0}
+        max: {x: 2.0, y: 103.0, z: -262.0}
+        priority: 0
+        flags: {}
+        owners: {}
+        members: {}
+    evt_parkour_chegada:
+        type: cuboid
+        min: {x: -7.0, y: 117.0, z: -434.0}
+        max: {x: -1.0, y: 122.0, z: -428.0}
+        priority: 0
+        flags: {}
+        owners: {}
+        members: {}
+    evt_labirinto_portao:
+        type: cuboid
+        min: {x: -153.0, y: 101.0, z: -298.0}
+        max: {x: -149.0, y: 103.0, z: -298.0}
+        priority: 0
+        flags: {}
+        owners: {}
+        members: {}
+    evt_labirinto_chegada:
+        type: cuboid
+        min: {x: -151.0, y: 100.0, z: -321.0}
+        max: {x: -149.0, y: 104.0, z: -319.0}
+        priority: 0
+        flags: {}
+        owners: {}
+        members: {}
+    camarote_x1:
+        type: cuboid
+        min: {x: 227.0, y: 99.0, z: 279.0}
+        max: {x: 274.0, y: 112.0, z: 321.0}
+        priority: 10
+        flags: {pvp: deny, invincible: allow, build: deny}
+        owners: {}
+        members: {}

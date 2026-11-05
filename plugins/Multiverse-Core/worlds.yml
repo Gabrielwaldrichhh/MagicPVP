@@ -27,9 +27,9 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: 773.5
+      x: 0.5
       y: 4.0
-      z: -42.5
+      z: 0.5
       pitch: 0.0
       yaw: 0.0
       world: world
@@ -39,6 +39,7 @@ worlds:
     seed: 5350418096430930869
     environment: NORMAL
     type: NORMAL
+    generator: MagicArena
     time: 6000
     hidden: false
     alias:
@@ -83,12 +84,12 @@ worlds:
     scale: 1.0
     respawnworld: world
     allowweather: false
-    difficulty: PEACEFUL
+    difficulty: EASY
     time: 6000
     animals:
-      spawn: false
+      spawn: true
     monsters:
-      spawn: false
+      spawn: true
     entryfee:
       currency: -1
       price: 0.0
@@ -99,28 +100,28 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: 994.0
+      x: 127.92155072071394
       y: 4.0
-      z: -509.0
-      pitch: 0.0
-      yaw: 0.0
+      z: -13.509641999648714
+      pitch: 8.082239
+      yaw: -88.809555
       world: terrenos
     autoload: true
     bedrespawn: false
-  arenas:
-    seed: -307027953240248799
+  vip:
+    generator: MagicArena
+    seed: 5233630155129869752
     environment: NORMAL
-    type: FLAT
+    type: NORMAL
     hidden: false
     alias:
-      name: Arenas
-      color: RED
-    pvp: true
+      name: ''
+      color: WHITE
+    pvp: false
     scale: 1.0
-    respawnworld: spawn
+    respawnworld: ''
     allowweather: false
-    difficulty: NORMAL
-    time: 6000
+    difficulty: EASY
     animals:
       spawn: false
     monsters:
@@ -129,24 +130,25 @@ worlds:
       currency: -1
       price: 0.0
     hunger: true
-    autoheal: false
-    adjustspawn: true
-    portalform: NONE
+    autoheal: true
+    adjustspawn: false
+    portalform: ALL
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: 1518.0
-      y: 4.0
-      z: 2047.0
+      x: 0.5
+      y: 101.0
+      z: 6.5
       pitch: 0.0
-      yaw: 0.0
-      world: arenas
+      yaw: 180.0
+      world: vip
     autoload: true
-    bedrespawn: false
-  worldtemp:
-    seed: -3083979623404973764
+    bedrespawn: true
+  eventos:
+    generator: MagicArena
+    seed: -3812893468797353012
     environment: NORMAL
-    type: FLAT
+    type: NORMAL
     hidden: false
     alias:
       name: ''
@@ -157,9 +159,9 @@ worlds:
     allowweather: true
     difficulty: EASY
     animals:
-      spawn: true
+      spawn: false
     monsters:
-      spawn: true
+      spawn: false
     entryfee:
       currency: -1
       price: 0.0
@@ -170,11 +172,11 @@ worlds:
     gamemode: SURVIVAL
     keepspawninmemory: true
     spawn:
-      x: -1774.0
-      y: 8.0
-      z: 431.0
+      x: 0.0
+      y: 105.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
-      world: worldtemp
+      world: eventos
     autoload: true
     bedrespawn: true

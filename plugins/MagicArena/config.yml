@@ -1,22 +1,194 @@
 # MagicArena - Arena de Treino
-arena-world: arenas
-
+# Mundo da arena
+arena-world: eventos
+regiao-arena: treino_arena
+regiao-lobby: treino_lobby
+combate-segundos: 15
 arena-spawn:
-  x: 1492.5
-  y: 26.0
-  z: 2050.5
-  yaw: -89.0
+  x: 0.5
+  y: 105.0
+  z: 326.5
+  yaw: 0.0
   pitch: 0.0
-
+mundo-terrenos: terrenos
+terreno-tamanho-max-membro: 50
+tab:
+  ativo: true
+  magnata: '&2[Magnata]'
+  mito: '&5[Mito]'
+  killer: '&4[K]'
+  gladiador: '&b[G]'
+  grupos:
+    Dono:
+      cor: '&a'
+      tag: '&2[Dono]'
+    Mod:
+      cor: '&9'
+      tag: '&9[Mod]'
+    YouTuber:
+      cor: '&c'
+      tag: '&c[YT]'
+    MagicVIPX:
+      cor: '&5'
+      tag: '&5[VIPX]'
+    MagicVIP:
+      cor: '&d'
+      tag: '&d[VIP]'
+    Membro:
+      cor: '&7'
+      tag: ''
+bordas:
+  spawn:
+    min-x: -8
+    max-x: 619
+    min-z: 74
+    max-z: 584
+  vip:
+    min-x: -300
+    max-x: 300
+    min-z: -300
+    max-z: 300
+  eventos:
+    min-x: -590
+    max-x: 640
+    min-z: -600
+    max-z: 410
+mundos-fly:
+- terrenos
+- vip
+vip:
+  mundo: vip
+  spawn:
+    x: 0.5
+    y: 101.0
+    z: 10.5
+    yaw: 180.0
+    pitch: 0.0
+  areas:
+    vipx:
+      permissao: magicpvp.vipx
+      min-x: -7
+      max-x: 7
+      min-y: 95
+      max-y: 130
+      min-z: 12
+      max-z: 21
+      mensagem: '&8[&c!&8] &fArea exclusiva &5VIPX&f!'
+molduras-protegidas:
+- spawn
+- vip
+- eventos
 always-day-worlds:
-  - world
-  - spawn
-  - terrenos
-  - arenas
-
+- vip
+- eventos
+- world
+- spawn
+- terrenos
 messages:
   enter: '&8[&2MagicPVP&8] &fVoce entrou na &2Arena de Treino&f! Kit P4 aplicado.'
   exit: '&8[&2MagicPVP&8] &fVoce saiu da &2Arena de Treino&f. Inventario restaurado.'
+  death: '&8[&2MagicPVP&8] &fVoce morreu no treino e recebeu seus itens de volta.
+    Use &2/treinar &fpara voltar.'
   already-inside: '&8[&c!&8] &fVoce ja esta na arena! Use &2/treinarsair &fpara sair.'
   not-inside: '&8[&c!&8] &fVoce nao esta na arena de treino.'
+  in-combat: '&8[&c!&8] &fVoce esta em combate! Espere alguns segundos.'
+  no-exit-fighting: '&8[&c!&8] &fDentro da arena nao da para sair. Volte para o spawn
+    da arena.'
+  blocked-command: '&8[&c!&8] &fComandos bloqueados no treino. Use &2/treinarsair
+    &fno spawn da arena.'
+  not-training: '&8[&c!&8] &fSo entra na arena quem estiver treinando. Use &2/treinar&f.'
   spawn-set: '&8[&2MagicPVP&8] &fSpawn da arena de treino definido aqui!'
+eventos-auto:
+  ativo: true
+  mundo: eventos
+  espera-segundos: 60
+  min-jogadores: 2
+  ordem:
+  - corrida
+  - pega
+  - labirinto
+  - fight
+  - parkour
+  horarios:
+  - '10:10'
+  - '10:40'
+  - '11:10'
+  - '11:40'
+  - '12:10'
+  - '12:40'
+  - '13:10'
+  - '13:40'
+  - '14:10'
+  - '14:40'
+  - '15:10'
+  - '15:40'
+  - '16:10'
+  - '16:40'
+  - '17:10'
+  - '17:40'
+  - '18:10'
+  - '18:40'
+  - '20:40'
+  - '21:10'
+  - '21:40'
+  - '22:10'
+  - '22:40'
+  - '23:10'
+  - '23:40'
+eventos:
+  corrida:
+    nome: '&e&lCorrida'
+    tipo: chegada
+    entrada: 55.5 101 -279.5 270
+    portao: evt_corrida_portao
+    chegada: evt_corrida_chegada
+    morte-y: 95
+    premio: 10000
+    duracao-segundos: 420
+  parkour:
+    nome: '&b&lParkour'
+    tipo: chegada
+    entrada: 0.5 101 -258.5 180
+    portao: evt_parkour_portao
+    chegada: evt_parkour_chegada
+    morte-y: 98
+    premio: 15000
+    duracao-segundos: 600
+  labirinto:
+    nome: '&2&lLabirinto'
+    tipo: chegada
+    entrada: -150.5 101 -294.5 180
+    portao: evt_labirinto_portao
+    chegada: evt_labirinto_chegada
+    morte-y: 95
+    premio: 10000
+    duracao-segundos: 600
+  pega:
+    nome: '&c&lPega-pega'
+    tipo: pega
+    entrada: -149.5 101 -456.5 0
+    rodada-segundos: 30
+    morte-y: 95
+    premio: 15000
+    duracao-segundos: 900
+  fight:
+    nome: '&4&lFight'
+    tipo: duelo
+    espera: 110 100 -499 270
+    loc1: 122.5 94 -486 180
+    loc2: 122.5 94 -511 0
+    duelo-segundos: 120
+    morte-y: 80
+    premio: 20000
+    duracao-segundos: 1500
+    kit:
+    - 276 1 16:1
+    - 306 1
+    - 307 1
+    - 308 1
+    - 309 1
+    - 261 1
+    - 262 16
+    - 322 2
+regioes-arena-extra: []
+regioes-lobby-extra: []

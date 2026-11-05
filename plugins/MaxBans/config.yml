@@ -63,7 +63,7 @@ update-check: true
 #Accepts colorcodes. (v1.2)
 default-reason: "Volte Mais Tarde"
 #Appeal-message accepts color codes, like &a and &4... Set it to "" to disable this. Accepts new line characters, just add \n where you want a new line.
-appeal-message: "youtube.com/c/SpringsTeaGames"
+appeal-message: "Peca revisao no Discord do MagicPVP (magicpvp.com.br)"
 
 #The two char colors used that STAFF will see.
 #Usually, primary = text, and secondary = variables (Like ban reason)

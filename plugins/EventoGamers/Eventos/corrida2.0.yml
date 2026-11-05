@@ -10,7 +10,7 @@ minplayers: 1
 #Bloquear o tapete magico? (/mc)? true/false
 bloquear_tapete_magico: true
 
-#ForÃ§ar que os jogadores estejam com "/pvp on"? true/false
+#Forçar que os jogadores estejam com "/pvp on"? true/false
 force_pvp_on: true
 
 #Local da entrada do evento (mundo x y z)
@@ -44,13 +44,13 @@ blocked_cmds:
   - /gamemode
   - /gm
 
-#ConfiguraÃ§ao das mensagens
+#Configuraçao das mensagens
 #Voce podera usar "&" para utilizamento de cores.
 #"chamadas"= quantidade de chamadas antes de iniciar.
 #"intervalo"= Intervalo em segundos para proxima chamada.
 #"motivos"= Os motivos que aparecerao caso o evento seja cancelado, configure de acordo com o exemplo.
 #"anuncio"= Mensagens de anuncio, avisando sobre o evento aberto.
-#"iniciado"= Mensagens de quando o evento Ã© iniciado.
+#"iniciado"= Mensagens de quando o evento é iniciado.
 #"cancelado"= Mensagens de quando o evento for cancelado. (@motivo substitui o motivo automaticamente)
 #"concluido"= Mensagens de quando o evento for concluido. (@vencedor substitui o nome do player automaticamente)
 mensagens:

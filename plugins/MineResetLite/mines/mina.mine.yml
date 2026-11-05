@@ -13,6 +13,6 @@ mine:
   composition:
     '56:0': 1.0
   name: mina
-  resetClock: 5
+  resetClock: 1
   minZ: 276
   isSilent: false

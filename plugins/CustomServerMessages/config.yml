@@ -15,17 +15,17 @@ CustomServerMessages:
   Command:
     say:
       enable: true
-      message: '&d[Server]&d[&player] -> &f &message'
-      consoleemessage: '&6[&eConsole&6]&f:&f &message'
+      message: '&8[&2MagicPVP&8] &a&player&8: &f&message'
+      consoleemessage: '&8[&2MagicPVP&8] &f&message'
     plugins:
       enable: true
       message: '&4Plugins: &f0'
     version:
       enable: true
-      message: 'Version: &6MyServer 2.0!'
+      message: '&2MagicPVP &fFull PvP 1.5.2'
     seed:
       enable: true
-      message: '&fVocê &4não tem Permissões&r para ver a semente!'
+      message: '&8[&c!&8] &fVoce nao tem permissao para usar esse comando.'
     '?':
       enable: true
       message: '&4Plugins: &f0'

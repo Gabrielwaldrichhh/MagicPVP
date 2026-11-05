@@ -1,13 +1,9 @@
 &8&m==============================
-  &2&lMagicPVP &8| &fFullPvP 1.5.2 Raiz
-&8&m==============================
-  &fBem-vindo, &a{USERNAME}&f!
-
-  &a/kit pvp     &8» &7Kit de combate
-  &a/treinar     &8» &7Arena de treino P4
-  &a/terreno     &8» &7Compre seu terreno
-  &a/clan        &8» &7Crie seu cla
-  &a/ajuda       &8» &7Central de ajuda
-&8&m==============================
-  &7Site: &fmagicpvp.com.br
-&8&m==============================
+&2&lMagicPVP &8| &fBem-vindo, &a{PLAYER}&f!
+&e1. &a/kit iniciante &fe &a/kit pvp &fpara comecar
+&e2. &fDinheiro: &afarm &f(cana, cacto, cogumelo) e &a/minerar
+&e3. &fCompre e venda na &a/loja &fou use &a/vendertudo
+&e4. &fProteja sua base: &a/terrenos &fe &a/terreno comprar
+&e5. &fEventos a cada 30 min: &6/evento
+&fComandos: &a/ajuda &8| &fGuia: &a/info &8| &a/regras
+&9Discord: &bhttps://discord.gg/cVbym967DK

@@ -1,6 +1,6 @@
 &5==============================================
 
 &d Evento Killer automatico &cCANCELADO!
-&d Motivo: Quantidade de clans menor que 2
+&d Motivo: Menos de 2 jogadores participando
 
 &5==============================================

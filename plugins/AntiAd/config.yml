@@ -7,9 +7,9 @@ Command-Spam: kick <player> <reasonspam>
 #The Amount of time they are banned for
 Time: 5
 #The message players are given if not banned.
-Spam_Message: NÃ£o faÃ§a spam!
+Spam_Message: Não faça spam!
 #The message players are given if not banned.
-Ad_Message: NÃ£o anunciar!
+Ad_Message: Não anunciar!
 #Broadcasts a notification that someone has been punished for advertising
 Notification-Message: false
 #Says Server is running AntiAd

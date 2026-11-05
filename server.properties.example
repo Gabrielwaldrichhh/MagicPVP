@@ -1,0 +1,36 @@
+#Minecraft server properties
+#Wed Nov 04 10:45:35 BRT 2026
+generator-settings=
+allow-nether=false
+level-name=world
+enable-query=false
+allow-flight=false
+rcon.password=
+server-port=25565
+level-type=FLAT
+enable-rcon=false
+force-gamemode=false
+level-seed=
+server-ip=192.168.1.14
+max-build-height=256
+spawn-npcs=true
+allow-end=false
+white-list=false
+debug=false
+spawn-animals=true
+hardcore=false
+snooper-enabled=false
+texture-pack=
+online-mode=false
+pvp=true
+difficulty=2
+enable-command-block=true
+server-name=MagicPVP
+gamemode=0
+max-players=100
+rcon.port=25575
+spawn-monsters=true
+generate-structures=false
+view-distance=5
+spawn-protection=0
+motd=\u00A78[\u00A7aMagicPVP\u00A78] \u00A7fFullPvP Raiz 1.5.2 \u00A78| \u00A7aplay.magicpvp.com.br

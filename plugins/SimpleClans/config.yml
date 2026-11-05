@@ -49,11 +49,11 @@ spout:
   enable-clan-capes: true
   in-game-tags-colored: false
 commands:
-  more: more
+  more: mais
   ally: ally
   clan: clan
-  accept: saccept
-  deny: sdeny
+  accept: aceitar
+  deny: negar
   global: global
 economy:
   creation-price: 500.0

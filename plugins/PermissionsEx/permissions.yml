@@ -2,15 +2,31 @@ groups:
   default:
     permissions:
     - modifyworld.*
+    - modifyworld.items.drop
+    - modifyworld.items.pickup
   Membro:
     default: true
     prefix: '&8[&7Membro&8] &7'
     suffix: ''
     permissions:
+    - sec.spawnerchange
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.repair
+    - mycommand.cmd.*
+    - essentials.kits.pesca
+    - essentials.delhome
+    - essentials.home
+    - essentials.sethome
+    - chestshop.shop.sell
+    - chestshop.shop.buy
+    - chestshop.shop.create
     - modifyworld.*
+    - modifyworld.items.drop
+    - modifyworld.items.pickup
+    - modifyworld.blocks.destroy
+    - modifyworld.blocks.place
     - spotprotection.use
-    - spotprotection.1
-    - essentials.multiple.default
     - essentials.msg
     - essentials.reply
     - essentials.balancetop
@@ -32,10 +48,10 @@ groups:
     - essentials.spawn
     - essentials.motd
     - essentials.rules
+    - essentials.info
     - essentials.warp.list
     - essentials.warps
     - essentials.warp
-    - essentials.warp.arena
     - essentials.warp.mina
     - vipzero.user
     - legendchat.channel.local.chat
@@ -54,23 +70,6 @@ groups:
     - eventogamers.evento.corrida
     - eventogamers.evento.corrida2
     - eventogamers.evento.spleef
-    - mycommand.cmd.6
-    - mycommand.cmd.7
-    - mycommand.cmd.8
-    - mycommand.cmd.9
-    - mycommand.cmd.10
-    - mycommand.cmd.11
-    - mycommand.cmd.12
-    - mycommand.cmd.13
-    - mycommand.cmd.14
-    - mycommand.cmd.15
-    - mycommand.cmd.16
-    - mycommand.cmd.17
-    - mycommand.cmd.18
-    - mycommand.cmd.19
-    - mycommand.cmd.20
-    - mycommand.cmd.21
-    - mycommand.cmd.22
     - essentials.sell
   MagicVIP:
     prefix: '&8[&d&lMagicVIP&8] &f'
@@ -78,6 +77,10 @@ groups:
     inheritance:
     - Membro
     permissions:
+    - magicpvp.vip
+    - essentials.sethome.multiple.vip
+    - essentials.sethome.multiple
+    - magicpvp.terreno.vip
     - essentials.fly
     - essentials.repair
     - essentials.repair.enchanted
@@ -92,8 +95,7 @@ groups:
     - essentials.chat.afk.auto
     - essentials.joinfullserver
     - essentials.kits.vip
-    - essentials.multiple.vip
-    - spotprotection.2
+    - spotprotection.3
     - chestshop.shop.create
     - chestshop.shop.buy
     - chestshop.shop.sell
@@ -106,6 +108,7 @@ groups:
     inheritance:
     - MagicVIP
     permissions:
+    - magicpvp.vipx
     - essentials.kits.vipx
   YouTuber:
     prefix: '&8[&c&lYouTuber&8] &f'
@@ -113,6 +116,7 @@ groups:
     inheritance:
     - MagicVIP
     permissions:
+    - -magicpvp.vip
     - essentials.kits.vip
   Mod:
     prefix: '&8[&9&lMod&8] &f'
@@ -120,6 +124,10 @@ groups:
     inheritance:
     - MagicVIP
     permissions:
+    - magicpvp.vipx
+    - magicpvp.sethome.global
+    - essentials.sethome.multiple.staff
+    - magicpvp.fly.global
     - essentials.fly
     - essentials.gamemode
     - essentials.vanish
@@ -136,7 +144,6 @@ groups:
     - essentials.heal
     - essentials.feed
     - essentials.god
-    - essentials.multiple.staff
     - essentials.clearinventory
     - essentials.invsee
     - maxbans.ban
@@ -162,6 +169,6 @@ users:
   Gab:
     group:
     - Dono
-  Gabri:
+  Dibrador:
     group:
-    - MagicVIP
+    - Membro

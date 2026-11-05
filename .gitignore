@@ -17,8 +17,8 @@ world/uid.dat
 world/data/
 world/level.dat_old
 world/level.dat_mcr
-spawn/
-arenas/
+/spawn/
+/arenas/
 terrenos/region/
 terrenos/players/
 terrenos/mcmmo_regions/
@@ -27,7 +27,7 @@ terrenos/uid.dat
 terrenos/data/
 terrenos/level.dat_old
 terrenos/level.dat_mcr
-worldtemp/
+/worldtemp/
 schematics/
 
 # Backups automáticos do mcMMO
@@ -54,3 +54,30 @@ plugins/ChestShop/items.db
 # Jar desativado
 plugins/AutoPickupMagicOld.jar
 plugins/SpotProtection.jar.bak
+
+# Ambiente local
+.claude/
+worldedit.log*
+debug.log*
+plugins/PluginMetrics/logs/
+
+# Contem a senha RCON local (use server.properties.example como base)
+server.properties
+plugins/CustomServerMessages/log.yml
+plugins/MagicArena/inventarios.yml
+
+# Mundo da Area VIP (dados de terreno)
+/vip/
+
+# Mundos novos (2026-11-05) e copias de seguranca locais
+/eventos/
+/minapvp/
+/backups/
+plugins/update/
+
+# Dados de jogadores / segredos
+plugins/MagicArena/eventos_inventarios.yml
+# VipZero guarda as KEYS de VIP e a lista de VIPs no proprio config: nunca no repo publico
+plugins/VipZero/config.yml
+plugins/VipZero/log.txt
+plugins/Essentials/usermap.csv

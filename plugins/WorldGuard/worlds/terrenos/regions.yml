@@ -21,9 +21,7 @@ regions:
             pvp: deny
             tnt: deny
             lava-flow: deny
-            mob-spawning: deny
             fire-spread: deny
-            allowed-cmds: [/spawn, /terreno, /terrenos, /spot, /kit, /login, /money, /g, /l, /register, /baltop, /bal, /clan, /msg, /r, /fly, /vendertudo]
         owners: {}
         members: {}
     gab_teste:

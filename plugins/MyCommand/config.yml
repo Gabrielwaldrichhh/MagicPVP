@@ -6,7 +6,7 @@ options:
 blockset:
   delay: 5
 language:
-  blockset1: You must wait %s sec for re-use this
+  blockset1: Aguarde %s segundos para usar novamente
 scheduler:
   launchcheckoneveryNmin: 60
 items:

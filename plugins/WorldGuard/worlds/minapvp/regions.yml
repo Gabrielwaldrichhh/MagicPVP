@@ -1,0 +1,24 @@
+regions:
+    __global__:
+        type: global
+        priority: 0
+        flags: {build: deny, mob-spawning: deny, tnt: deny, creeper-explosion: deny, fire-spread: deny,
+            lava-flow: deny, water-flow: allow, use: allow, item-drop: allow, lighter: deny}
+        owners: {}
+        members: {}
+    minapvp_mina:
+        type: cuboid
+        min: {x: -20.0, y: 76.0, z: -20.0}
+        max: {x: 19.0, y: 99.0, z: 19.0}
+        priority: 10
+        flags: {build: allow}
+        owners: {}
+        members: {}
+    minapvp_acampamento:
+        type: cuboid
+        min: {x: 53.0, y: 60.0, z: -22.0}
+        max: {x: 97.0, y: 160.0, z: 22.0}
+        priority: 10
+        flags: {pvp: deny, invincible: allow, use: allow, chest-access: allow}
+        owners: {}
+        members: {}

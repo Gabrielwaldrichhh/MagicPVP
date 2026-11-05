@@ -20,7 +20,7 @@ miscellaneous:
   opinconsoleonly: false
   protectplugins: true
   managelisteners: false
-  reporttometrics: true
+  reporttometrics: false
 data:
   expiration:
     active: false
@@ -179,7 +179,7 @@ checks:
         message: '&8[&c!&8] &fVoce reconectou muito rapido! Aguarde alguns segundos.'
         number: 1
         timeout: 60000
-      kickmessage: Too fast re-login, try with a little delay.
+      kickmessage: Voce reconectou muito rapido. Aguarde alguns segundos.
       actions: log:relog:0:10:cf cancel vl>20 log:relog:0:10:cf cancel cmd:tempkick5
     logins:
       active: true
@@ -196,7 +196,7 @@ checks:
       active: true
       preventclickblock: true
     improbable:
-      active: true
+      active: false
       level: 300
       actions: cancel log:improbable:2:8:if
     invulnerable:
@@ -225,7 +225,7 @@ checks:
     yawrate:
       active: true
     angle:
-      active: true
+      active: false
       threshold: 50
       actions: cancel vl>100 log:angle:3:5:f cancel vl>250 log:angle:0:5:cif cancel
     critical:
@@ -234,7 +234,7 @@ checks:
       velocity: 0.1
       actions: cancel vl>50 log:critical:0:5:cif cancel
     direction:
-      active: true
+      active: false
       strict: true
       penalty: 500
       actions: cancel vl>5 log:fdirection:3:5:f cancel vl>20 log:fdirection:0:5:if cancel vl>50 log:fdirection:0:5:cif cancel
@@ -249,7 +249,7 @@ checks:
       maxage: 5000
       actions: log:godmode:2:5:if cancel vl>60 log:godmode:2:5:icf cancel
     knockback:
-      active: true
+      active: false
       interval: 50
       actions: cancel vl>50 log:knockback:0:5:cif cancel
     noswing:
@@ -267,7 +267,7 @@ checks:
       active: true
       actions: log:fselfhit:0:5:if cancel vl>10 log:fselfhit:0:5:icf cancel cmd:kickselfhit
     speed:
-      active: true
+      active: false
       limit: 15
       actions: log:fspeed:0:5:if cancel
       shortterm:

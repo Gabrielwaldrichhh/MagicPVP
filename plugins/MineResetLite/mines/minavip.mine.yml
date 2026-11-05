@@ -1,0 +1,18 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  resetDelay: 10
+  surface: ''
+  maxZ: 14
+  maxY: 99
+  maxX: 57
+  fillMode: false
+  world: vip
+  minY: 82
+  resetWarnings: []
+  minX: 28
+  composition:
+    '56:0': 1.0
+  name: minavip
+  resetClock: 2
+  minZ: -15
+  isSilent: true

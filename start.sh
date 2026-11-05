@@ -2,7 +2,7 @@
 # MagicPVP 1.5.2 - Script de inicializacao Linux
 # Uso: ./start.sh
 
-JAR="craftbukkit.jar"
+JAR="spigot152.jar"
 RAM_MIN="1G"
 RAM_MAX="3G"
 
@@ -22,5 +22,5 @@ java \
   -XX:SurvivorRatio=32 \
   -XX:+PerfDisableSharedMem \
   -XX:MaxTenuringThreshold=1 \
-  -Dfile.encoding=UTF-8 \
+  -Dfile.encoding=ISO-8859-1 \
   -jar $JAR nogui

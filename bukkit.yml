@@ -29,22 +29,22 @@ settings:
   texture-resolution: 16
 world-settings:
   default:
-    growth-chunks-per-tick: 0
+    growth-chunks-per-tick: 650
     mob-spawn-range: 2
     random-light-updates: false
     aggregate-chunkticks: 1
     item-merge-radius: 4.0
     exp-merge-radius: 4.0
-    wheat-growth-modifier: 0
-    cactus-growth-modifier: 0
-    melon-growth-modifier: 0
-    pumpkin-growth-modifier: 0
-    sugar-growth-modifier: 0
-    tree-growth-modifier: 0
-    mushroom-growth-modifier: 0
-    entity-activation-range-animals: 8
-    entity-activation-range-monsters: 16
-    entity-activation-range-misc: 4
+    wheat-growth-modifier: 100
+    cactus-growth-modifier: 100
+    melon-growth-modifier: 100
+    pumpkin-growth-modifier: 100
+    sugar-growth-modifier: 100
+    tree-growth-modifier: 100
+    mushroom-growth-modifier: 100
+    entity-activation-range-animals: 16
+    entity-activation-range-monsters: 32
+    entity-activation-range-misc: 16
     entity-tracking-range-players: 40
     entity-tracking-range-animals: 16
     entity-tracking-range-monsters: 32
