@@ -13,6 +13,6 @@ mine:
   composition:
     '129:0': 1.0
   name: minapvp
-  resetClock: 4
+  resetClock: 3
   minZ: -20
   isSilent: true

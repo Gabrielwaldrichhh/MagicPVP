@@ -84,6 +84,31 @@ always-day-worlds:
 - world
 - spawn
 - terrenos
+eventos-cla:
+  ativo: true
+  # todo dia as 21h (depois do Killer), regra diferente por dia; sabado e dia de Gladiador
+  horario: '21:00'
+  dias:
+    segunda: cla_ferro
+    terca: cla_arco
+    quarta: cla_diamante
+    quinta: cla_espada
+    sexta: cla_caos
+    domingo: cla_diamante
+hall-da-fama:
+  ativo: true
+  mundo: spawn
+  atualizar-segundos: 300
+  # staff fora do ranking
+  ignorar: [gab]
+  kills:
+    placas: ['299 64 343', '298 64 343', '300 64 343']
+    cabecas: ['299 67 342', '298 66 342', '300 65 342']
+    olhar-para: SOUTH
+  magnatas:
+    placas: ['294 66 342', '295 66 342', '296 66 342']
+  clas:
+    placas: ['302 66 342', '303 66 342', '304 66 342']
 messages:
   enter: '&8[&2MagicPVP&8] &fVoce entrou na &2Arena de Treino&f! Kit P4 aplicado.'
   exit: '&8[&2MagicPVP&8] &fVoce saiu da &2Arena de Treino&f. Inventario restaurado.'
@@ -136,6 +161,51 @@ eventos-auto:
   - '23:10'
   - '23:40'
 eventos:
+  cla_ferro:
+    nome: '&6&lCla x Cla: Ferro'
+    tipo: clas
+    entrada: 450.5 101 0.5 0
+    cantos: ['420.5 63 0.5 270', '482.5 60 0.5 90', '450.5 63 -29.5 0', '450.5 63 30.5 180']
+    morte-y: 40
+    premio: 5000
+    duracao-segundos: 900
+    kit: ['306 1', '307 1', '308 1', '309 1', '267 1', '322 4', '364 8']
+  cla_arco:
+    nome: '&6&lCla x Cla: Arqueiros'
+    tipo: clas
+    entrada: 450.5 101 0.5 0
+    cantos: ['420.5 63 0.5 270', '482.5 60 0.5 90', '450.5 63 -29.5 0', '450.5 63 30.5 180']
+    morte-y: 40
+    premio: 5000
+    duracao-segundos: 900
+    kit: ['298 1', '299 1', '300 1', '301 1', '261 1 48:2 51:1', '262 1', '268 1']
+  cla_diamante:
+    nome: '&6&lCla x Cla: Diamante'
+    tipo: clas
+    entrada: 450.5 101 0.5 0
+    cantos: ['420.5 63 0.5 270', '482.5 60 0.5 90', '450.5 63 -29.5 0', '450.5 63 30.5 180']
+    morte-y: 40
+    premio: 5000
+    duracao-segundos: 900
+    kit: ['310 1', '311 1', '312 1', '313 1', '276 1 16:1', '322 4', '364 8']
+  cla_espada:
+    nome: '&6&lCla x Cla: So Espada'
+    tipo: clas
+    entrada: 450.5 101 0.5 0
+    cantos: ['420.5 63 0.5 270', '482.5 60 0.5 90', '450.5 63 -29.5 0', '450.5 63 30.5 180']
+    morte-y: 40
+    premio: 5000
+    duracao-segundos: 900
+    kit: ['276 1', '322 2']
+  cla_caos:
+    nome: '&6&lCla x Cla: Caos'
+    tipo: clas
+    entrada: 450.5 101 0.5 0
+    cantos: ['420.5 63 0.5 270', '482.5 60 0.5 90', '450.5 63 -29.5 0', '450.5 63 30.5 180']
+    morte-y: 40
+    premio: 5000
+    duracao-segundos: 900
+    kit: ['314 1', '315 1', '316 1', '317 1', '283 1 16:2', '261 1', '262 16', '322 6', '368 2']
   corrida:
     nome: '&e&lCorrida'
     tipo: chegada

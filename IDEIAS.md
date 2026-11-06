@@ -59,35 +59,35 @@ Adicione ideias novas no fim da seção "Ideias do dono" (pode escrever do seu j
 - [x] (substituído pelos kits novos, ver "Em andamento") Kits antigos: VIP = P5 INC3 + espada Afiação V; VIPX = P6 INC3, espada Afiação VI + fogo, arco Força VI, 1 gaiola,
       16 ovos de zumbi e 4 maçãs encantadas (por dia).
 - [x] Gaiola agora pode ter o mob trocado com o ovo por qualquer jogador (antes só OP: toda gaiola era de porco).
-- [ ] Tag YouTuber entre o membro e o VIP (ideia 2) — hoje o YouTuber herda tudo do VIP (menos a área VIP).
+- [x] Tag YouTuber entre o membro e o VIP (feita 2026-11-05) (ideia 2) — hoje o YouTuber herda tudo do VIP (menos a área VIP).
 
 ## Plano original do /vip (referência)
 
 **Proposta:** um mundo próprio `vip` (vazio, como o spawn), com uma ilha construída pelo AI Map Builder no estilo
 do spawn. Só entra quem tem VIP; quem perder o VIP (VipZero expira) é mandado ao /spawn.
 
-1. [ ] **Mundo e acesso:** criar o mundo `vip` (gerador vazio do MagicArena); comando `/vip` leva ao spawn VIP;
+1. [x] **Mundo e acesso:** criar o mundo `vip` (gerador vazio do MagicArena); comando `/vip` leva ao spawn VIP;
        nenhum teleporte entra no mundo sem a permissão `magicpvp.vip` (grupos MagicVIP e MagicVIPX); borda
        invisível; sem PvP, sem construir, sem mobs.
-2. [ ] **Spawn VIP:** ilha flutuante (~60x60) com praça, fonte, bancos e um pequeno castelo (stone brick, quartzo,
+2. [x] **Spawn VIP:** ilha flutuante (~60x60) com praça, fonte, bancos e um pequeno castelo (stone brick, quartzo,
        spruce), placa de boas-vindas com os benefícios do VIP.
-3. [ ] **Mina VIP:** MineResetLite com minério melhor que a mina normal (ex.: pedra 40%, carvão 20%, ferro 15%,
+3. [x] **Mina VIP:** MineResetLite com minério melhor que a mina normal (ex.: pedra 40%, carvão 20%, ferro 15%,
        ouro 10%, redstone 6%, lápis 4%, diamante 4%, esmeralda 1%), reset a cada 10 min, barraca de venda ao lado.
-4. [ ] **Loja VIP:** vitrines como as do Mercado, com preços ~25% menores e itens exclusivos (pérola do fim,
+4. [x] **Loja VIP:** vitrines como as do Mercado, com preços ~25% menores e itens exclusivos (pérola do fim,
        garrafas de XP, ovos de spawn).
-5. [ ] **Extras:** mesa de encantamento com 15 estantes, bigorna e suporte de poções de uso livre; /fly liberado
+5. [x] **Extras:** mesa de encantamento com 15 estantes, bigorna e suporte de poções de uso livre; /fly liberado
        no mundo VIP (hoje só nos terrenos).
-6. [ ] **VIPX:** um diferencial próprio (ex.: sala/varanda VIPX com a mina VIPX ou loja com desconto maior).
+6. [x] **VIPX:** um diferencial próprio (ex.: sala/varanda VIPX com a mina VIPX ou loja com desconto maior).
 7. [ ] **Kits e grupos (ideia 2):** kits VIP com P5 e VIPX com P6 (exige `unsafe-enchantments: true` no
        Essentials; corrigir o kit `vipx`, que hoje falha), tag YouTuber entre o membro e o VIP.
 
 **Decisões do dono antes de começar:**
-- [ ] YouTuber entra na área VIP?
-- [ ] Tema: ilha flutuante no céu ou vale/castelo cercado de montanhas?
-- [ ] Composição e tempo de reset da mina VIP.
-- [ ] Desconto da loja VIP e lista de itens exclusivos.
-- [ ] /fly no mundo VIP?
-- [ ] Qual o diferencial do VIPX?
+- [x] YouTuber entra na área VIP?
+- [x] Tema: ilha flutuante no céu ou vale/castelo cercado de montanhas?
+- [x] Composição e tempo de reset da mina VIP.
+- [x] Desconto da loja VIP e lista de itens exclusivos.
+- [x] /fly no mundo VIP?
+- [x] Qual o diferencial do VIPX?
 
 ## Ideias do dono (texto original do ideias.txt, organizado)
 
@@ -131,19 +131,32 @@ do spawn. Só entra quem tem VIP; quem perder o VIP (VipZero expira) é mandado 
 
 - [x] **Menos mundos (2026-11-05):** de 7 para 5 — Mina PvP e x1 foram para o mundo `eventos`.
 
+## Antes de abrir (varredura de 2026-11-05)
+
+- [x] Script de **nova temporada** (temporada = 6 meses; `tools/nova_temporada.py`): zera dinheiro, clãs, Magnata/Mito/Killer/Gladiador, logins de teste, inventários
+      (serve para todo reset de temporada).
+- [ ] **Beta aberto** (o dono abre para os jogadores acharem bugs; `/bug`) (Fight, pega-pega, Gladiador, Killer, x1, key de VIP, kits, gaiola, combate, anticheat).
+- [x] Reiniciar (desliga bloco de comando) e tirar o EventoGamers antigo com o servidor desligado.
+- [x] **Preço do VIP/VIPX** (site: R$19,90 / R$34,90; falta publicar o site) e como comprar (key pelo Discord?).
+- [x] **Staff**: só o dono no início.
+- [x] (não precisa) Tag **Fundador** para os primeiros jogadores; **regras da temporada** (duração, o que reseta, prêmio do top).
+- [ ] **Votação em sites de servidores** com recompensa (Votifier).
+- [x] Placa de **crédito do mapa do spawn** (Castle Lividus, de KCRat).
+- [ ] **Campanha de divulgação** "O FullPvP de 2013 voltou" (teasers com os renders, beta, YouTubers, inauguração).
+
 ## Ideias do Claude (sugestões, o dono decide)
 
 - [ ] **Economia antes de abrir:** a mina do spawn é 100% diamante e reseta a cada 5 min (dinheiro infinito);
       zerar as contas de teste (Gab tem R$ 495 mil) no lançamento.
 - [ ] **Prévia antes de construir:** toda construção grande começa com 2-3 conceitos em imagem para o dono escolher.
-- [ ] **Hall da Fama no spawn:** placas atualizadas sozinhas com top kills, top clãs e Magnata.
-- [ ] **Recompensa por kill:** R$ 10-20 por kill (o SimpleClans já tem a opção, está desligada).
+- [x] **Hall da Fama no spawn** (feito 2026-11-05): placas atualizadas sozinhas com top kills, top clãs e Magnata.
+- [x] (dono: não, dá para burlar) **Recompensa por kill:** R$ 10-20 por kill (o SimpleClans já tem a opção, está desligada).
 - [ ] **Spawn próprio:** o spawn atual é o mapa "Castle Lividus" de outro autor; um spawn MagicPVP feito no
       AI Map Builder (o objetivo original do projeto).
 - [ ] **Mundo Full PvP (`world`):** é plano, vazio e sem acesso; decidir o uso (ex.: virar o mundo dos eventos/
       Gladiador) ou remover.
-- [ ] **Backup durante o jogo:** hoje só há backup quando o servidor liga; fazer um a cada X horas.
-- [ ] **Salvar o trabalho no Git:** nada do que foi feito foi commitado ainda (o repo é público: sem senhas).
+- [x] **Backup durante o jogo** (feito 2026-11-05: a cada 3 h, `tools/backup.py`): hoje só há backup quando o servidor liga; fazer um a cada X horas.
+- [~] **Salvar o trabalho no Git** (commit feito 2026-11-05; falta o push, decisão do dono): nada do que foi feito foi commitado ainda (o repo é público: sem senhas).
 - [ ] **Teste com amigos:** abrir para fora (playit.gg ou porta no roteador) para um teste real com PvP e anti-cheat.
 
 ## Feito e validado (histórico)

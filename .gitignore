@@ -81,3 +81,5 @@ plugins/MagicArena/eventos_inventarios.yml
 plugins/VipZero/config.yml
 plugins/VipZero/log.txt
 plugins/Essentials/usermap.csv
+/terrenos/level.dat
+/terrenos/level.dat_old

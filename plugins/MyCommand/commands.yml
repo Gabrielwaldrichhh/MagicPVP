@@ -1,7 +1,7 @@
 # MyCommand  Commands Config File
 # commandsnumber (default 20) it's number of command you want make
 options:
-  commandsnumber: 19
+  commandsnumber: 20
 '1':
   command: /? [TAB]
   type: TEXT
@@ -146,4 +146,18 @@ options:
   type: RUNCOMMAND
   runcmd:
   - /warp fps
+  permission-required: false
+'20':
+  command: /bug
+  type: TEXT
+  text:
+  - '&8&m=============================='
+  - '    &e&lAchou um bug? &fValeu por ajudar!'
+  - '&8&m=============================='
+  - '  &fConte no &9Discord &f(canal de bugs):'
+  - '  &a» &fo que aconteceu e onde (coordenadas: F3)'
+  - '  &a» &fprint ou video, se tiver'
+  - '  &bhttps://discord.gg/cVbym967DK'
+  - '  &7Nao abuse do bug: abuso da ban (regra 2).'
+  - '&8&m=============================='
   permission-required: false

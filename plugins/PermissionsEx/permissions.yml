@@ -111,13 +111,20 @@ groups:
     - magicpvp.vipx
     - essentials.kits.vipx
   YouTuber:
+    # entre o Membro e o VIP: kit diario menor, 2 terrenos, 2 homes e cosmeticos; sem /fly, sem area VIP
     prefix: '&8[&c&lYouTuber&8] &f'
     suffix: ''
     inheritance:
-    - MagicVIP
+    - Membro
     permissions:
-    - -magicpvp.vip
-    - essentials.kits.vip
+    - essentials.kits.youtuber
+    - spotprotection.2
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.youtuber
+    - essentials.hat
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - essentials.workbench
   Mod:
     prefix: '&8[&9&lMod&8] &f'
     suffix: ''

@@ -13,6 +13,6 @@ mine:
   composition:
     '56:0': 1.0
   name: minavip
-  resetClock: 2
+  resetClock: 1
   minZ: -15
   isSilent: true

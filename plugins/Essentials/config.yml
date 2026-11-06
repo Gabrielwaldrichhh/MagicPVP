@@ -277,6 +277,19 @@ kits:
       - '368 4'
       - '364 32'
 
+  # YouTuber (diario): entre o membro e o VIP
+  youtuber:
+    delay: 86400
+    items:
+      - '310 1 protection:3 unbreaking:2 name:&c&lCapacete_YT'
+      - '311 1 protection:3 unbreaking:2 name:&c&lPeitoral_YT'
+      - '312 1 protection:3 unbreaking:2 name:&c&lCalca_YT'
+      - '313 1 protection:3 unbreaking:2 name:&c&lBota_YT'
+      - '276 1 sharpness:3 unbreaking:2 name:&c&lEspada_YT'
+      - '322:1 1'
+      - '322 8'
+      - '364 32'
+
   # VIPX (diario): 3 sets P4 INQ3 + capiroto
   vipx:
     delay: 86400
@@ -479,6 +492,8 @@ sethome-multiple:
   default: 1
   # essentials.sethome.multiple.vip
   vip: 3
+  # essentials.sethome.multiple.youtuber
+  youtuber: 2
   # essentials.sethome.multiple.staff
   staff: 10
 

@@ -7,6 +7,7 @@
   &a/info cla       &8» &7Clas, tags e guerra
   &a/info terreno   &8» &7Terrenos, farm e gaiola
   &a/info vip       &8» &7Vantagens do VIP
+  &a/info temporada &8» &7Temporada de 6 meses
 #comecar
 &2&lGuia MagicPVP &8| &fPrimeiros passos
   &e1. &a/kit iniciante &f(uma vez) e &a/kit pvp &f(a cada 10 min)
@@ -41,6 +42,7 @@
   &e» &2Labirinto &f(R$10 mil) - ache o centro
   &e» &cPega-pega &f(R$15 mil) - nao fique com a batata!
   &e» &4Fight &f(R$20 mil) - duelos com kit, o ultimo vence
+  &e» &6Cla x Cla &ftodo dia as 21h (R$5 mil por sobrevivente)
   &7Seus itens ficam guardados e voltam ao sair (&f/evento sair&7).
 #cla
 &2&lGuia MagicPVP &8| &fClas
@@ -61,9 +63,19 @@
   &fTroque o mob da gaiola com &eovo &f(clique direito). Gaiola e ovo na &a/loja&f.
 #vip
 &2&lGuia MagicPVP &8| &fVIP
-  &d» &fArea VIP &d/vip&f: ilha com mina de diamante, loja com desconto,
-    Casa do Diamante (paga +40%), parkour, castelo e muito mais
+  &d» &dMagicVIP R$19,90/mes &8| &5MagicVIPX R$34,90/mes
+  &d» &fArea VIP &d/vip&f: mina de diamante, Casa do Diamante (+40%),
+    loja com 30% de desconto, parkour, castelo e muito mais
   &d» &f/fly nos terrenos e na area VIP | 3 terrenos de 100x100
-  &d» &fKit VIP diario (set P4 + caps) e /fix all
-  &d» &fAtivacao com R$, sets P5/P6, gaiolas e ovos de zumbi
-  &fCompre no &9/discord &fe ative com &d/usarkey <key>&f. Tempo: &d/tempovip
+  &d» &fKit diario, /fix all, /hat, /ec e entrar com servidor cheio
+  &d» &fAtivacao: dinheiro, sets P5/P6, gaiolas e ovos de zumbi
+  &fCompre pelo site/&9/discord&f; ative com &d/usarkey <key>&f. &d/tempovip
+#temporada
+&2&lGuia MagicPVP &8| &fTemporada
+  &fCada temporada dura &e6 meses&f. No fim, tudo recomeca igual
+  &fpara todos: dinheiro, itens, clas, terrenos e stats.
+  &a» &fContinuam: seu login, seu &dVIP &f(com o tempo que falta)
+    e as construcoes do servidor.
+  &a» &fOs melhores ficam no &6Hall da Fama &fdo spawn:
+    top kills, top magnatas e top clas.
+  &7VIP recebe o kit de ativacao de novo na temporada nova.
